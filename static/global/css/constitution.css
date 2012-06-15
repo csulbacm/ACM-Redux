@@ -1,0 +1,17 @@
+body {
+    background: url(../img/constitution.jpg) top center no-repeat #241d0f;
+}
+
+
+h1 {
+    background:url(../img/logo.png);
+}
+
+#main-page-splash {
+    background: none;
+    border:0;
+}
+
+p {
+    line-height:20px;
+}

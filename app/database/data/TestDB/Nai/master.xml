@@ -1,0 +1,12 @@
+<?xml version ="1.0"?> 
+<V1>
+	<dbver>1</dbver>
+	<index>0</index>
+	<format>
+		<id type="int">#index</id>
+		<date type="date">#nowDate</date>
+		<time type="time">#nowTime</time>
+		<title type="text">Untitled Post</title>
+		<text type="text">Blah!</text>
+	</format>
+</V1>

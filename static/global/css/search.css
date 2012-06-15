@@ -1,0 +1,385 @@
+/**
+ * Minimalist theme
+ *
+ */
+/* Slight reset to make the preview have ample padding. */
+#cse {
+	margin:-23px 0 0 0 !important;
+	position:absolute;
+	z-index: 3000;
+}
+
+.cse .gsc-control-cse,
+.gsc-control-cse {
+  width: auto !important;
+}
+.gsc-control-cse, .gsc-control-cse-en {
+	padding: 0 15px !important;
+	background-color:none !important;
+}
+.cse .gsc-control-cse, .gsc-control-cse {
+		background-color:none !important;
+
+}
+.cse .gsc-control-wrapper-cse,
+.gsc-control-wrapper-cse {
+  width: 100% !important;
+}
+.cse .gsc-branding,
+.gsc-branding {
+  display: none !important;
+}
+.cse.gsc-control-cse div,
+.gsc-control-cse div {
+  position: normal !important;
+}
+/* Selector for entire element. */
+.cse .gsc-control-cse,
+.gsc-control-cse {
+  font-family: Arial, sans-serif !important;
+  background-color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  	border-radius:4px;
+  		box-shadow:rgba(0,0,0,.3) 0px 1px 3px;
+
+}
+.gsc-control-cse .gsc-table-result {
+  font-family: Arial, sans-serif !important;
+}
+.cse .gsc-control-cse:after,
+.gsc-control-cse:after {
+  content:"." !important;
+  display:block !important;
+  height:0 !important;
+  clear:both !important;
+  visibility:hidden !important;
+}
+/* Search form */
+.cse form.gsc-search-box,
+form.gsc-search-box {
+  padding: 8px 4px 2px 6px !important;
+  margin-bottom: 0px !important;
+}
+.cse .gsc-branding-text,
+.gsc-branding-text {
+  color: #000000 !important;
+}
+/**
+ * Table cell containing the search input.
+ * 12 pixels added to account for the horizontal padding on the input.
+ */
+.cse table.gsc-search-box td.gsc-input,
+table.gsc-search-box td.gsc-input {
+  padding-right: 12px !important;
+}
+.cse .gsc-search-box,
+.gsc-search-box {
+  border-collapse: collapse !important;
+}
+/* Search input */
+.cse input.gsc-input,
+input.gsc-input {
+  font-family: inherit !important;
+  border: 1px solid #BBB !important;
+  padding: 3px 6px !important;
+  width: 99% !important;
+  font-size: 16px !important;
+}
+/* Search button */
+.cse input.gsc-search-button,
+input.gsc-search-button {
+  font-family: inherit !important;
+  font-size: 11px !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  padding: 0 8px !important;
+  height: 27px !important;
+  min-width: 54px !important;
+  background-color: #333333 !important;
+  border: 1px solid #000 !important;
+  border-radius: 2px !important;
+  -moz-border-radius: 2px !important;
+  -webkit-border-radius: 2px !important;
+}
+/* Base tab selector styles */
+.cse .gsc-tabHeader,
+.gsc-tabHeader {
+  font-weight: bold !important;
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+  padding: 2px 8px 0 8px !important;
+}
+/* Inactive tab */
+.cse .gsc-tabHeader.gsc-tabhInactive,
+.gsc-tabHeader.gsc-tabhInactive {
+  background-color: #777777 !important;
+  border: 1px solid !important;
+  border-color: #777777 !important;
+  border-bottom: none !important;
+  color: #ffffff !important;
+}
+/* Active tab */
+.cse .gsc-tabHeader.gsc-tabhActive,
+.gsc-tabHeader.gsc-tabhActive {
+  background-color: #333333 !important;
+  border: 1px solid !important;
+  border-color: #333333 !important;
+  border-bottom: none !important;
+  color: #ffffff !important;
+}
+/* This is the tab bar bottom border. */
+.cse .gsc-tabsArea,
+.gsc-tabsArea {
+  margin-top: 1em !important;
+  border-bottom: 1px solid #333333 !important;
+  padding: 0 !important;
+}
+/* Inactive refinement */
+.cse .gsc-refinementHeader.gsc-refinementhInactive,
+.gsc-refinementHeader.gsc-refinementhInactive {
+  color: #444444 !important;
+}
+.cse .gsc-resultsHeader,
+.gsc-resultsHeader {
+  margin: 0 !important;
+  border: block !important;
+}
+/* Wrapper for all results */
+.cse .gsc-results,
+.gsc-results {
+  width: 100% !important;
+  margin-top: 1em !important;
+}
+/* Uber-wrapper for a result. Add padding to elements within a result block */
+.cse .gs-result div.gs-title,
+div.gs-title,
+.cse .gs-result .gs-snippet,
+.gs-result .gs-snippet,
+.cse .gs-result .gs-visibleUrl,
+.gs-result .gs-visibleUrl,
+.cse .gs-spelling,
+.gs-spelling {
+  padding: 0 !important;
+}
+/* Font size */
+.cse .gs-result .gs-snippet,
+.gs-result .gs-snippet,
+.cse .gs-spelling-original,
+.gs-spelling-original {
+  font-size: 14px !important;
+  line-height: 18px !important;
+}
+/* Inner wrapper for a result */
+.cse .gsc-webResult.gsc-result,
+.gsc-webResult.gsc-result,
+.gsc-imageResult-classic,
+.gsc-imageResult-column {
+  padding: 0 0 0 .5em !important;
+  border-left: 1px solid !important;
+  border-color: #ffffff !important;
+  border-bottom: 0px solid !important;
+  margin-bottom: 1em !important;
+}
+/* Result hover event styling */
+.cse .gsc-webResult.gsc-result:hover,
+.gsc-webResult.gsc-result:hover,
+.gsc-webResult.gsc-result.gsc-promotion:hover,
+.gsc-results .gsc-imageResult-classic:hover,
+.gsc-results .gsc-imageResult-column:hover {
+  border-left: 1px solid !important;
+  border-color: #000000 !important;
+  border-bottom: 0px solid !important;
+}
+/* Set link colors. */
+.cse .gs-webResult.gs-result a.gs-title:link,
+.gs-webResult.gs-result a.gs-title:link,
+.cse .gs-webResult.gs-result a.gs-title:link b,
+.gs-webResult.gs-result a.gs-title:link b,
+.cse .gs-webResult.gs-result a.gs-title:visited,
+.gs-webResult.gs-result a.gs-title:visited,
+.cse .gs-webResult.gs-result a.gs-title:visited b,
+.gs-webResult.gs-result a.gs-title:visited b,
+.cse .gs-webResult.gs-result a.gs-title:hover,
+.gs-webResult.gs-result a.gs-title:hover,
+.cse .gs-webResult.gs-result a.gs-title:hover b,
+.gs-webResult.gs-result a.gs-title:hover b,
+.gs-imageResult a.gs-title:link,
+.gs-imageResult a.gs-title:link b,
+.gs-imageResult a.gs-title:visited,
+.gs-imageResult a.gs-title:visited b,
+.gs-imageResult a.gs-title:hover,
+.gs-imageResult a.gs-title:hover b,
+.cse .gsc-cursor-page,
+.gsc-cursor-page,
+.cse .gsc-trailing-more-results:link,
+.gsc-trailing-more-results:link,
+.cse .gs-spelling a,
+.gs-spelling a {
+  color: #444444 !important;
+}
+.cse .gs-webResult.gs-result a.gs-title:active,
+.gs-webResult.gs-result a.gs-title:active,
+.cse .gs-webResult.gs-result a.gs-title:active b,
+.gs-webResult.gs-result a.gs-title:active b,
+.gs-imageResult a.gs-title:active,
+.gs-imageResult a.gs-title:active b {
+  color: #777777 !important;
+}
+/* Snippet text color */
+.cse .gs-webResult .gs-snippet,
+.gs-webResult .gs-snippet,
+.gs-fileFormatType,
+.gs-imageResult .gs-snippet {
+  color: #333333 !important;
+}
+
+/* Size text color */
+.gs-imageResult .gs-size,
+.gs-imageResult .gs-size {
+  color: #333333 !important;
+}
+
+/* URL text color */
+.cse .gs-webResult .gs-visibleUrl,
+.gs-webResult .gs-visibleUrl,
+.cse .gs-webResult .gs-visibleUrl-short,
+.gs-webResult .gs-visibleUrl-short,
+.gs-imageResult .gs-visibleUrl,
+.gs-imageResult .gs-visibleUrl-short {
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+/* Pagination container centered */
+.cse .gsc-cursor-box,
+.gsc-cursor-box {
+  border-top: 1px dotted !important;
+  border-color: #333333 !important;
+  padding: .5em 0 0 .5em !important;
+  text-align: left !important;
+}
+/* Selected pagination */
+.cse .gsc-results .gsc-cursor-page.gsc-cursor-current-page,
+.gsc-results .gsc-cursor-page.gsc-cursor-current-page {
+  color: #fff !important;
+  background-color: #333333 !important;
+  text-shadow: 0 1px 1px #000 !important;
+  padding: 0 5px !important;
+}
+/*Promotion Settings*/
+/* The entire promo */
+.cse .gsc-webResult.gsc-result.gsc-promotion,
+.gsc-webResult.gsc-result.gsc-promotion {
+  background-color: #E6E6E6 !important;
+  border-color: #CCCCCC !important;
+}
+/* Promotion links */
+.cse .gs-promotion a.gs-title:link,
+.gs-promotion a.gs-title:link,
+.cse .gs-promotion a.gs-title:link *,
+.gs-promotion a.gs-title:link *,
+.cse .gs-promotion .gs-snippet a:link,
+.gs-promotion .gs-snippet a:link {
+  color: #0000CC !important;
+}
+.cse .gs-promotion a.gs-title:visited,
+.gs-promotion a.gs-title:visited,
+.cse .gs-promotion a.gs-title:visited *,
+.gs-promotion a.gs-title:visited *,
+.cse .gs-promotion .gs-snippet a:visited,
+.gs-promotion .gs-snippet a:visited {
+  color: #0000CC !important;
+}
+.cse .gs-promotion a.gs-title:hover,
+.gs-promotion a.gs-title:hover,
+.cse .gs-promotion a.gs-title:hover *,
+.gs-promotion a.gs-title:hover *,
+.cse .gs-promotion .gs-snippet a:hover,
+.gs-promotion .gs-snippet a:hover {
+  color: #444444 !important;
+}
+.cse .gs-promotion a.gs-title:active,
+.gs-promotion a.gs-title:active,
+.cse .gs-promotion a.gs-title:active *,
+.gs-promotion a.gs-title:active *,
+.cse .gs-promotion .gs-snippet a:active,
+.gs-promotion .gs-snippet a:active {
+  color: #00CC00 !important;
+}
+/* Promotion snippet */
+.cse .gs-promotion .gs-snippet,
+.gs-promotion .gs-snippet,
+.cse .gs-promotion .gs-title .gs-promotion-title-right,
+.gs-promotion .gs-title .gs-promotion-title-right,
+.cse .gs-promotion .gs-title .gs-promotion-title-right *,
+.gs-promotion .gs-title .gs-promotion-title-right * {
+  color: #333333 !important;
+}
+/* Promotion url */
+.cse .gs-promotion .gs-visibleUrl,
+.gs-promotion .gs-visibleUrl {
+  color: #00CC00 !important;
+}
+/* Style for auto-completion table
+ * .gsc-completion-selected : styling for a suggested query which the user has moused-over
+ * .gsc-completion-container : styling for the table which contains the completions
+ */
+.gsc-completion-selected {
+  background: #eee !important;
+}
+.gsc-completion-container {
+  font-family: Arial, sans-serif !important;
+  font-size: 16px !important;
+  background: white !important;
+  border: 1px solid #BBB !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  /* The top, left, and width are set in JavaScript. */
+}
+.gsc-completion-title {
+  color: #0000CC !important;
+}
+.gsc-completion-snippet {
+  color: #333333 !important;
+}
+
+/* Full URL */
+.gs-webResult div.gs-visibleUrl-short,
+.gs-promotion div.gs-visibleUrl-short {
+  display: none !important;
+}
+.gs-webResult div.gs-visibleUrl-long,
+.gs-promotion div.gs-visibleUrl-long {
+  display: block !important;
+}
+
+.gsc-rating-bar {
+  display: inline-block !important;
+  width: 54px !important;
+  height: 10px !important;
+  background: transparent url(/cse/images/cse_snippets_stars.png) -52px -52px no-repeat !important;
+  margin: 3px 0 0 0 !important;
+}
+
+.gsc-rating-bar span {
+  display: inline-block !important;
+  height: 10px !important;
+  background: transparent url(/cse/images/cse_snippets_stars.png) 0 -52px no-repeat !important;
+  padding: 4px 0 0 0 !important;
+}
+
+.gsc-reviewer {
+  color: #222 !important;
+}
+
+.gsc-author {
+  color: #222 !important;
+}
+
+.gsc-table-cell-thumbnail,
+.gs-promotion-image-cell {
+  padding: 0 0 0 6px !important;
+}
+
+.gsc-option-menu-item-highlighted {
+  background-color: #eee !important;
+}

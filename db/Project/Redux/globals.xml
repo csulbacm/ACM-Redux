@@ -1,0 +1,31 @@
+<?xml version ="1.0"?> 
+<globals>
+	<members type="array">#Ian#David</members>
+	<projectname type="text">The ACM Redux</projectname>
+	<about type="text"><![CDATA[
+				<p><strong>What is ACM Redux?</strong> ACM Redux is the rejuvenation of the ACM website after it went down. 
+				The website employs new, hand coded, systems from the layout to the database. 
+				The systems employed are created to make a highly expandable, user friendly system.</p>
+		       <h3>PHP DataBase Daemon - PHPDBD</h3>
+		<p>The database employed is named PHPDBD. It is a PHP driven XML data storage system. That is to day, the data is stored in XML files. 
+		The data is read and written by the PHPDB system. The reasoning for this system is to creat a highly portable database.  Transportation 
+		of the database is as simple as compying files over. This allows moving from server to server much easier. Future iterations of the database 
+		will be plug-in friendly.
+		</p>
+		<h3>ReduxFrameworks</h3>
+		<p>The ReduxFrameworks is the front end of the website. It is a sleek, progressive layout. The look is clean, simple and user friendly. 
+		The layout is of an object oriented design. This allows for easy replacement and expansion when it is needed. The layout allows for 
+		ease of future use. The layout was designed with the future of ACM in mind. </p>
+		
+	]]></about>
+	
+	<abstract type="text"><![CDATA[
+	<p>The ACM Redux project, started by David Nuon and Ian Goegebuer, is the reinventing of the ACM website. The goal of this project was to create a content driven modern website with new backbone architecture. <br>
+	The front end and skinning design is the work of David Nuon. David created a website not unlike a program. His system involves many objects working efficiently together. The system is strong, efficient and expandable.<br>
+	The backend of the website is a new PHP driven XML database system. The database is made to be easily moved, replaced and backed up. The database files are easily accessible through the file-system, allowing the user to move data efficiently.
+	</p>	
+	]]></abstract>
+	<header type="url">/assets/img/project_sample.png</header>
+	<catch type="text">Giving computing at the Beach a fresh coat of paint.</catch>
+	<status type="int">0</status>
+</globals>

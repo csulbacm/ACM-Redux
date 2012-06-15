@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Using PHPDB</title>
+<style>
+body {
+font-family: Comic Sans, Comic Sans MS, cursive; 	
+}
+</style>
+</head>
+<body>
+
+<h1>SO YEA, I heard you want to use me</h1>
+<div style="border: solid black 2px">
+<h2><a href="#start">Creating the database manager</a></h2>
+<h2><a href="#dbfiles">Database files</a></h2>
+<dd><h3><a href="#master">Master</a></h3>
+<h3><a href="#get">Put</a></h3>
+<dd><h3><a href="#out">Query Out</a></h3></dd><br>
+<h2><a href="#test">Querying</a></h2>
+<dd><h3><a href="#get">Get</a></h3>
+<h3><a href="#get">Put</a></h3>
+<dd><h3><a href="#out">Query Out</a></h3></dd></div><br>
+<div style="border: solid black 2px">
+<a name="dbfiles"/>
+<h2>Database files</h2>
+Hokay, so, db files are in a few formats. The masterfile, the respective ID files and blob uploaded files. 
+<h3>Masterfile<a name="master"/></h3>
+HOKAY, so the masterfile is set up in such a way that it directs the other files in the database<br>
+<a href="/database/data/TestDB/Nai/master.xml" target="_blank">Example masterfile</a> <br>
+The format section explains how the data will be formatted. It's pretty straight forward, at this moment it just takes whatever, it doesn't format to the specified type yet. Soon macro commands, like #NOW will be availible.<br>
+
+
+
+</div><br>
+<div style="border: solid black 2px">
+<a name="start"/>
+<h2> Creating the database manager</h2><br>
+include_once('database/phpdbd.php');<br>
+$DBM = new PHPDBD();
+</div><br>
+<div style="border: solid black 2px">
+<a name="start"/>
+<h2>Query</h2>
+<h3>Get - direct ID</h3>
+<dd>Relace: {id} with the ID you want<br>
+$theData = $DBM->query(Array("type" => "direct", "path" => "/TestDB/Nai/{id}"));<br></dd>
+<h3>Put - direct ID</h3>
+<dd>As of now it doesn't keep track of the current index number, that will be soon though<br><br>For TestDB:<br>
+$theData = $DBM->query(Array("type" => "new", "path" => "/TestDB/Nai", "args" => Array("ID" => "2","TITLE" => "TITLE HERE", "DATE" => date('d/m/Y'), "TIME" => date('H:i'), "TEXT" => "TEXT HERE")));<br><br>
+This array is the array of data put into the database:<br>
+Array("ID" => "2","TITLE" => "TITLE HERE", "DATE" => date('d/m/Y'), "TIME" => date('H:i'), "TEXT" => "TEXT HERE")</dd>
+<br><br>
+<a name="out"/>
+<h3>Query output, array form XML:</h3>
+<dd>Array<br>
+(<br>
+    [V1#open] => @V1#open<br>
+    [DBVER] => 1<br>
+    [ID] => 0<br>
+    [DATE] => 2/20/2012<br>
+    [POSTER] => Ian G.<br>
+    [TIME] => 23:30<br>
+    [TITLE] => A big fat test<br>
+    [TEXT] => <br>
+		Oh, hai, how you doin?<br>
+		So yea, kewl stuff!<br>
+	<br>
+    [V1#close] => @V1#close<br>
+)</dd>
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

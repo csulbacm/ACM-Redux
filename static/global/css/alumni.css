@@ -1,0 +1,27 @@
+.main-content {
+    min-height:100px;
+    padding:10px 0 0 0;
+}
+
+.person {
+    position: relative;
+    height: auto;
+}
+.person img {
+    display: block;
+}
+.person:hover {
+    box-shadow:rgba(0,0,0,.4) 0px 2px 8px;
+}
+.person:hover h3 {
+    background: #333;
+}
+.person h3 {
+    background: #4889D2;
+    color:#fff;
+    margin:0;
+    padding:5px 15px;
+    position: absolute;
+    bottom: 0px;
+    font-size:23px;
+}  

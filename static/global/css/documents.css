@@ -1,0 +1,39 @@
+body {
+    background: url(../img/documents.jpg) top center no-repeat #1c200f;
+}
+
+
+h1 {
+    background:url(../img/logo.png);
+}
+
+#main-page-splash {
+    background: none;
+    border:0;
+}
+#main-page-splash h2 {
+    text-shadow: rgba(0,0,0,.4) 0px 0px 15px;
+
+}
+.document-listing {
+    padding:0;
+    margin:0;
+}
+.document-listing li {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.document-listing li a {
+    font-size:14px;
+    padding:5px 7px;
+    display: block;
+    border-bottom:1px solid #555;
+    text-decoration: none; 
+    color:#333;
+}
+.document-listing li a:hover {
+    background: #333;
+    color: #fff;
+}
+

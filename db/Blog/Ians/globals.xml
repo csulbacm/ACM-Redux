@@ -1,0 +1,6 @@
+<?xml version ="1.0"?> 
+<globals>
+	<members type="array">#Ian</members>
+	<blogname type="text">The Blog of Ian</blogname>
+	<about type="text">Pretty much</about>
+</globals>

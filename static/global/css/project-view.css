@@ -1,0 +1,12 @@
+/* Project Splash */
+
+.project-splash {
+    height:400px;
+    background:none !important;
+}
+.project-splash h2 {
+    background:#4889D2 !important;
+    position:absolute;
+    bottom:0;
+    left:0px;
+}

@@ -1,0 +1,145 @@
+<?xml version ="1.0"?> 
+<globals>
+    <name type="text">Salvador Llamas</name>
+    <quote type="text">I AM ROOT</quote>
+    
+    <discovery type="text"><![CDATA[
+        <p>
+            I was in Steve Gold's 274 class back in '07 and he told us about the ACM programming team.
+            I competed in the competition in that year and in '08. ACM died at that point so I didn't
+            really get involved again for a while.
+        </p>
+
+        <p>However, I knew most of the members that revived it later.</p>
+                
+    ]]></discovery>
+    
+    <motivation type="text"><![CDATA[
+        <p>
+           In summer of 2010, I went to Switzerland for a month. Joshua Liong (ACM VP at the time), 
+           Richard Wang (ACM Secretary), Matt Sguerri (Historian), and Lynn Cherngchaosil (ACM member) 
+           were with me and we formed a tight group there as we traveled around (who'd have thought trains
+           and buses could be so fun to ride?). I learned about the revival of ACM by the Puppetmaster Sal Llamas 
+           and his cronies during Alex Ortiz's administration followed by Edgar Ortiz 
+           (both of which I knew through EAT and from classes).
+        </p>
+        
+        <p>
+            I attended one meeting at ACM and noticed...I knew everyone there. Frank, Ariana, Lynn, Alex...
+            I knew them all because I was TA for their 174/274 classes. Andrew, Edgar, Richard and the rest of 
+            the more senior members had been in my classes at some point.
+        </p>
+
+        <p>
+            I had apparently acquired a great deal of respect from everyone there and fit in naturally. 
+            During the next elections, Joshua nominated me for president and it was a practically unanimous approval.
+        </p>
+    ]]></motivation>
+    <advice type="text"><![CDATA[ 
+        <p>
+           Most of the advice I could give people is just repeats of what Sal says. And Sal got most of it from 3 books: 
+           The Outliers, Drive, and Getting Things Done. So go and read those! Or listen to them! I got through outliers 
+           and drive on  long car rides listening to the audiobooks. That was GREAT.
+        </p> 
+
+        <p>
+            Advice to brand new students you need at the getgo, 
+            make a tech tree of courses and plan out where you are going 
+            and what classes you are taking. If you plan out your courses, you'll graduate 
+            on time assuming you didn't fail Linear Algebra/Calc 2 3 times 
+            (Linear Algebra is the reason I took 4.5 to graduate).
+        </p>
+    ]]></advice>
+    <activeyears type="text">2010-2012</activeyears>
+    <activity type="text"><![CDATA[ 
+       <p>
+       I was President of ACM for the 2011-2012 academic year (also the AESB president for the second 
+       half of that year, I'd advise against anyone doing that as it was a considerable amount of work 
+       to hold both those positions).
+       </p>
+       
+       <p>
+       Strangely, I don't recall ever officially being on any ACM project, 
+       but I've contributed a considerable amount of resources and time to 
+       the Org and its projects overall. Some of this support:
+       <p>
+        
+        <ul>
+            <li>
+                Setting up ACM servers and a repository on them (a repo of pictures and an SVN repo)
+            </li>
+            <li>
+                Acting as a contact with the CECS labs (I was a lab tech for the same years I was active in ACM)
+            </li>
+            <li>
+                Organizing meetings and dealing with schedules (wasn't necessarily hard but was annoying...VERY annoying)
+            </li>
+            <li>
+                Giving some of my own money to food costs as ASI refuses to let more than 20 percent of a grant go towards food (software is cheap for students, food is not)
+            </li>
+            <li>
+                Giving advice to members of ACM.
+            </li>
+            <li>
+                Contributing to the vast quantity of shenanigans that go on at ACM.
+            </li>
+            <li>
+                Convinced a few influential members to join us.
+            </li>
+            <li>
+                Managed to carry on good relations with EAT because I had long ago established a good relationship with Bob Ward. I almost became the EAT president back then but some of EAT's members from then were....douchbags, to say the least.
+            </li>
+        </ul> 
+
+        <p>
+            Really though, I didn't do all THAT much. I'll be the first to admit Sal Llamas was the true 
+            puppet master behind the scenes. He gave us structure and a few ideas and I just went and ran with it.
+        </p> 
+
+    ]]></activity>
+    
+    <desc type="text"><![CDATA[
+    <p>         
+        As of this writing, I am a computer science grad student studying under Dennis Volper. 
+        I got my BS in comp sci in Dec of 2010 (4.5 years after I entered college in 2006, yes it 
+        pays to have a plan guys. That's all there is to it, besides studying obviously).
+    </p>
+    
+    <p>
+        I am an intern at IBM with several potential job offers. My area of expertise is Unix/Linux
+        System Administration. Though I acquired so much Windows experience over the years, I hate 
+        to admit I probably know it better. 
+    </p>
+    
+    <p>
+        Though I don't truly consider myself a coder or software engineer, I'm ironically enough better
+        as those than many of my coworkers and many students (Hint: Don't declare variables named sssss and sssSSS). 
+        I'm no Edgar Martinez or Andrew Meredith, but I know my way around more programming languages than I can count on one hand.
+        Having seen so much code over the years, I usually help someone if they have a problem they are stuck on. 
+        Helps to have more than one set of eyes guys. No reason to go through coding completely alone.
+    </p>
+    
+        
+    ]]></desc>
+    
+    <memory type="text"><![CDATA[
+        <p> 
+        Short answer? Shenanigans. Oh man was there shenanigans...
+        They went on before David Nuon appeared out of nowhere but he
+        was the first one to try to catalog it.
+        </p> 
+
+        <p>
+        Everything from the failed yet awesome Thorbot, to the infamous I AM ROOT 
+        story with a hacking a "security box" will be remembered.
+        </p>
+        
+        <p>
+        The coordination between members is also something I won't soon forget. 
+        When I finally become a manager somewhere, I will remember the strategies I learned here.
+        </p>
+         
+    ]]></memory>
+    
+    <email type="text">nathan2006@sbcglobal.net</email>
+</globals>

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-family: "Times New Roman", Times, serif;
+	font-size: .9em;
+	margin:0;
+}
+
+h1, h2, h3, h4, h5, h6 { padding-top:1em; }
+
+h2 { }
+
+h3 { }
+
+h4 { }
+
+h5 { }
+
+h6 { }
+
+#wrapper {
+	width:900px;
+	margin:auto;
+}
+
+#container {
+	clear:both;
+	margin-bottom: 1em;
+}
+
+#column_1 {
+	float:left;
+	width:200px;
+	font-size:0.9em;
+}
+
+#column_2 {
+	float:left;
+	width:700px;
+}
+
+#column_2 ol {
+	padding-left:2em;
+	list-style-position:outside;
+}
+
+#column_2 ol li { list-style-type: upper-roman; font-weight: bold; }
+
+#column_2 ol li ol li { list-style-type: lower-alpha; font-weight:normal; }
+
+#column_2 ol li ol li ol li { list-style-type:lower-roman; }
+
+#column_2 ol li ol li ol li ol li { list-style-type: square; }
+
+#column_2 ol li ol li ol li ol li ol li { list-style-type:lower-alpha; }
+
+#footer {
+	clear: both;
+	text-align: center;
+	font-size:0.75em;
+	width:900px;
+	padding-top:1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfloat {
+	background-color: black;
+	clear: both;
+	color: white;
+	height: 0px;
+	overflow: hidden;
+}
+
+.layoutdivider {
+	border-top: 1px solid #EEE;
+	margin: 1em 0;
+}

@@ -1,0 +1,6 @@
+<?xml version ="1.0"?> 
+<globals>
+	<members type="array">#Ian#David</members>
+	<blogname type="text">ACM News</blogname>
+	<about type="text">ACM news all day, all the time</about>
+</globals>

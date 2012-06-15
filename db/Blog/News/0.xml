@@ -1,0 +1,11 @@
+<?xml version ="1.0"?>
+<DATA>
+	<dbver>1</dbver>
+	<ID>0</ID>
+	<DATE>3/1/2012</DATE>
+	<POSTER>Ian</POSTER>
+	<TIME>10:30pm</TIME>
+	<TITLE>Website started</TITLE>
+	<TEXT>This is the first test</TEXT>
+	<tldr>This is the first test of the database. It seems to be working. We are on track.</tldr>
+</DATA>

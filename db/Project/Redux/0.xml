@@ -1,0 +1,10 @@
+<?xml version ="1.0"?>
+ <DATA>
+	<dbver>1</dbver>
+	<ID>2</ID>
+	<DATE>3/3/2012</DATE>
+	<POSTER>Ian</POSTER>
+	<TIME>10:30pm</TIME>
+	<TITLE>Current progress</TITLE>
+	<TEXT>As of writing this, the database back end should be mostly functional for reading. With the new format, writing will take a little bit for time to do.</TEXT>
+</DATA>

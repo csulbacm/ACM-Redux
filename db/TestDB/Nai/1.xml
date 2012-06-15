@@ -1,0 +1,9 @@
+<?xml version ="1.0"?>
+ <V1>
+	<dbver>1</dbver>
+	<ID>2</ID>
+	<DATE>#nowDate</DATE>
+	<TIME>#nowTime</TIME>
+	<TITLE>Hellooo</TITLE>
+	<TEXT>Blah!</TEXT>
+</V1>

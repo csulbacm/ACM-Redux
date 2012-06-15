@@ -1,0 +1,6 @@
+<?xml version ="1.0"?> 
+<globals>
+	<members type="array">#</members>
+	<blogname type="text">Blog Title</blogname>
+	<about type="text">Insert Description here</about>
+</globals>

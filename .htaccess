@@ -1,0 +1,25 @@
+AddDefaultCharset UTF-8
+Options -Indexes
+
+# blocks direct access to the XML files - they hold all the data!
+<Files ~ "\.xml$">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</Files>
+<Files sitemap.xml>
+		Order allow,deny
+    Allow from all
+    Satisfy All
+</Files>
+
+RewriteEngine on
+
+# Usually it RewriteBase is just '/', but 
+# replace it with your subdirectory path
+# on a production site, if it is root, do /
+RewriteBase /acmredux/markup/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]

@@ -1,0 +1,17 @@
+<?xml version ="1.0"?> 
+<globals>
+	<members type="array">#Joshua Long#Tony Pham#Ben Chang#Donald Herman</members>
+	<projectname type="text">T.E.A.R.</projectname>
+	<about type="text"><![CDATA[ 
+		<p>In TEAR, the player crash lands as Toney the Astronaut Turtle on a planet that is wrought with environmental destruction. Trash litters the floor and pollutants are everywhere. The island is filled with horrendous monsters that spawn from the pollution and all the impoverished residents of the island have been struck with a widespread plague. The island’s only hope is to utilize the TEAR device and its ability to transform into many tools.</p>
+		<p>TEAR’s island residents immerse the player in the use of their intelligent decision making and their ability to carry out everyday actions. As the player interacts with each individual NPC, the player can educate them to be a contributing part of society. The society on the island will eventually unfold to a living, breathing world before the player’s eyes.</p>
+		<p>However, it is up to Turtle has the ability to gather most of the resources to make building, farming and expanding possible. Turtle’s adventures, while limited for round one, address the pollutants of the world. The player must face epic monsters that mysteriously emerge from the pollutants, find ways to adapt to situations using TEAR and resolve pollution straight at the source.</p>
+		<p>The TEAR videogame represents the ideals of the ImagineCup goals through epic quests and intelligent characters. In TEAR, it is up to the player to use the TEAR device to solve the world’s toughest problems.</p>		
+	]]></about>
+	<abstract type="text"><![CDATA[ 
+		<p>TEAR, or Technologically Efficient Adaptable Reformer, focuses on using the sole advanced piece of technology to solve the world’s toughest problems. TEAR features advanced NPC intelligence, fun resource management and an action packed adventure that attracts players of any age to learn the applications of the United Nations Goals.</p>
+	]]></abstract>
+	<header type="url">/assets/img/project_sample.png</header>
+	<catch type="text">It's a cat!</catch>
+	<status type="int">2</status>
+</globals>
