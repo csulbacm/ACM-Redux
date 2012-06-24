@@ -6,7 +6,6 @@
   
 include_once("./app/redux.php");
 
-
 global $pageData;
 global $viewData;
 global $classMap;

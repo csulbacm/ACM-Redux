@@ -20,4 +20,4 @@
         </script>
     </head>
     <body>
-        <div class="wrapper container_12">
+        <div class="wrapper">

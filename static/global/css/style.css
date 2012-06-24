@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
 body, html {
 	width:100%;
 	padding:0;
@@ -6,15 +8,13 @@ body, html {
 
 body {
 	background:url(../img/bg.png) top center repeat-x #ddd;
-	font-family:"Verdana", "Tahoma", sans-serif;
+	font-family: "Droid Sans", "Arial", "Helvetica", sans-serif;
 }
 
 img, a { outline:none; border:0 }
 h1, h2, h3, h4 {
-	font-family: "Arial", "Helvetica", sans-serif;
+	font-family: "Droid Sans", "Arial", "Helvetica", sans-serif;
 	letter-spacing:-.09em;
-
-
 }
 
 h1 { margin:0; 
@@ -35,9 +35,9 @@ h1 a{
 }
 
 #nav {
-	background:#4889D2;
+	background:#222222;
 	width:960px !important;
-	height:40px;
+	height:30px;
 	margin:10px 0 0 0;
 	float:left;
 }
@@ -47,9 +47,8 @@ h1 a{
 }
 #nav ul li {
 	float:left;
-	font-family:arial, helvetica, sans-serif;
-	font-weight:bold;
-	font-size:18px;
+	font-family: "Droid Sans", "Arial", "Helvetica", sans-serif;
+	font-size:14px;
 	margin:0;
 	padding:0;
 	list-style:none;
@@ -60,7 +59,7 @@ h1 a{
 }
 #nav ul li a {
 	color:#fff;
-	padding:9px 15px;
+	padding:7px 15px;
 	display:block;
 	text-decoration:none;
 }
@@ -124,6 +123,7 @@ h1 a{
 
 .wrapper {
     margin:20px auto 0 auto;
+    width:960px;
 }
 .col-post {
     color:#333;

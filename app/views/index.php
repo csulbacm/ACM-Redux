@@ -4,7 +4,10 @@
     <?php includePart("base", "header"); ?>
     <?php includePart("index", "splash"); ?>
 
-    <div class="main-content">
+    <div class="main-content container_12">
+    	
+    	
+    	    	
         <div class="grid_8" style="margin:0; width:640px;">
 
         		<?php echo rx_getStaticPart("index", "left_sidebar");  ?>

@@ -18,7 +18,7 @@ RewriteEngine on
 # Usually it RewriteBase is just '/', but 
 # replace it with your subdirectory path
 # on a production site, if it is root, do /
-RewriteBase /acmredux/markup/
+RewriteBase /ACM-Redux/
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
