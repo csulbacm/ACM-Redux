@@ -1,145 +1,137 @@
 <?xml version ="1.0"?> 
 <globals>
     <name type="text">Joshua Liong</name>
-    <quote type="text">I AM ROOT</quote>
+    <quote type="text">Always at your service!</quote>
     
     <discovery type="text"><![CDATA[
         <p>
-            I was in Steve Gold's 274 class back in '07 and he told us about the ACM programming team.
-            I competed in the competition in that year and in '08. ACM died at that point so I didn't
-            really get involved again for a while.
-        </p>
+    I was introduced to the Association for Computing Machinery by Donna Pompei during CECS 274.    
 
-        <p>However, I knew most of the members that revived it later.</p>
+	 </p>
                 
     ]]></discovery>
     
     <motivation type="text"><![CDATA[
         <p>
-           In summer of 2010, I went to Switzerland for a month. Joshua Liong (ACM VP at the time), 
-           Richard Wang (ACM Secretary), Matt Sguerri (Historian), and Lynn Cherngchaosil (ACM member) 
-           were with me and we formed a tight group there as we traveled around (who'd have thought trains
-           and buses could be so fun to ride?). I learned about the revival of ACM by the Puppetmaster Sal Llamas 
-           and his cronies during Alex Ortiz's administration followed by Edgar Ortiz 
-           (both of which I knew through EAT and from classes).
-        </p>
-        
-        <p>
-            I attended one meeting at ACM and noticed...I knew everyone there. Frank, Ariana, Lynn, Alex...
-            I knew them all because I was TA for their 174/274 classes. Andrew, Edgar, Richard and the rest of 
-            the more senior members had been in my classes at some point.
-        </p>
-
-        <p>
-            I had apparently acquired a great deal of respect from everyone there and fit in naturally. 
-            During the next elections, Joshua nominated me for president and it was a practically unanimous approval.
-        </p>
+	I have always wanted to participate in an organization to further refine my skills as a computer scientist. I knew that being active in an organization would increase my merit as a potential employee. I also felt a personal need to expand my horizons since I had no programming experience prior to my freshman year.         
+</p><p>
+I also had a personal goal to not be held back by any sort of fear and to be more spontaneous. When ACM began to sponsor ImagineCup projects, I tossed myself into the fire. Even with my little experience, the people of ACM were extremely supportive with helping me see that anything is possible with a little hard work and dedication. It was also fun getting to know everyone’s backgrounds and talents. 
+</p>
     ]]></motivation>
     <advice type="text"><![CDATA[ 
-        <p>
-           Most of the advice I could give people is just repeats of what Sal says. And Sal got most of it from 3 books: 
-           The Outliers, Drive, and Getting Things Done. So go and read those! Or listen to them! I got through outliers 
-           and drive on  long car rides listening to the audiobooks. That was GREAT.
-        </p> 
+    <p>Moderation is key. Be sure to outline explicitly what is MOST important to you and strive for excellence in everything that is important. Aristotle said &quot; You are what you repeatedly do. Excellence is, then, not an act, but a habit.&quot; One will find that opportunities will come to them when excellence is displayed. Do your best to avoid activity that is consumption-oriented and not constructive-oriented.
 
-        <p>
-            Advice to brand new students you need at the getgo, 
-            make a tech tree of courses and plan out where you are going 
-            and what classes you are taking. If you plan out your courses, you'll graduate 
-            on time assuming you didn't fail Linear Algebra/Calc 2 3 times 
-            (Linear Algebra is the reason I took 4.5 to graduate).
-        </p>
-    ]]></advice>
+<p>
+Don't be discouraged by setbacks, especially if it's not over. In my first semester, Professor Allison said that "It's 
+never how you start the game. It's how you finish." Ensure that you have the best kind endgame in mind and never stop 
+working for it. While excellence is repetitive, success is how you finish. Keep these two, and a positive attitude, in mind.
+</p>
+
+<p>
+I am a firm believer of karma. Be generous with your time to others. Helping out or contributing to other people tends to reciprocate in unexpected ways. Each time you do so, you develop a connection that can help later on. Especially perceive professors as a friend and develop a good rapport with them.
+</p>
+
+	]]></advice>
     <activeyears type="text">2010-2012</activeyears>
     <activity type="text"><![CDATA[ 
-       <p>
-       I was President of ACM for the 2011-2012 academic year (also the AESB president for the second 
-       half of that year, I'd advise against anyone doing that as it was a considerable amount of work 
-       to hold both those positions).
-       </p>
-       
-       <p>
-       Strangely, I don't recall ever officially being on any ACM project, 
-       but I've contributed a considerable amount of resources and time to 
-       the Org and its projects overall. Some of this support:
-       <p>
-        
-        <ul>
-            <li>
-                Setting up ACM servers and a repository on them (a repo of pictures and an SVN repo)
-            </li>
-            <li>
-                Acting as a contact with the CECS labs (I was a lab tech for the same years I was active in ACM)
-            </li>
-            <li>
-                Organizing meetings and dealing with schedules (wasn't necessarily hard but was annoying...VERY annoying)
-            </li>
-            <li>
-                Giving some of my own money to food costs as ASI refuses to let more than 20 percent of a grant go towards food (software is cheap for students, food is not)
-            </li>
-            <li>
-                Giving advice to members of ACM.
-            </li>
-            <li>
-                Contributing to the vast quantity of shenanigans that go on at ACM.
-            </li>
-            <li>
-                Convinced a few influential members to join us.
-            </li>
-            <li>
-                Managed to carry on good relations with EAT because I had long ago established a good relationship with Bob Ward. I almost became the EAT president back then but some of EAT's members from then were....douchbags, to say the least.
-            </li>
-        </ul> 
+<p>
+<strong> Fall 2009 - Spring 2010 </strong><br/><br/>
+In the year of 2009-2010, I participated in one of three ACM&rasquo; 
+sponsored ImagineCup group. The ImagineCup group specialized in the Game 
+Design competition; I never thought I would participate in videogame 
+development; much less self-teach myself how to code. I got up every 
+morning excited about what I was going to learn through TEAR , my 
+videogame idea that was further fleshed out and made even more fun by 
+the talented group I was working with. While TEAR did not exceed 
+preliminary rounds, a discussion with my team revealed that we could 
+still learn more, grow as a team and reap in rewards with continuing the 
+project for next year. We pushed off more determined than ever with the 
+current TEAR engine.</p>
 
-        <p>
-            Really though, I didn't do all THAT much. I'll be the first to admit Sal Llamas was the true 
-            puppet master behind the scenes. He gave us structure and a few ideas and I just went and ran with it.
-        </p> 
+<p><strong>Summer 2012</strong><br/><br/>
+ACM exposed me to the Summer University Program taking place at 
+Switzerland. In Summer 2009, I was able to get free room, board, tuition 
+and spending money at Switzerland with ACM Members Lynn Cherngchaosil, 
+Nathan Pickrell, Matt Sguerri and Richard Wang. This was a once in a 
+lifetime opportunity of being able to travel freely while taking courses 
+on challenging subjects with international students. Matt, a former 
+resident of Italy, was kind enough to take us on a tour. Volkan Aginlar 
+was able to plan and take many of us around many adventures through 
+landmarks and I kept an eye out for fine dining. The crisp, clean air, 
+seemingly limitless freedom and unlimited possibilities through 
+education are the feelings that stick with me when I reminisce about 
+Switzerland.</p>
+
+<p><strong> Fall 2010 - Spring 2011</strong><br /><br/>
+Fall 2010 and Spring 2011 was my reign as the elected Vice President of 
+ACM. I was often the front line in representing ACM in day activities 
+while the President spent time connecting ACM with administrators and 
+people outside campus. I would make appearances in organization fairs 
+and show off what we did as a club. I was able to link ACM to Dr. Mamo, 
+spawning the Medical Applications Mobile and Online Project (MAMO).
+</p>
+
+<p>
+I continued to develop TEAR with the ImagineCup team. It reached the 
+semifinals in the Microsoft National and International divisions. While 
+it was difficult to close the ImagineCup Project, I was proud to report 
+that TEAR received honorable mention from ImagineCup judges. The team 
+was able to walk away from TEAR with two years of advanced data 
+structures and algorithms to be applied in future employment.
+</p>
+
+<p>
+I had a taste of presidential work when the current president had to 
+take a temporary leave. It was hectic coordinating meetings at first, 
+but the parliamentary structure of ACM and the maturity of the people in 
+it kept the club steady and productive under my temporary leadership. I 
+was proud of ACM when it received Organization of the Year in the 
+College of Engineering.
+</p>
+
+<p><strong>Fall 2011</strong><br/><br/>
+After my year as Vice President, I became the Secretary of ACM. I kept 
+detailed records of meetings and ensured the proper tracking of project 
+progress. I became the representative of ACM online, maintaining the ACM 
+webpage and ACM Facebook page with the assistance of the former 
+secretary, Richard Wang. 
+Under the management of Ben Chang, I participated in the reboot of the 
+ImagineCup team to partake in the Windows Phone 7 Game Design 
+competition. Ben's game idea went through many forms of revision 
+for 
+several months prior until we settled on our current game, Socie-D.
+</p>
 
     ]]></activity>
     
     <desc type="text"><![CDATA[
-    <p>         
-        As of this writing, I am a computer science grad student studying under Dennis Volper. 
-        I got my BS in comp sci in Dec of 2010 (4.5 years after I entered college in 2006, yes it 
-        pays to have a plan guys. That's all there is to it, besides studying obviously).
-    </p>
-    
     <p>
-        I am an intern at IBM with several potential job offers. My area of expertise is Unix/Linux
-        System Administration. Though I acquired so much Windows experience over the years, I hate 
-        to admit I probably know it better. 
-    </p>
-    
-    <p>
-        Though I don't truly consider myself a coder or software engineer, I'm ironically enough better
-        as those than many of my coworkers and many students (Hint: Don't declare variables named sssss and sssSSS). 
-        I'm no Edgar Martinez or Andrew Meredith, but I know my way around more programming languages than I can count on one hand.
-        Having seen so much code over the years, I usually help someone if they have a problem they are stuck on. 
-        Helps to have more than one set of eyes guys. No reason to go through coding completely alone.
-    </p>
-    
+I am a senior at CSULB. On my spare time, I ensure the availability of CSULB ACM services, including the snack stack and the library. I enjoy videogames that invoke emotion and tug the player. I aspire to develop a game which realistically immerses the player through sophisticated emotional artificial intelligence. 
+</p>
         
     ]]></desc>
     
     <memory type="text"><![CDATA[
         <p> 
-        Short answer? Shenanigans. Oh man was there shenanigans...
-        They went on before David Nuon appeared out of nowhere but he
-        was the first one to try to catalog it.
+The things that one will remember the most are rarely the struggles but 
+more of the successes. There are obvious forms of success, like a 
+project one worked hard on that was recognized, winning an election or 
+receiving a grant. However, there are more subtle successes: like 
+laughing over a game of the card game, Bang! Dissecting demands that 
+were ridiculous and impossible but was done anyway. Making a person 
+laugh or sharing a connection with a new acquaintance or an old friend. 
+Going on outings or dining which strengthen the bonds of the people 
+you&rasquo;re close to. 
+
         </p> 
 
         <p>
-        Everything from the failed yet awesome Thorbot, to the infamous I AM ROOT 
-        story with a hacking a "security box" will be remembered.
-        </p>
-        
-        <p>
-        The coordination between members is also something I won't soon forget. 
-        When I finally become a manager somewhere, I will remember the strategies I learned here.
+When I remember ACM, I will recall a conglomeration of success stories.
         </p>
          
     ]]></memory>
     
-    <email type="text">nathan2006@sbcglobal.net</email>
+    <email type="text">
+wiimaster1@gmail.com
+	</email>
 </globals>

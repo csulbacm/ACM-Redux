@@ -1,0 +1,84 @@
+<?xml version ="1.0"?> 
+<globals>
+    <name type="text">Richard Wang</name>
+    <quote type="text">Interesting...</quote>
+    
+    <discovery type="text"><![CDATA[
+        <p>
+    I was invited by former ACM/EAT President, Alex Ortiz, in the middle of Spring 2008 (during Michael Larson's presidency). Since then I have witnessed both the fall and rise of the organization during the years
+
+	 </p>
+                
+    ]]></discovery>
+    
+    <motivation type="text"><![CDATA[
+        <p>
+Initially?  Free lunch.  As the years went by, I  became more active in the organization because I love it.   A lot of friends were made from this club.
+</p>
+    ]]></motivation>
+    <advice type="text"><![CDATA[ 
+<p>
+Do not despair!  One of the major reasons that new cs students change majors is when they see something like this:
+</p>
+<p style="text-align:center"><code>	echo $basename | sed -e 's/[.,]*/|/g' | awk -F'|' '{print $5 $6 $7}'</code></p>
+<p>
+Always start off with something  simple and slowly progress.  It is OK to be a beginner.  What is not OK is staying as a beginner after knowing what you need to do to move forward.    
+</p>
+
+
+
+<p>
+Share: I believe sharing knowledge is the best way to learn.  If you are knowledgeable in something, please share it!  How?  Be a tutor, do a presentation, or write a tutorial.    
+</p>
+
+<p>
+Learn to communicate effectively:  Communication is the best way to bring your ideas and dreams into reality.   
+</p>
+
+	]]></advice>
+    <activeyears type="text">2008-2011</activeyears>
+    <activity type="text"><![CDATA[ 
+<p>
+I was ACM's secretary during the 2010-2011 term when Edgar Ortiz was president. I was also ACM-W's contact liaison in 2011 when Ariana Aguirre was president.   </p>
+
+<ul>
+<li>I was the software lead for the Veterans Affairs Project where my team and I developed a program in Java that tests the patient's memory using random shapes and colors. My team was the ony one of the three teams that successfull demoed the program to Dr. Webster</li>
+<li>I served as back up system administrator for the ACM servers whenever Nate was unavailable.   Since Nate was available 99% of the time,  I did not have to do much.</li>
+<li>For ACM-W, I was the founder of the Remote Bandwidth Analyzer that securely monitors bandwidth traffic on remote systems using OpenSSL encryption and C.</li>
+<li>I was the TA and Lab Assistant for Donna Pompei's 282, 274, and 277 classes as well as Barbara Mack's 174 class.</li>
+<li>I was the driving force that made "Always" by Erasure infamous in ACM.</li>
+</ul>
+
+    ]]></activity>
+    
+    <desc type="text"><![CDATA[
+    <p>
+I  graduated from CSULB last December with a degree in computer science. During my stay at CSULB, I studied primarily network systems and mulitcore programming.  
+</p>
+
+<p>
+I am a Linux framework engineer for Thales Avionics. Before that, I was the lead system administrator 
+and Python programmer for Sorin Lab, a biochemical research lab at CSULB. 
+</p>
+        
+    ]]></desc>
+    
+    <memory type="text"><![CDATA[
+        <p> 
+The great people.  You will not find geeks anywhere in the CECS department as friendly as the ones in ACM and ACM-W.  I enjoy breaking Tony Pham's heart, getting my butt kicked by Joshua Liong in Star Fox, losing to Ben Chang in the card game, Bang, learning about health and tips on weight loss from Edgar Ortiz,  and many more. 
+
+        </p> 
+
+        <p>
+But who I will remember the most from ACM is Jesus (Jesse) Guzman.  Jesus was the CECS mentor who instructed me and other students in the department.  He was the one who convinced me to become a mentor, and let us just say that I would not have gone the same route  it was not for him.
+        </p>
+		
+		<p>
+		Jesus and others at ACM are some of the best people that I have worked and hung out with in the CECS department.  I highly encourage students to be part of this wonderful organization.  Remember, we have free lunch.  :) </p>
+         
+    ]]></memory>
+    
+    <email type="text">
+wiimaster1@gmail.com
+	</email>
+</globals>

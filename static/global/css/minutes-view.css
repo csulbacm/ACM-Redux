@@ -1,13 +1,13 @@
-@import url("documents.css");
-
-.grid_9 #header,
-.main-content #footer {
-    display: none;
-}
-#column_1 {
-    display:none;
-}
-
-#column_2 {
-    font-size:12px;
-}
+@import url("documents.css");
+
+.grid_9 #header,
+.main-content #footer {
+    display: none;
+}
+#column_1 {
+    display:none;
+}
+
+#column_2 {
+    font-size:12px;
+}

@@ -7,47 +7,44 @@
 
 namespace Controller\Pages;
 use Utility\FileList as Filelist;
+use Models\Documents\AlumniProfile as AlumniProfile;
 
 
 class AlumniView {
     function __construct($pageData, $viewData) {
         error_reporting(0);
-        @ini_set(‘display_errors’, 0);
+        @ini_set("display_errors", 0);
                 
         if($viewData->getType() === 'alumni-view') {
-            // Get the list of projects in the project directory
+            // Get the list of alumni
+			$alumniDir = new Filelist(FILEROOT . '/db/Alumni/');
+			$alumniList = $alumniDir->getDirList(true);
 			
-			$projectDir = new Filelist(FILEROOT . '/static/data/project/');
-			$projectList = $projectDir->getDirList(true);
             
             // Get the slugs from the url
 			$getData       = $pageData->getPath();
-			
-			// Only diplsay the page if the project exists		
-			if(in_array($getData[1], $projectList)) {
+			$shortName = $getData[1];
+						
+			// Only display the page if the alumni imaage exists		
+			if(in_array($shortName, $alumniList)) {
 				 // Get data from the database
 				$dbHolder      = new \Utility\PHPDBUtility();
-				$projectData   = $dbHolder->DBD->query(Array( "type" => "get", "DATABASE" => "Project", 
+				$alumniData    = $dbHolder->DBD->query(Array( "type" => "get", "DATABASE" => "Alumni", 
 							     "USER" => $getData[1], "ID" => 0));
 								 
-				$globalData    = $projectData->getGlobals(0);
-				$projectStatus = ProjectStatus::Finished;
-	
-				if($globalData['STATUS'] != 2) {
-					$projectStatus = ProjectStatus::Ongoing;
-				}
+				$gData         = $alumniData->getGlobals(0);
 				
 	            // Parsing the data retrieved from the database
-				$members = explode('#', $globalData['MEMBERS']);		
 					
-	            $project = new \Models\Project\Project($globalData['PROJECTNAME'], $getData[1],
-							$globalData['CATCH'], $globalData['ABSTRACT'], $globalData['ABOUT'], 
-							$members, array(), false, $projectStatus);
+	            $profile = new AlumniProfile($gData['NAME'], 
+	                $shortName,$gData['QUOTE'], $gData['DISCOVERY'],
+	                $gData['MOTIVATION'], $gData['ADVICE'], $gData['ACTIVEYEARS'], $gData['ACTIVITY'],
+	                $gData['DESC'], $gData['MEMORY'], $gData['EMAIL']);
 				
-				$pageData->addCrumb(array('Project', rx_siteURL('project')));
-				$pageData->addCrumb(array($globalData['PROJECTNAME'], '#'));
+				$pageData->addCrumb(array('M.V.P and Alumni', rx_siteURL('alumni')));
+				$pageData->addCrumb(array($gData['NAME'], '#'));
 				
-	            $viewData->setData('project-viewing', $project);
+	            $viewData->setData('profile', $profile);
 			} else {
 				$pageData->setFound(false);
 			}

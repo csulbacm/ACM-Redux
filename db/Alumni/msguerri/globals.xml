@@ -1,0 +1,71 @@
+<?xml version ="1.0"?> 
+<globals>
+    <name type="text">Matt Sguerri</name>
+    <quote type="text">Nyah see, MIPS</quote>
+    
+    <discovery type="text"><![CDATA[
+        <p>
+I cannot remember how exactly I discovered ACM; I believe I was in a class with some of the people that revived it.  I ended up attending their meetings along with Richard and wound up staying until I graduated in 2011.  I was present through the administrations of Michael Larson, Michael Dowd, Alex Ortiz, and Edgar Ortiz.   
+        </p>
+
+                
+    ]]></discovery>
+    
+    <motivation type="text"><![CDATA[
+        <p>
+As a freshman I was looking for a club that would let me branch out in computer science and meet new people.  At the time there were no clubs specifically tailored to computer science, ACM having been only recently revived it did not have momentum or recognition; however what it did have was pizza and a friendly group of people – why not? 
+        </p>
+        
+        <p>
+Throughout my time in the club I met many great people and even spent a month in Switzerland with Nate, Richard Wang, Joshua Liong, and Lynn Cherngchaosil.  This month was a great experience and definitely encouraged me to stay in ACM with all my friends; I&quot;d recommend the experience to anyone!
+        </p>
+
+    ]]></motivation>
+    <advice type="text"><![CDATA[ 
+        <p>
+Take the time to make your code look good and run well.  It will be easier to debug and you&quot;ll thank yourself later for it.  Clubs like ACM can help you develop your skills and meet cool people that you might just be able to have as project partners and references.
+        </p> 
+
+        <p>
+For those students that might be stressing about their classes I would suggest to relax. Choose your classes carefully, look at the syllabus and ask others around you what the class was like. I found many of the classes I took (some exceptions, nyah see) to be pretty manageable with planning. 
+        </p>
+    ]]></advice>
+    <activeyears type="text">2007-2011</activeyears>
+    <activity type="text"><![CDATA[ 
+       <p>
+I held the officer position of historian from 2010 to 2011, and I was also chair of the ACM programming team for a brief time, where I provided and tried to solve challenging computer science puzzles.  On occasion I presented solutions with the other chair Richard as well. I worked on some projects for the Veteran&quot;s Affairs but they fell through. 
+       </p>
+       
+       <p>
+I held an advisory role of sorts assisting other projects such as TEAR with code structure and design ideas.  I also provided instruction in C++, Java, and C# to many ACM members.
+       <p>
+         
+
+    ]]></activity>
+    
+    <desc type="text"><![CDATA[
+    <p>         
+I am an ACM alumnus who graduated from Long Beach State in 2011 and now is employed as a software engineer at Siemens PLM software (love it).  In my spare time I like to read up on my math and physics and then program said math and physics – riveting huh?  
+    </p>
+    
+    <p>
+I am also in a program to attain a private pilot&quot;s license because it feels so cool to have an extra shiny card that says I can fly planes (that is only one of the reasons though).   
+    </p>
+
+        
+    ]]></desc>
+    
+    <memory type="text"><![CDATA[
+        <p> 
+        I will certainly remember the tutoring sessions and the games of BANG! the most.  There was a lot shenanigans (as Nate put it) that I will certainly remember as it strengthened the friendships with the other club members.  
+        </p> 
+
+        <p>
+While not directly ACM related the Switzerland trip was probably one of the best moments of my time at Long Beach State (after being accepted as an assistant).
+        </p>
+        
+
+    ]]></memory>
+    
+    <email type="text">mattsguerri@gmail.com</email>
+</globals>

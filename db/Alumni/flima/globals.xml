@@ -1,122 +1,42 @@
 <?xml version ="1.0"?> 
 <globals>
     <name type="text">Frank "Viceroy" Lima</name>
-    <quote type="text">I AM ROOT</quote>
+    <quote type="text"><![CDATA[ <font size="2">Creativity and discipline are like yin and yang.  Both may be entirely different but without each other they attain nothing.</font> ]]></quote>
     
     <discovery type="text"><![CDATA[
-        <p>
-            I was in Steve Gold's 274 class back in '07 and he told us about the ACM programming team.
-            I competed in the competition in that year and in '08. ACM died at that point so I didn't
-            really get involved again for a while.
-        </p>
-
-        <p>However, I knew most of the members that revived it later.</p>
+        <p>I found out about the ACM just out of pure curiosity.  I was walking down the computer science building (ECS) and saw a flier posted on the wall and thought to myself, “This may be interesting, I'll check it out!”</p>
                 
     ]]></discovery>
     
     <motivation type="text"><![CDATA[
-        <p>
-           In summer of 2010, I went to Switzerland for a month. Joshua Liong (ACM VP at the time), 
-           Richard Wang (ACM Secretary), Matt Sguerri (Historian), and Lynn Cherngchaosil (ACM member) 
-           were with me and we formed a tight group there as we traveled around (who'd have thought trains
-           and buses could be so fun to ride?). I learned about the revival of ACM by the Puppetmaster Sal Llamas 
-           and his cronies during Alex Ortiz's administration followed by Edgar Ortiz 
-           (both of which I knew through EAT and from classes).
-        </p>
-        
-        <p>
-            I attended one meeting at ACM and noticed...I knew everyone there. Frank, Ariana, Lynn, Alex...
-            I knew them all because I was TA for their 174/274 classes. Andrew, Edgar, Richard and the rest of 
-            the more senior members had been in my classes at some point.
-        </p>
-
-        <p>
-            I had apparently acquired a great deal of respect from everyone there and fit in naturally. 
-            During the next elections, Joshua nominated me for president and it was a practically unanimous approval.
-        </p>
+        <p>I joined out of pure curiosity and to also be with my 'like-kind', meaning I wanted to be surrounded by those who were also in the same field as I was and to talk about the same subjects as well; learn and grow from one another.</p>
     ]]></motivation>
+
     <advice type="text"><![CDATA[ 
         <p>
-           Most of the advice I could give people is just repeats of what Sal says. And Sal got most of it from 3 books: 
-           The Outliers, Drive, and Getting Things Done. So go and read those! Or listen to them! I got through outliers 
-           and drive on  long car rides listening to the audiobooks. That was GREAT.
-        </p> 
-
-        <p>
-            Advice to brand new students you need at the getgo, 
-            make a tech tree of courses and plan out where you are going 
-            and what classes you are taking. If you plan out your courses, you'll graduate 
-            on time assuming you didn't fail Linear Algebra/Calc 2 3 times 
-            (Linear Algebra is the reason I took 4.5 to graduate).
+           It's important to focus hard on your classes, but much more important to focus on your own projects.  The classes will teach you how to become a programmer but it is up to you to actually apply yourself and grow with the skills you learn.  By doing projects you will be able to apply yourself and truly teach yourself what it is to become a computer scientist.  Anyone can learn, but it takes a true hard worker to apply themselves.
+ </p><p>
+It is also important for new students to question their abilities and assess them in a positive way.  Such as, “Can I do this?” and then from that set up personal goals to change “Can I do this?” to “I CAN do this!”  Computer science may not come easy to some that is why practice is important.  Chance the “Can I's?” to the “I CAN'S!” and start small, don't plan huge projects and goals.  Start with small steps, as you learn how to 'crawl', then learn to 'walk' and from there learn to 'run'!
         </p>
     ]]></advice>
-    <activeyears type="text">2010-2012</activeyears>
-    <activity type="text"><![CDATA[ 
-       <p>
-       I was President of ACM for the 2011-2012 academic year (also the AESB president for the second 
-       half of that year, I'd advise against anyone doing that as it was a considerable amount of work 
-       to hold both those positions).
-       </p>
-       
-       <p>
-       Strangely, I don't recall ever officially being on any ACM project, 
-       but I've contributed a considerable amount of resources and time to 
-       the Org and its projects overall. Some of this support:
-       <p>
-        
-        <ul>
-            <li>
-                Setting up ACM servers and a repository on them (a repo of pictures and an SVN repo)
-            </li>
-            <li>
-                Acting as a contact with the CECS labs (I was a lab tech for the same years I was active in ACM)
-            </li>
-            <li>
-                Organizing meetings and dealing with schedules (wasn't necessarily hard but was annoying...VERY annoying)
-            </li>
-            <li>
-                Giving some of my own money to food costs as ASI refuses to let more than 20 percent of a grant go towards food (software is cheap for students, food is not)
-            </li>
-            <li>
-                Giving advice to members of ACM.
-            </li>
-            <li>
-                Contributing to the vast quantity of shenanigans that go on at ACM.
-            </li>
-            <li>
-                Convinced a few influential members to join us.
-            </li>
-            <li>
-                Managed to carry on good relations with EAT because I had long ago established a good relationship with Bob Ward. I almost became the EAT president back then but some of EAT's members from then were....douchbags, to say the least.
-            </li>
-        </ul> 
+    <activeyears type="text">2009-2012</activeyears>
+    <activity type="text"><![CDATA[ <p>
+ 
 
-        <p>
-            Really though, I didn't do all THAT much. I'll be the first to admit Sal Llamas was the true 
-            puppet master behind the scenes. He gave us structure and a few ideas and I just went and ran with it.
-        </p> 
+<i>2010 – 2011: Office Technician</i><br>
+This was my first position with the ACM.  I was in charge of managing the ACM office as well as its computers.  I was able to rearrange the computers in such a way that it maximized space in the office.  Also, along with Ariana, we were able to completely remodel the entire office space that we had to maximize every square inch we could so that fellow ACM members could enjoy it as much as possible.</p>
+<p>
+<i>2011 – 2012: Vice President</i><br>
+This position, I was dubbed 'Viceroy' by the 2011-2012 president Nathan Pickrell.  I worked along side Nathan to the best of my ability and also managed projects.  During this time I conducted three major projects: ACM LAN, THOR and The ACM Arcade Machine 'Rubicon'.  It was a very eventful year.  I rallied up many of the ACM members and socialized with them to see what they were doing and how they were doing.  I wanted to ensure that I was there for all the ACM members if and when they needed me.  I was also parliamentarian during certain meetings in which our president could not make.
+ </p> 
 
     ]]></activity>
     
     <desc type="text"><![CDATA[
     <p>         
-        As of this writing, I am a computer science grad student studying under Dennis Volper. 
-        I got my BS in comp sci in Dec of 2010 (4.5 years after I entered college in 2006, yes it 
-        pays to have a plan guys. That's all there is to it, besides studying obviously).
-    </p>
-    
-    <p>
-        I am an intern at IBM with several potential job offers. My area of expertise is Unix/Linux
-        System Administration. Though I acquired so much Windows experience over the years, I hate 
-        to admit I probably know it better. 
-    </p>
-    
-    <p>
-        Though I don't truly consider myself a coder or software engineer, I'm ironically enough better
-        as those than many of my coworkers and many students (Hint: Don't declare variables named sssss and sssSSS). 
-        I'm no Edgar Martinez or Andrew Meredith, but I know my way around more programming languages than I can count on one hand.
-        Having seen so much code over the years, I usually help someone if they have a problem they are stuck on. 
-        Helps to have more than one set of eyes guys. No reason to go through coding completely alone.
+        I am a computer scientist and animator.  I started to learn how to do both at a very young age.  I began to program with QBASIC and Commodore 64 BASIC at the age of 6 years old.  My parents bought an old 286 IBM computer which could not do much of anything besides word process and program.  So I decided to make my own 'fun' with the old computer by reading up on the manual that it came with to start programming little word games and it grew from there.  At the age of 8 I began to learn how to draw and from drawing I taught myself animating using cheap flip books.  As my animation skills grew so did my programming skills.  I began to learn 3D animation at the age of 13 and C/C++ at the same age.  I then realized that I could combine both of these seemingly separate skills together to do game design! I loved games ever since I was about 3 years old when my uncle showed me Sonic the Hedgehog.
+</p><p>
+From the age of 13 until now I have been focusing on multimedia programming and game design within my major of Computer Science here at California State University Long Beach.  I have also taken animation and art courses here at the university and was trained by a great animation professor to improve my skills (he will never be forgotten!).  I have analyzed games for many years, seen how they function, question game design rules (and break them) to create a unique gaming experience.  Currently I am working on a light weight cross-platform graphics engine called the IONICON engine that was programed entirely in C and Assembly (for console specific reasons).  I plan on opening a software design studio known as Reticon Entertainment Technology by the end 2013.
     </p>
     
         
@@ -124,22 +44,10 @@
     
     <memory type="text"><![CDATA[
         <p> 
-        Short answer? Shenanigans. Oh man was there shenanigans...
-        They went on before David Nuon appeared out of nowhere but he
-        was the first one to try to catalog it.
-        </p> 
-
-        <p>
-        Everything from the failed yet awesome Thorbot, to the infamous I AM ROOT 
-        story with a hacking a "security box" will be remembered.
-        </p>
-        
-        <p>
-        The coordination between members is also something I won't soon forget. 
-        When I finally become a manager somewhere, I will remember the strategies I learned here.
+        What I will remember the most through my years I have spent in the ACM are both the connections and ever-lasting friendships I have made during that time.  The ACM brings together the greatest in people; all to strive for a common cause.  It is important to work together for projects and to understand one another and by doing so, become a better person.  So to all of those who I have met at the ACM, I will remember all of you forever.
         </p>
          
     ]]></memory>
     
-    <email type="text">nathan2006@sbcglobal.net</email>
+    <email type="text">ret.tech@gmail.com</email>
 </globals>

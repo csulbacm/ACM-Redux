@@ -1,19 +1,15 @@
 body {
     background: url(../img/documents.jpg) top center no-repeat #1c200f;
 }
-
-
 h1 {
     background:url(../img/logo.png);
 }
-
 #main-page-splash {
     background: none;
     border:0;
 }
 #main-page-splash h2 {
     text-shadow: rgba(0,0,0,.4) 0px 0px 15px;
-
 }
 .document-listing {
     padding:0;
@@ -36,4 +32,3 @@ h1 {
     background: #333;
     color: #fff;
 }
-

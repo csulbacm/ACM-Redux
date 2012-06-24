@@ -1,13 +1,13 @@
 <?xml version ="1.0"?> 
 <globals>
-    <name type="text">Nathan Pickrell</name>
+    <name type="text">Ariana Aguirre</name>
     <quote type="text">I AM ROOT</quote>
     
     <discovery type="text"><![CDATA[
         <p>
             I was in Steve Gold's 274 class back in '07 and he told us about the ACM programming team.
-            I competed in the competition that year with Michael Larson and Joshua Wall and competed again in
-            '08 with Dawood Putros and Edgardo Martinez. ACM died at that point so I didn't really get involved again for a while.
+            I competed in the competition in that year and in '08. ACM died at that point so I didn't
+            really get involved again for a while.
         </p>
 
         <p>However, I knew most of the members that revived it later.</p>
@@ -16,8 +16,8 @@
     
     <motivation type="text"><![CDATA[
         <p>
-           In summer of 2010, I went to Switzerland for a month on a class trip. Joshua Liong (ACM VP at the time), 
-           Richard Wang (ACM Secretary), Matt Sguerri (ACM Historian), and Lynn Cherngchaosil (ACM member) 
+           In summer of 2010, I went to Switzerland for a month. Joshua Liong (ACM VP at the time), 
+           Richard Wang (ACM Secretary), Matt Sguerri (Historian), and Lynn Cherngchaosil (ACM member) 
            were with me and we formed a tight group there as we traveled around (who'd have thought trains
            and buses could be so fun to ride?). I learned about the revival of ACM by the Puppetmaster Sal Llamas 
            and his cronies during Alex Ortiz's administration followed by Edgar Ortiz 
@@ -37,9 +37,9 @@
     ]]></motivation>
     <advice type="text"><![CDATA[ 
         <p>
-           Most of the advice I could give people is just a repeat of what Sal says. And Sal got most of it from 3 books: 
-           The Outliers, Drive, and Getting Things Done. So go and read those! Or listen to them! I got through Outliers 
-           and Drive on long car rides listening to the audiobooks. That was GREAT.
+           Most of the advice I could give people is just repeats of what Sal says. And Sal got most of it from 3 books: 
+           The Outliers, Drive, and Getting Things Done. So go and read those! Or listen to them! I got through outliers 
+           and drive on  long car rides listening to the audiobooks. That was GREAT.
         </p> 
 
         <p>
@@ -47,21 +47,21 @@
             make a tech tree of courses and plan out where you are going 
             and what classes you are taking. If you plan out your courses, you'll graduate 
             on time assuming you didn't fail Linear Algebra/Calc 2 3 times 
-            (Linear Algebra is the reason I took 4.5 years to graduate).
+            (Linear Algebra is the reason I took 4.5 to graduate).
         </p>
     ]]></advice>
     <activeyears type="text">2010-2012</activeyears>
     <activity type="text"><![CDATA[ 
        <p>
        I was President of ACM for the 2011-2012 academic year (also the AESB president for the second 
-       half of that year. I'd advise against anyone doing that as it was a considerable amount of work 
-       to hold both those positions at once).
+       half of that year, I'd advise against anyone doing that as it was a considerable amount of work 
+       to hold both those positions).
        </p>
        
        <p>
        Strangely, I don't recall ever officially being on any ACM project, 
        but I've contributed a considerable amount of resources and time to 
-       the org and its projects overall. Some of this support:
+       the Org and its projects overall. Some of this support:
        <p>
         
         <ul>
@@ -78,7 +78,7 @@
                 Giving some of my own money to food costs as ASI refuses to let more than 20 percent of a grant go towards food (software is cheap for students, food is not)
             </li>
             <li>
-                Giving advice to members of ACM. (advising meetings were probably the most effective thing I ever did)
+                Giving advice to members of ACM.
             </li>
             <li>
                 Contributing to the vast quantity of shenanigans that go on at ACM.
@@ -101,21 +101,21 @@
     <desc type="text"><![CDATA[
     <p>         
         As of this writing, I am a computer science grad student studying under Dennis Volper. 
-        I got my BS in computer science in December of 2010 (4.5 years after I entered college in 2006. Yes it 
+        I got my BS in comp sci in Dec of 2010 (4.5 years after I entered college in 2006, yes it 
         pays to have a plan guys. That's all there is to it, besides studying obviously).
     </p>
     
     <p>
         I am an intern at IBM with several potential job offers. My area of expertise is Unix/Linux
-        System Administration. I acquired so much Windows experience over the years, I hate 
+        System Administration. Though I acquired so much Windows experience over the years, I hate 
         to admit I probably know it better. 
     </p>
     
     <p>
         Though I don't truly consider myself a coder or software engineer, I'm ironically enough better
-        at those than many of my coworkers and many students (Hint: Don't declare variables named sssss and sssSSS). 
+        as those than many of my coworkers and many students (Hint: Don't declare variables named sssss and sssSSS). 
         I'm no Edgar Martinez or Andrew Meredith, but I know my way around more programming languages than I can count on one hand.
-        Having seen so much code over the years, I am usually able to help someone if they have a problem they are stuck on. 
+        Having seen so much code over the years, I usually help someone if they have a problem they are stuck on. 
         Helps to have more than one set of eyes guys. No reason to go through coding completely alone.
     </p>
     
@@ -131,7 +131,7 @@
 
         <p>
         Everything from the failed yet awesome Thorbot, to the infamous I AM ROOT 
-        story hacking a "security box" will be remembered.
+        story with a hacking a "security box" will be remembered.
         </p>
         
         <p>
