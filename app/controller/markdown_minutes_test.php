@@ -14,11 +14,11 @@ class MinutesTestPage {
         if($viewData->getType() === 'new-minutes-test') {
             $minutes     = new FileList(FILEROOT . '/static/data/minutes/2012-06-01/');
         	$testMinutes = new MarkdownMinutes($minutes->getFileContent("minutes.md"));
-			
+            
 			$outputContnet = "";
 			
 			foreach ($testMinutes->getSidebar() as $line) {
-				$outputContnet .= $line . "<br />";
+				$outputContnet .= print_r($line, true) . "<br />";
 			}
 			
 			$viewData->setData('text', $outputContnet);
