@@ -1,8 +1,3 @@
-
-body {
-	background:#ddd;
-}
-
 #main-page-splash h2 {
 	font-size:65px;
 	position:absolute;
@@ -14,7 +9,7 @@ body {
 
 #main-page-splash {
 	width:960px;
-	height:593px;
+	height:420px;
 	position:relative;
 	background:#444;
 	border:0;

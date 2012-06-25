@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic);
 
 body, html {
 	width:100%;
@@ -12,8 +13,10 @@ body {
 
 img, a { outline:none; border:0 }
 h1, h2, h3, h4 {
-	font-family: "Droid Sans", "Arial", "Helvetica", sans-serif;
-	letter-spacing:-.09em;
+	font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+	font-weight:normal;
+	font-style:italic;
+	letter-spacing:-0.02em;
 }
 
 h1 { margin:0; 

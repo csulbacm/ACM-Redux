@@ -5,7 +5,7 @@
 
     <div class="main-content container_12">
     	<div class="grid_6">
-    		<?php echo includePart("index", "column_1");  ?>
+    		<?php echo includePart("index", "feed");  ?>
     	</div>
     	
     	<div class="grid_3">
