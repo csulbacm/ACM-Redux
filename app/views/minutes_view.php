@@ -5,9 +5,11 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
 ?>
 
 <?php includePart("base", "documentTop");?>
-
 <?php includePart("base", "header");?>
 <?php includePart("base", "breadcrumb");?>
+
+<?php $minutes =  rx_getData('minutes-content'); ?>
+<?php $sidebar =  rx_getData('sidebar-content'); ?>
 
 <div class="main-content container_12">
     <div class="grid_12">
@@ -20,12 +22,32 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
             <li>
                 <a href="<?php echo $document['url'];?>"> <?php echo $document['name'];?></a>
             </li>
-            <?php endforeach?>
+            <?php endforeach ?>
         </ul>
+        
+        <?php if(isset($sidebar)): ?>
+            <ul>
+            <?php foreach ($sidebar as $officerType): ?>
+                <?php if(count($officerType["officers"]) > 0): ?>
+                <li>
+                        <?php echo $officerType["type"]; ?>
+                        <ol>
+                            <?php foreach ($officerType["officers"] as $officer): ?>
+                                <li>
+                                    <strong><?php echo $officer["name"];  ?></strong> <br/>
+                                    <?php echo $officer["position"];  ?> <br/>
+                                </li>
+                            <?php endforeach ?>
+                        </ol>
+                </li>
+                <?php endif ?>
+            <?php endforeach ?> 
+            </ul>
+        <?php endif ?>       
     </div>
     <div class="grid_9">
     
-    <?php $minutes =  rx_getData('minutes-content'); ?>
+    
     <?php if ($minutes != ''): ?>
         <?php echo $minutes; ?>
         <?php else: ?>
@@ -34,7 +56,7 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
     </div>
 </div>
 
-<?php if ($minutes != ''): ?>
+<?php if ($minutes != '' && !isset($sidebar)): ?>
     <script type="text/javascript">
         (function() {
             var $col = document.getElementById('column_1');
@@ -50,7 +72,6 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
                 x.innerHTML += "<h2>Officers</h2>" + $col.innerHTML;
             }
         })();
-        
     </script>
 <?php endif ?>
 <?php includePart("base", "documentBottom");?>

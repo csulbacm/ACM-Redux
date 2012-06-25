@@ -1,19 +1,19 @@
 1. Call to Order
 	1. Roll Call
 		1. Administrative Cabinet
-			1. President Nathan Pickrell: **Present** 
-			1. Vice-President Frank Lima: **Present** 
-			2. Treasurer Andrew Meredith: **Not Present** 
-			1. Secretary David Nuon: **Present**  
+			1. President - Nathan Pickrell: **Present** 
+			1. Vice-President - Frank Lima: **Present** 
+			2. Treasurer - Andrew Meredith: **Not Present** 
+			1. Secretary - David Nuon: **Present**  
 		1. Appointed Positions
-			1. AESB Representative Diana Ignacio: **Present** 
-			1. Publicity and Recruitment Chair Salvador Llamas: **Present** 
-			1. Market Manager James Coolidge: **Present** 
-			1. Membership Chair Donald Herman: **Present** 
-			1. Webmaster Ian Goegebuer: **Present** 
-			1. Office Technician Shane Satterfield: **Present** 
-			1. Historian Orion Sakorn: **Present** 
-			1. Librarian Anthony Gialcalone: **Not Present** 
+			1. AESB Representative - Diana Ignacio: **Present** 
+			1. Publicity and Recruitment Chair - Salvador Llamas: **Present** 
+			1. Market Manager - James Coolidge: **Present** 
+			1. Membership Chair - Donald Herman: **Present** 
+			1. Webmaster - Ian Goegebuer: **Present** 
+			1. Office Technician - Shane Satterfield: **Present** 
+			1. Historian - Orion Sakorn: **Present** 
+			1. Librarian - Anthony Gialcalone: **Not Present** 
 		1. Project Managers
 			1. Socie-D - Ben Chang: **Not Present**
 			1. Women In Computing - Ariana Aguirre: **Present**, came in 1:02pm

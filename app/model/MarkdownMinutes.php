@@ -74,7 +74,7 @@ class MarkdownMinutes {
                        // Officers will be in a list that is in an array
                        // along with the officer type
                        array_push($sidebarArray, array(
-                            "name" => $currentHeader,
+                            "type" => $currentHeader,
                             "officers" => array()
                        ));
 					}
