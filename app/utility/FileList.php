@@ -4,22 +4,22 @@
  * \class FileList
  * \brief Class for handling files
  * \author David Nuon <david@davidnuon.com>
- * 
+ *
  */
 
 namespace Utility;
 
 class FileList {
 
-    protected $files  = array();
-    protected $dir    = array();
-    
+    protected $files = array();
+    protected $dir = array();
+
     protected $filesRelative = array();
-    protected $dirRelative   = array();
-    
-    protected $allObjects    = array();
-    protected $root          = '';
-    public    $valid         = false;
+    protected $dirRelative = array();
+
+    protected $allObjects = array();
+    protected $root = '';
+    public $valid = false;
 
     function __construct($dir) {
         if (is_dir($dir)) {
@@ -29,15 +29,15 @@ class FileList {
             foreach ($this->allObjects as $object) {
                 if (!stringBeginsWith($object, '.')) {
                     if (is_dir($dir . '/' . $object)) {
-                        $this->dir[] = $dir . '/' . $object;
-                        $this->dirRelative[] = $object;
+                        $this -> dir[] = $dir . '/' . $object;
+                        $this -> dirRelative[] = $object;
                     } else {
-                        $this->files[] = $dir . '/' . $object;
-                        $this->filesRelative[] = $object;
+                        $this -> files[] = $dir . '/' . $object;
+                        $this -> filesRelative[] = $object;
                     }
                 }
             }
-            $this->valid = true;
+            $this -> valid = true;
         }
     }
 
@@ -48,7 +48,7 @@ class FileList {
      */
 
     function hasFile($inputFile) {
-        return file_exists($this->root . '/' . $inputFile);
+        return file_exists($this -> root . '/' . $inputFile);
     }
 
     /*!
@@ -58,7 +58,7 @@ class FileList {
      */
 
     function hasDir($inputDir) {
-        return is_dir($this->root . '/' . $inputDir);
+        return is_dir($this -> root . '/' . $inputDir);
     }
 
     /*!
@@ -75,15 +75,15 @@ class FileList {
 
     /*
      * 	Returns a list of directories.
-     *      \param $relative boolean 
+     *      \param $relative boolean
      * 		\return array
      */
 
     function getDirList($relative = false) {
-        if($relative) {
-            return $this->dirRelative;
+        if ($relative) {
+            return $this -> dirRelative;
         } else {
-            return $this->dir;
+            return $this -> dir;
         }
     }
 
@@ -94,10 +94,10 @@ class FileList {
      */
 
     function getFileList($relative = false) {
-        if($relative) {
-            return $this->filesRelative;
+        if ($relative) {
+            return $this -> filesRelative;
         } else {
-            return $this->files;
+            return $this -> files;
         }
     }
 
@@ -107,22 +107,22 @@ class FileList {
      */
 
     function getAll() {
-        return $this->allObjects;
+        return $this -> allObjects;
     }
-
 
     /*!
-     * 	Returns the contents of a file as a stirng if it exits 
+     * 	Returns the contents of a file as a stirng if it exits
      * 		\return mixed
-     */	
-     
+     */
+
     function getFileContent($file) {
-    	$output = false;
-		
-		if($this->hasFIle($file)) {
-			$output = implode("", file($this -> root . '/' . $file)); 	
-		}
-		
-		return $output;
+        $output = false;
+
+        if ($this -> hasFIle($file)) {
+            $output = implode("", file($this -> root . '/' . $file));
+        }
+
+        return $output;
     }
+
 }
