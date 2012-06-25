@@ -8,7 +8,7 @@
     <?php includePart("base", "header"); ?>
     <?php includePart("mission", "splash"); ?>
     
-    <div class="main-content">     
+    <div class="main-content container_12">     
         <div class="grid_6">
         	<h2>Our Goal</h2>
 <p>Our goal here at the ACM is to advance the science and application of information technology by providing students with real world information through guest speakers, workshops, seminars, projects, and other activities. Information about job trends, internships, and scholarships is always updated to help students take a stand in their future career.</p>

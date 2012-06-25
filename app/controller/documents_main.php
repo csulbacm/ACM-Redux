@@ -14,9 +14,7 @@ class DocumentMain {
         if ($viewData -> getType() === 'documents') {
             $minutes            = new FileList(FILEROOT . '/static/data/minutes/');
             $minutesList        = $minutes->getDirList();
-            
             $charters           = new FileList(FILEROOT . '/static/data/charters/project/');
-            
             
             // Map all charters with a web url
             $projectCharters    = array_map(function($e) {

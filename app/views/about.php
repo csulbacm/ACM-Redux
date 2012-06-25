@@ -29,7 +29,7 @@
     </div>
 
     
-    <div class="main-content">
+    <div class="main-content container_12">
     <div class="grid_12"><h2><?php echo $viewingYear; ?> Administration</h2></div>
         <?php echo $admin; ?>
         <div class="grid_12" 

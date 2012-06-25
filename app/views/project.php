@@ -6,7 +6,7 @@
 <?php includePart("base", "header"); ?>
 <?php includePart("project", "splash"); ?>
     
-<div class="main-content">
+<div class="main-content container_12">
     <?php // Main Prorject loop ?>
     <?php $currentProjects = rx_getData('current-projects'); ?>        
     <?php foreach($currentProjects as $project): ?>

@@ -107,7 +107,22 @@ class FileList {
      */
 
     function getAll() {
-        return $this -> allObjects;
+        return $this->allObjects;
     }
 
+
+    /*!
+     * 	Returns the contents of a file as a stirng if it exits 
+     * 		\return mixed
+     */	
+     
+    function getFileContent($file) {
+    	$output = false;
+		
+		if($this->hasFIle($file)) {
+			$output = implode("", file($this -> root . '/' . $file)); 	
+		}
+		
+		return $output;
+    }
 }

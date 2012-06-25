@@ -10,7 +10,7 @@
     <?php includePart("base", "header"); ?>
     <?php includePart("documents", "splash"); ?>
     
-    <div class="main-content">
+    <div class="main-content container_12">
         <div class="grid_6">
             <h2>Meeting Minutes</h2>
             <ul class="document-listing">

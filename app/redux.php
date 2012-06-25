@@ -29,9 +29,8 @@ $classMap = array(    'project' => array('Projects', function ($pageData, $view
     }),   
     'alumni-view' => array('', function ($pageData, $viewData) {
         $viewData->setType('alumni-view');
-        $page = new \Controller\Pages\AlumniView($pageData, $viewData);        $pageData->setView('alumni_view');
-    }),
+        $page = new \Controller\Pages\AlumniView($pageData, $viewData);        $pageData->setView('alumni_view');
+    }),    	'new-minutes-test' => array('', function ($pageData, $viewData) {		$viewData->setType('new-minutes-test');        $page = new \Controller\Pages\MinutesTestPage($pageData, $viewData);		$pageData->setView('raw_text');	}),
 );
-
-$pageData = new \Controller\Page();
+$pageData = new \Controller\Page();
 $viewData = new \Controller\ViewData();

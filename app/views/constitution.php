@@ -15,7 +15,7 @@
     
     <?php includePart("constitution", "splash"); ?>
     
-    <div class="main-content">
+    <div class="main-content container_12">
         <div class="grid_12">
             <div id="const" class="doc">
                 <?php includePart("constitution", "constitution"); ?>

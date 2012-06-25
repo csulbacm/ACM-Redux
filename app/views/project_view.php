@@ -12,7 +12,7 @@
    <?php includePart('base', 'breadcrumb'); ?>
    <?php includePart('project_view', 'splash'); ?>
 
-    <div class="main-content">
+    <div class="main-content container_12">
         <div class="project-properties project-status-active">
             <span class="project-status-title">
                 <?php echo $currentProject->getStatus(); ?> 

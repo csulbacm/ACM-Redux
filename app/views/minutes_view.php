@@ -9,7 +9,7 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
 <?php includePart("base", "header");?>
 <?php includePart("base", "breadcrumb");?>
 
-<div class="main-content">
+<div class="main-content container_12">
     <div class="grid_12">
         <h2>Viewing Minutes for <?php echo $dateName;?></h2>
     </div>
