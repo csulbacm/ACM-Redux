@@ -30,7 +30,7 @@ $classMap = array(    'project' => array('Projects', function ($pageData, $view
     'alumni-view' => array('', function ($pageData, $viewData) {
         $viewData->setType('alumni-view');
         $page = new \Controller\Pages\AlumniView($pageData, $viewData);        $pageData->setView('alumni_view');
-    }),    	'new-minutes-test' => array('', function ($pageData, $viewData) {		$viewData->setType('new-minutes-test');        $page = new \Controller\Pages\MinutesTestPage($pageData, $viewData);		$pageData->setView('raw_text');	}),
+    }),        'page' => array('', function ($pageData, $viewData) {        $viewData->setType('press-page-view');        $page = new \Controller\Pages\PressPageViewer($pageData, $viewData);        $pageData->setView('page');    }),    	'new-minutes-test' => array('', function ($pageData, $viewData) {		$viewData->setType('new-minutes-test');        $page = new \Controller\Pages\MinutesTestPage($pageData, $viewData);		$pageData->setView('raw_text');	}),
 );
 $pageData = new \Controller\Page();
 $viewData = new \Controller\ViewData();
