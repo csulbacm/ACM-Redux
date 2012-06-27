@@ -41,7 +41,7 @@ h1 a{
 }
 
 #nav {
-	background:#222222;
+    background:url(../img/navi.png) top center repeat-x #222;
 	width:960px !important;
 	height:30px;
 	margin:10px 0 0 0;
@@ -68,12 +68,15 @@ h1 a{
 	padding:4px 15px;
 	display:block;
 	text-decoration:none;
+	
+	border-width:1px;
+	border-color:#222;
+	border-style:solid;
 }
 #nav ul li a:hover,
 #nav ul li.select a {
-	box-shadow:rgba(0,0,0,.3) 0px 3px 5px inset;
-	background:#002A00;
-	background:rgba(0,0,0,.5);
+    border-color:#333;
+    background:url(../img/navi_over.png) top center repeat-x #222;
 }
 
 /* Breadcrumb */
@@ -169,10 +172,8 @@ h1 a{
     width:960px;
     float:left;
     position:relative;
-    border-bottom:#4889D2 5px solid;
     border-bottom-right-radius:3px;
     border-bottom-left-radius:3px;
-    background:#333;
 }
 
 #main-page-splash h2,
