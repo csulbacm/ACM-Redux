@@ -27,7 +27,7 @@ class PressPageViewer {
                 } else {
                     $pressPage = new PressPage($directory->getFileContent($filename));
                     $viewData->setData('content', $pressPage->getHTML());
-                    $viewData->set_data('title', $pressPage->getHTML());
+                    $viewData->setData('title', $pressPage->getHTML());
 
                 }
             }
