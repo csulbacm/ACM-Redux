@@ -11,8 +11,7 @@ namespace Models\Documents;
 include_once(dirname(dirname(__FILE__)) . '/utility/markdown.php');
 
 class PressPage {
-    protected $markdown = '';
-    
+    protected $markdown = '';    
     protected $title    = '';
     protected $date     = '';
     protected $HTML     = '';
