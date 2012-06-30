@@ -120,7 +120,8 @@ h1 a{
     margin:20px 0 0 0;
     border-radius:2px;
     padding:10px 0 0 0;
-    color:#ccc;
+    color:#333;
+    background:url(../img/index-module-bg.png) top center repeat-x #eee; 
 }
 /* footer */
 #footer {
@@ -137,28 +138,34 @@ h1 a{
     width:960px;
 }
 
-.index-module {
+.content-module {
+    margin-bottom:10px;
+
     background:url(../img/index-module-bg.png) top center repeat-x #eee; 
     color:#333;
     border-radius:5px;
-    box-shadow:rgba(0,0,0,.4) 0px 3px 6px;
+    box-shadow:rgba(0,0,0,.4) 0px 1px 4px;
 
 }
 
-.index-module p {
+.content-module p {
     padding:0px 10px 5px 10px;
 }
 
-.index-module h2 {
+.content-module h2,
+.content-module h3 {
     color:#fff;
     padding:5px 10px;
     margin:0;
     background:url(../img/index-module-h2.png) top center repeat-x; 
     font-weight:normal;
     font-size:16px;
-    border-top-left-radius:5px;
-    border-top-left-radius:5px;
+}
 
+.content-module h2:first-child,
+.content-module h3:first-child {
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
 }
 
 .button {
@@ -187,8 +194,6 @@ h1 a{
     width:960px;
     float:left;
     position:relative;
-    box-shadow:rgba(0,0,0,.4) 0px 4px 6px;
-    border-bottom:1px #333 solid !important;
 }
 
 #main-page-splash h2,

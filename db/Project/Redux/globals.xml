@@ -3,29 +3,27 @@
 	<members type="array">#Ian#David</members>
 	<projectname type="text">The ACM Redux</projectname>
 	<about type="text"><![CDATA[
-				<p><strong>What is ACM Redux?</strong> ACM Redux is the rejuvenation of the ACM website after it went down. 
-				The website employs new, hand coded, systems from the layout to the database. 
-				The systems employed are created to make a highly expandable, user friendly system.</p>
-		       <h3>PHP DataBase Daemon - PHPDBD</h3>
-		<p>The database employed is named PHPDBD. It is a PHP driven XML data storage system. That is to day, the data is stored in XML files. 
-		The data is read and written by the PHPDB system. The reasoning for this system is to creat a highly portable database.  Transportation 
-		of the database is as simple as compying files over. This allows moving from server to server much easier. Future iterations of the database 
-		will be plug-in friendly.
-		</p>
-		<h3>ReduxFrameworks</h3>
-		<p>The ReduxFrameworks is the front end of the website. It is a sleek, progressive layout. The look is clean, simple and user friendly. 
-		The layout is of an object oriented design. This allows for easy replacement and expansion when it is needed. The layout allows for 
-		ease of future use. The layout was designed with the future of ACM in mind. </p>
-		
+
+<p>	
+The acm@thebeach website, the acm redux as we like to call it, has been well received among student members and faculty members. During initial discussion about the site, we had one goal in mind, and that was to present what we do in the clearest way possible. This philosophy reflects in the design of our site, where the content is being supported by the design on the site, not obstructed by it. Our goal was realized by creating new and efficient content display and management systems. That is, to reach this goal we created PHP object driven theming and database systems.
+</p><p>
+The two things that we focus on is projects and people. In the <a href="http://csulb.acm.org/project">Projects section</a> of our website all of our past projects are enumerated and each project has its own page where the managers can talk more about what they have done. Both finished and ongoing projects are displayed on this page. This allows new projects to see what others have done and figure out what is left to be done.
+</p><p>
+In the <a href="http://csulb.acm.org/alumni">Alumni section</a> of the website , you will see a list of notable people that have been from the ACM and their biographies. This allows new members to see who has been in the club and what they have done. This is done comto promote progress and give new members a drive and a goal to reach.
+</p><p>
+Our website has been built from the ground up, from scratch, in order to meet the unique needs of our organization. While designing the software for the site, we kept in mind the need for portability, as in, making database and site migration much easier by removing the need to export and backup a MySQL database, thus creating a more efficient process of migration, backup and management. To meet this need, we wrote a text-based database system in order to manage our content. During the development process we used Doxygen to document our code to produce a reference for our developers, future members and other ACM chapters interested in the inner workings of our website and database.
+</p><p>
+The goal was to make a beautiful and sophisticated website. The website is a very eye pleasing website. The inner workings of the website is also beautiful to engineers. With a sophisticated front end and an advanced back end, we do believe our website is pushing the boundaries of web design.
+</p>
 	]]></about>
 	
 	<abstract type="text"><![CDATA[
-	<p>The ACM Redux project, started by David Nuon and Ian Goegebuer, is the reinventing of the ACM website. The goal of this project was to create a content driven modern website with new backbone architecture. <br>
-	The front end and skinning design is the work of David Nuon. David created a website not unlike a program. His system involves many objects working efficiently together. The system is strong, efficient and expandable.<br>
-	The backend of the website is a new PHP driven XML database system. The database is made to be easily moved, replaced and backed up. The database files are easily accessible through the file-system, allowing the user to move data efficiently.
-	</p>	
+	<p>According to wicktionary, <em>redux</em> means "Of a topic, redone, restored, brought back, or revisited."</p>	
+	<p>Ian Goegebuer and David Nuon took it upon themselves to give computing at the beach a fresh new coat of paint. </p>
+	<p>Browse through the site, you'll see the results of their work.</p>
 	]]></abstract>
 	<header type="url">/assets/img/project_sample.png</header>
 	<catch type="text">Giving computing at the Beach a fresh coat of paint.</catch>
-	<status type="int">0</status>
+	<status type="int">3</status>
+	<charterurl type="text">ACMReduxProjectCharter.doc</charterurl>
 </globals>

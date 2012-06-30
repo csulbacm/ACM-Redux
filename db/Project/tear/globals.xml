@@ -15,4 +15,5 @@
 	<header type="url">/assets/img/project_sample.png</header>
 	<catch type="text">It's a cat!</catch>
 	<status type="int">2</status>
+	<charterurl type="text">closed/TEAR Project Charter.pdf</charterurl>
 </globals>

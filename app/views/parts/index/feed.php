@@ -1,4 +1,4 @@
-<div class="index-module">
+<div class="content-module">
     <h2>The Feed</h2>
     
 <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fcsulbacm&amp;width=460&amp;height=900&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=false" 

@@ -7,12 +7,19 @@
 	text-align: center;
 }
 
+
+.main-content {
+	background:none;
+}
+
 #main-page-splash {
 	width:960px;
 	height:320px;
 	position:relative;
 	background:#444;
 	border:0;
+    box-shadow:rgba(0,0,0,.4) 0px 4px 6px;
+    border-bottom:1px #333 solid !important;
 }
 
 /* Event */

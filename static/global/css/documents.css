@@ -1,16 +1,26 @@
 body {
-    background: url(../img/documents.jpg) top center no-repeat #1c200f;
+    background: url(../img/index-module-bg.png) top center no-repeat #1c200f;
+    background:#eee;
 }
+
 h1 {
-    background:url(../img/logo.png);
+    background:url(../img/logo_white.png);
 }
+
 #main-page-splash {
     background: none;
     border:0;
 }
-#main-page-splash h2 {
+#main-page-splash h2,
+#main-page-splash h3  {
     text-shadow: rgba(0,0,0,.4) 0px 0px 15px;
+    color:#333;
 }
+
+.main-content {
+    background:none;
+}
+
 .document-listing {
     padding:0;
     margin:0;
@@ -28,7 +38,14 @@ h1 {
     text-decoration: none; 
     color:#333;
 }
+
+.document-listing li:last-child a {
+    border-bottom:none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 .document-listing li a:hover {
     background: #333;
     color: #fff;
+    background: url(../img/list-highlight.png) top center repeat-x;
 }

@@ -5,6 +5,9 @@ body {
     background: none;
     border:0;
 }
+.main-content {
+    background:none;
+}
 #main-page-splash h2,
 #main-page-splash h3 {
     color:#333;

@@ -1,6 +1,7 @@
 .main-content {
     min-height:100px;
     padding:10px 0 0 0;
+    background:none;
 }
 .person {
     position: relative;

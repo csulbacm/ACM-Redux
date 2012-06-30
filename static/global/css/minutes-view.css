@@ -1,13 +1,48 @@
-@import url("documents.css");
-
-.grid_9 #header,
-.main-content #footer {
-    display: none;
-}
-#column_1 {
-    display:none;
-}
-
-#column_2 {
-    font-size:12px;
-}
+@import url("documents.css");
+
+.grid_9 #header,
+.main-content #footer {
+    display: none;
+}
+
+#column_1 {
+    display:none;
+}
+
+#column_2 {
+    font-size:12px;
+}
+
+/* Minutes Content */
+
+.minutes-content ol {
+	padding:0;
+	margin:0;
+}
+
+.minutes-content ol li { 
+	list-style-type: upper-roman;
+	font-weight: bold;
+	text-transform:uppercase; 
+	background: #222;
+	color:#fff;
+	padding:3px 10px;
+}
+.minutes-content ol li ol li { 
+	list-style-type: lower-alpha;
+	font-weight:normal; 
+	text-transform:none;
+	background:#333;
+	color:#fff;
+	padding:1px 35px;
+	margin:0 -10px;
+}
+.minutes-content ol li ol li ol li { 
+	list-style-type:lower-roman; 
+	text-transform:none;
+	background:#fff;
+	color:#333;
+	margin:0 -35px;
+}
+.minutes-content ol li ol li ol li ol li { list-style-type: square; text-transform:none;}
+.minutes-content ol li ol li ol li ol li ol li { list-style-type:lower-alpha; text-transform:none;}

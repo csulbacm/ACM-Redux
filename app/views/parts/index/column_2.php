@@ -1,4 +1,4 @@
-<div class="index-module">
+<div class="content-module">
     <h2>Latest Minutes</h2>
     
 <p>
@@ -11,7 +11,7 @@ globe&rsquo;s largest computer science society. Here at the Long Beach chapter,
 </div>
       
       
-<div class="index-module">
+<div class="content-module">
     <h2>Press</h2>
     <p>
 The Association for Computing Machinery is an active branch of the 
@@ -22,7 +22,7 @@ globe&rsquo;s largest computer science society. Here at the Long Beach chapter,
  	 technologies of the computing age.</p>
 </div>
 
-<div class="index-module">
+<div class="content-module">
     <h2>Photos</h2>
     <p>
 The Association for Computing Machinery is an active branch of the 

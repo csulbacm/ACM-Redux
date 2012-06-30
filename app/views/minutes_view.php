@@ -12,10 +12,7 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
 <?php $sidebar = rx_getData('sidebar-content'); ?>
 
 <div class="main-content container_12">
-    <div class="grid_12">
-        <h2>Viewing Minutes for <?php echo $dateName; ?></h2>
-    </div>
-    <div class="grid_3" id="func">
+    <div class="grid_3 content-module" id="func">
         <h3>Meeting Documents</h3>
         <ul class="document-listing">
             <?php foreach ($meetingDocument as $document): ?>
@@ -26,6 +23,7 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
         </ul>
         
         <?php if(isset($sidebar)): ?>
+            <h3>Officers</h3>
             <ul>
             <?php foreach ($sidebar as $officerType): ?>
                 <?php if(count($officerType["officers"]) > 0): ?>
@@ -45,10 +43,10 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
             </ul>
         <?php endif ?>       
     </div>
-    <div class="grid_9">
-    
-    
+
+    <div class="grid_9 content-module minutes-content">
     <?php if ($minutes != ''): ?>
+        <h2>Viewing Minutes for <?php echo $dateName; ?></h2>
         <?php echo $minutes; ?>
         <?php else: ?>
             <h3>(No minutes preview available.)</h3>

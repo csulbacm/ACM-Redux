@@ -1,0 +1,19 @@
+<?xml version ="1.0"?> 
+<globals>
+	<members type="array">#Karan Bhandari#Jarrod Dickerson#Said Farivar#Vipul Chopra#Varun Chopra#Michael Anderson</members>
+	<projectname type="text">Kurtzacepage</projectname>
+	<about type="text"><![CDATA[
+<iframe width="640" height="480" src="http://www.youtube.com/embed/NNNN7ykIgZ0" frameborder="0" allowfullscreen></iframe>
+    
+	]]></about>
+	
+	<abstract type="text"><![CDATA[
+	<p>Kurtzac ePage is a mobile application that assists you to create augmented HTML listings for eBay, Craiglist, WordPress, Blogger and HTML compliant applications. This augmented HTML listing contains a plethora of content like text, video, file and images.</p> 
+    <p>The generated output can be pasted to other HTML inject worthy mobile and web applications. You don’t have to type HTML in your smartphone. Interact with Kurt (the chimp) within the application and revitalize your mobile content for blogs and selling platforms.</p>
+    <p><a href="http://kurtzacepage.kurtzace.com/">Site URL</a></p>	
+	]]></abstract>
+	<header type="url">/assets/img/project_sample.png</header>
+	<catch type="text">Augmenting Ebay</catch>
+	<status type="int">2</status>
+
+</globals>
