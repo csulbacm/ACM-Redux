@@ -40,9 +40,26 @@
 .minutes-content ol li ol li ol li { 
 	list-style-type:lower-roman; 
 	text-transform:none;
-	background:#fff;
-	color:#333;
+	background:#555;
+	color:#fff;
 	margin:0 -35px;
 }
-.minutes-content ol li ol li ol li ol li { list-style-type: square; text-transform:none;}
-.minutes-content ol li ol li ol li ol li ol li { list-style-type:lower-alpha; text-transform:none;}
+
+.minutes-content ol li ol li ol li ol li { 
+	list-style-type: none; 
+	text-transform:none;
+	margin:0 5px;
+	background:#fff;
+	color:#333;
+	margin:0 -35px 0 -35px;
+}
+
+.minutes-content ol li ol li ol li ol li ol li { 
+	list-style-type:lower-alpha; 
+	text-transform:none;
+	font-weight: bold;
+}
+
+.minutes-content ol li ol li ol li ol li ol li ol li { 
+	font-weight: normal;
+}
