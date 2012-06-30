@@ -1,0 +1,28 @@
+{
+	"pages" : 
+	[
+		{ 
+			"slug" : "project",
+			"view" : "project",
+			"controller" : "project"
+		},
+
+		{ 
+			"slug" : "documents",
+			"view" : "documents",
+			"controller" : "documents"
+		},
+
+		{ 
+			"slug" : "about",
+			"view" : "about",
+			"controller" : "about"
+		},
+
+		{ 
+			"slug" : "alumni",
+			"view" : "alumni",
+			"controller" : "alumni"
+		}
+	]
+}

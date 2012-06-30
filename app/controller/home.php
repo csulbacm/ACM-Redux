@@ -7,7 +7,9 @@
 
 namespace Controller\Pages;
 
-class Index {
+use Controller\BaseController as BaseController;
+
+class Index extends BaseController {
     function __construct($pageData, $viewData) {
         if($viewData->getType() === 'index') {
 

@@ -9,7 +9,7 @@ body, html {
 
 body {
 	font-family: "Droid Sans", "Arial", "Helvetica", sans-serif;
-	background:url(../img/bg.png) top center repeat-x #222;
+	background:url(../img/bg.png) top center no-repeat #222;
 }
 
 img, a { outline:none; border:0 }
@@ -117,11 +117,9 @@ h1 a{
 .main-content {
     float:left;
     margin:20px 0 0 0;
-    background:#fff;
     border-radius:2px;
     padding:10px 0 0 0;
     color:#ccc;
-    background:#555;
 }
 /* footer */
 #footer {
@@ -137,13 +135,27 @@ h1 a{
     margin:20px auto 0 auto;
     width:960px;
 }
-.col-post {
+
+.index-module {
+    background:#eee;
+    color:#333;
+    border-radius:5px;
+}
+
+.index-module p {
+    padding:0px 10px 5px 10px;
+}
+
+.index-module h2 {
     color:#fff;
-    padding:5px;
+    padding:5px 10px;
     margin:0;
-    background:#333;
+    background:url(../img/index-module-h2.png) top center repeat-x; 
     font-weight:normal;
     font-size:16px;
+    border-top-left-radius:5px;
+    border-top-left-radius:5px;
+
 }
 
 .button {
@@ -172,8 +184,6 @@ h1 a{
     width:960px;
     float:left;
     position:relative;
-    border-bottom-right-radius:3px;
-    border-bottom-left-radius:3px;
 }
 
 #main-page-splash h2,
@@ -192,5 +202,6 @@ h1 a{
 #address_content {
     color:#fff;
     font-size:12px;
-    margin:10px;
+    margin:10px;
+
 }
