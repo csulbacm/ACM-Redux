@@ -1,4 +1,5 @@
 /* Project Splash */
+
 .project-splash {
     height:400px;
     background:none !important;
@@ -8,4 +9,65 @@
     position:absolute;
     bottom:0;
     left:0px;
+}
+
+/* Main Content */
+
+.main-content {
+	background:none;
+}
+
+/* Basic Styles */
+
+.project-properties {
+	background:#333;
+}
+
+.project-status-active {
+	background:red;
+	float:left;
+	width:950px;
+	margin:0 10px;
+}
+
+.project-status-title {
+	color:#fff;
+	font-weight:bold;
+	font-size:25px;
+	margin:5px 0 0 0;
+	display:inline-block;
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+.project-details {
+	min-height:500px;
+	margin:0px;
+	width:640px;
+	float:right;
+}
+.col-post {
+	border-bottom-color:#fff;
+}
+.project-info .content-module ul {
+	padding-bottom:15px;
+}
+
+.project-details p {
+	margin:15px 10px;
+	font-size:12px;
+	line-height:20px;
+	float:left;
+}
+
+.project-info {
+	width:320px;
+	float:left;
+}
+
+.project-details iframe{
+	display: block;
+	padding:0;
+	margin:0;
+	float:left;
 }

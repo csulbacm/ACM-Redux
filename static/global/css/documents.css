@@ -1,10 +1,6 @@
-body {
-    background: url(../img/index-module-bg.png) top center no-repeat #1c200f;
-    background:#eee;
-}
 
 h1 {
-    background:url(../img/logo_white.png);
+    background:url(../img/logo.png);
 }
 
 #main-page-splash {
@@ -14,7 +10,7 @@ h1 {
 #main-page-splash h2,
 #main-page-splash h3  {
     text-shadow: rgba(0,0,0,.4) 0px 0px 15px;
-    color:#333;
+    color:#fff;
 }
 
 .main-content {
