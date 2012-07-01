@@ -152,6 +152,8 @@ h1 a{
     width:960px;
 }
 
+/* Content Module */
+
 .content-module {
     margin-bottom:20px;
     background:url(../img/index-module-bg.png) top center repeat-x #fff; 
@@ -174,17 +176,42 @@ h1 a{
     font-size:16px;
 }
 
+.content-module .label  {
+    font-family: "Droid Sans", sans-serif;
+    font-style: normal;
+    font-size:14px;
+
+    display:block;
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+
+.content-module .label.quote {
+    font-style: italic;
+    font-family: "Georgia", serif;
+    border-bottom:1px solid #ddd;
+}
+
+.content-module .label.link {
+    color: #333;
+    border-bottom:1px solid #aaa;
+}
+
+
+/* Base Buttons */
+
 .button {
     background:#4889D2;
     color:#fff;
     font-weight:bold;
     border-radius:2px;
     text-decoration:none;
-    padding:3px 10px;
     display:inline-block;
-    margin:15px 10px 15px 0;
     font-size:14px;
     box-shadow:rgba(0,0,0,.7) 0px 1px 0px;
+
+    margin:2px;
+    padding:3px 10px;
 }
 .button:hover {
     box-shadow:rgba(0,0,0,.4) 0px -1px 0px;

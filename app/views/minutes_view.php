@@ -12,17 +12,11 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
 <?php $sidebar = rx_getData('sidebar-content'); ?>
 
 <div class="main-content container_12">
-    <div class="grid_3 content-module" id="func">
-        <h3>Meeting Documents</h3>
-        <ul class="document-listing">
-            <?php foreach ($meetingDocument as $document): ?>
-            <li>
-                <a href="<?php echo $document['url']; ?>"> <?php echo $document['name']; ?></a>
-            </li>
-            <?php endforeach ?>
-        </ul>
+    <div class="grid_3">
         
+        <?php // Sidebar ?>
         <?php if(isset($sidebar)): ?>
+        <div class="content-module">
             <h3>Officers</h3>
             <ul id="sidebar">
             <?php foreach ($sidebar as $officerType): ?>
@@ -41,7 +35,26 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
                 <?php endif ?>
             <?php endforeach ?> 
             </ul>
-        <?php endif ?>       
+        </div>
+        <?php endif ?>
+        
+        <?php // Meeting Documents ?>
+        <div class="content-module">
+            <h3>Meeting Documents</h3>
+            <ul class="document-listing">
+                <?php foreach ($meetingDocument as $document): ?>
+                <li>
+                    <a href="<?php echo $document['url']; ?>"> <?php echo $document['name']; ?></a>
+                </li>
+                <?php endforeach ?>
+            </ul>
+        </div>
+
+        <?php if(!isset($sidebar)): ?>
+        <div class="content-module" id="func">
+        </div>
+        <?php endif ?>
+
     </div>
 
     <div class="grid_9 content-module minutes-content">

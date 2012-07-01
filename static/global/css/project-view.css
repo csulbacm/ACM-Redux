@@ -53,11 +53,11 @@
 	padding-bottom:15px;
 }
 
+
 .project-details p {
 	margin:15px 10px;
 	font-size:12px;
 	line-height:20px;
-	float:left;
 }
 
 .project-info {
@@ -66,8 +66,8 @@
 }
 
 .project-details iframe{
-	display: block;
+	display: inline-block;
 	padding:0;
-	margin:0;
+	margin:0 0 15px 0;
 	float:left;
 }

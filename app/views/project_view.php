@@ -13,12 +13,6 @@
    <?php includePart('project_view', 'splash'); ?>
 
     <div class="main-content container_12">
-        <div class="project-properties project-status-active">
-            <span class="project-status-title">
-                <?php echo $currentProject->getStatus(); ?> 
-            </span>
-            <span class="button big-button" style="float:right;">View Project Charter</span>
-        </div>
 	    <?php includePart('project_view', 'project_info'); ?>
 	    <?php includePart('project_view', 'project_details'); ?>
     </div>
