@@ -24,7 +24,7 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
         
         <?php if(isset($sidebar)): ?>
             <h3>Officers</h3>
-            <ul>
+            <ul id="sidebar">
             <?php foreach ($sidebar as $officerType): ?>
                 <?php if(count($officerType["officers"]) > 0): ?>
                 <li>
@@ -32,8 +32,8 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
                         <ol>
                             <?php foreach ($officerType["officers"] as $officer): ?>
                                 <li>
-                                    <strong><?php echo $officer["name"]; ?></strong> <br/>
-                                    <?php echo $officer["position"]; ?> <br/>
+                                    <span class="position"><?php echo $officer["position"]; ?></span>
+                                    <span class="name"><?php echo $officer["name"]; ?></span>
                                 </li>
                             <?php endforeach ?>
                         </ol>
@@ -46,7 +46,7 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
 
     <div class="grid_9 content-module minutes-content">
     <?php if ($minutes != ''): ?>
-        <h2>Viewing Minutes for <?php echo $dateName; ?></h2>
+        <h2>Minutes for <?php echo $dateName; ?></h2>
         <?php echo $minutes; ?>
         <?php else: ?>
             <h3>(No minutes preview available.)</h3>
@@ -71,5 +71,20 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
             }
         })();
     </script>
+<?php else: ?>
+    <?php if (isset($sidebar)): ?>
+    <script type="text/javascript">
+        (function () {
+            var $subheaders = $(".minutes-content ol li ol li");
+            var len = $subheaders.length;
+
+            while(len--) {
+                var text = $subheaders[len].childNodes[0];
+                console.log(text);
+                $subheaders[len].childNodes[0].nodeContent = "2323ajhdopjsp2";
+            }
+        })();
+    </script>
+    <?php endif?>
 <?php endif ?>
 <?php includePart("base", "documentBottom"); ?>

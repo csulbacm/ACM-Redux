@@ -44,8 +44,11 @@ h1 a{
     background:url(../img/navi.png) top center repeat-x #222;
 	width:960px !important;
 	height:30px;
-	margin:10px 0 0 0;
 	float:left;
+
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    margin:10px 0 0 0;
 }
 #nav ul {
 	margin:0 0 0 0;
@@ -69,11 +72,22 @@ h1 a{
 	padding:4px 15px;
 	display:block;
 	text-decoration:none;
-	
-	border-width:1px;
+
+	border-width:0px 1px;
 	border-color:#222;
 	border-style:solid;
 }
+
+#nav ul li:first-child a {
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+#nav ul li:last-child a {
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
 #nav ul li a:hover,
 #nav ul li.select a {
     border-color:#333;
@@ -121,7 +135,7 @@ h1 a{
     border-radius:2px;
     padding:10px 0 0 0;
     color:#333;
-    background:url(../img/index-module-bg.png) top center repeat-x #eee; 
+    background:url(../img/index-module-bg.png) top center repeat-x #fff; 
 }
 /* footer */
 #footer {
@@ -140,8 +154,7 @@ h1 a{
 
 .content-module {
     margin-bottom:10px;
-
-    background:url(../img/index-module-bg.png) top center repeat-x #eee; 
+    background:url(../img/index-module-bg.png) top center repeat-x #fff; 
     color:#333;
     border-radius:5px;
     box-shadow:rgba(0,0,0,.4) 0px 1px 4px;
