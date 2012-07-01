@@ -12,6 +12,21 @@ body {
 #main-page-splash h3 {
     color:#333;
 }
+
+/* Project Module Styles */
+
+.project img {
+    display: block;
+}
+
+.project p {
+    border-top:1px solid #ddd;
+    background:url(../img/index-module-bg.png) 0px -100px repeat-x #fff; 
+
+    margin:0;
+    padding:10px 15px;
+}
+
 /* Project Splash */
 .project-splash {
     height:400px;
@@ -22,4 +37,10 @@ body {
     position:absolute;
     bottom:0;
     left:0px;
+}
+
+/* Container for Other Projects */
+
+.other-projects {
+    margin-top:20px;
 }

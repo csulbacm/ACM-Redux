@@ -20,7 +20,6 @@
     <?php foreach($alumnus as $alumni): ?>
     	<?php $shortName = $alumni->getShortName(); ?>
     	
-    	
         <div class="grid_4 person" style="margin:0px 10px 20px 10px">
         	
         	<?php // TODO: when we have all the data, take this out. ?>

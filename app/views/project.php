@@ -10,7 +10,7 @@
     <?php // Main Prorject loop ?>
     <?php $currentProjects = rx_getData('current-projects'); ?>        
     <?php foreach($currentProjects as $project): ?>
-        <div class="grid_6 content-module" style="margin:0px 10px 20px 10px">
+        <div class="grid_6 content-module project">
             <h2><?php echo $project->getName(); ?></h2>
             <a href="<?php echo rx_siteURL('project-view/' . $project->getShortName()); ?>">
             <img src="<?php echo $project->getThumbURL() ?>" 
@@ -24,8 +24,8 @@
     <?php $pastProjects = rx_getData('past-projects'); ?>        
     <?php foreach($pastProjects as $project): ?>
     
-    <div class="grid_4">
-        <div class="content-module">
+    <div class="grid_4 other-projects">
+        <div class="content-module project">
                 <h2><?php echo $project->getName(); ?></h2>
             
             <a href="<?php echo rx_siteURL('project-view/' . $project->getShortName()); ?>">
