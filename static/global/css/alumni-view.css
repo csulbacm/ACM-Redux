@@ -1,13 +1,15 @@
-.alumni-profile .quote,
-.alumni-profile .year  {
+.alumni-profile span  {
+	font-family: "Droid Sans", sans-serif;
+	font-style: normal;
+	font-size:14px;
+
 	display:block;
 	padding:10px;
-	font-style: italic;
-	font-family: "Georgia", serif;
 	border-bottom:1px solid #ddd;
 }
 
-.alumni-profile .year  {
-	font-family: "Droid Sans", sans-serif;
-	font-style: normal;
+.alumni-profile .quote {
+	font-style: italic;
+	font-family: "Georgia", serif;
+	border-bottom:1px solid #ddd;
 }

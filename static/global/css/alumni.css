@@ -28,6 +28,8 @@
 
 .alumni {
     position: relative;
+    min-height: 200px;
+    min-width: 300px;
 }
 .alumni img {
     display: block;

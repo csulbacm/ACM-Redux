@@ -16,13 +16,14 @@
                </h2>
                <img src="<?php echo $profile->getPhoto(); ?>" alt=<?php echo $profile->getName(); ?>" style="width:100%""/>
 
+               <span class="year">
+                  Years Active: <?php echo $profile->getActiveYears(); ?>
+               </span>
+
                <span class="quote">
                   "<?php echo $profile->getQuote(); ?>"
                </span>
                
-               <span class="year">
-                  Years Active: <?php echo $profile->getActiveYears(); ?>
-               </span>
             </div>
       </div>
       <div class="grid_8">
