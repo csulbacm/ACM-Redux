@@ -20,18 +20,17 @@
     <?php foreach($alumnus as $alumni): ?>
     	<?php $shortName = $alumni->getShortName(); ?>
     	
-        <div class="grid_4 person" style="margin:0px 10px 20px 10px">
+        <div class="grid_4 content-module alumni" style="margin:0px 10px 20px 10px">
         	
         	<?php // TODO: when we have all the data, take this out. ?>
-        	
+            <h3><?php echo $alumni->getName(); ?></h3>
         	<?php if (in_array($shortName, $list)): ?>
          	   <a href="<?php echo rx_siteURL('alumni-view/' . $alumni->getShortName()); ?>">
-			   <div style="position:absolute; top:0; right: 0; font-weight:bold; background:#333; color:#fff; font-size:14px; padding:5px 7px; font-family:Arial, Helvetica, sans-serif; ">Click to view bio</div>
+			   <span class="click">Click to view bio</span>
          	<?php else: ?>
        		 <a href="#<?php echo $shortName; ?>">
          	<?php endif ?>
          	
-            <h3><?php echo $alumni->getName(); ?></h3>
             <img src="<?php echo $alumni->getPhoto() ?>" 
                  alt="<?php echo $alumni->getName(); ?>" 
                  style="width:100%;"/>
