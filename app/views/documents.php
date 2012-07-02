@@ -3,15 +3,12 @@
 <?php $closedCharters = rx_getData('closed-charters'); ?>
 
 <?php rx_setTitle("acm@thebeach - Documents"); ?>
-
-
 <?php includePart("base", "documentTop"); ?>
 
     <?php includePart("base", "header"); ?>
     <?php includePart("documents", "splash"); ?>
     
     <div class="main-content container_12">
-        
         <div class="grid_6">
             <div class="content-module">
                 <h2>Meeting Minutes</h2>

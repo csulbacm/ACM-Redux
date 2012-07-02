@@ -1,10 +1,6 @@
 <?php $currentProject = rx_getData('project-viewing'); ?>
 <?php rx_setTitle("acm@thebeach - " . $currentProject->getName()); ?>
-
-<?php
-    global $defaultCSS;
-    rx_setCSS(array_push($defaultCSS, $currentProject->getCSS()));
-?>
+<?php rx_pushCSS($currentProject->getCSS()); ?>
 
 <?php include_once('./app/redux.php'); ?>
 <?php includePart('base', 'documentTop'); ?>

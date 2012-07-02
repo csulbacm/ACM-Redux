@@ -18,6 +18,15 @@ function rx_getCSS() {
     return $pageData->getCSS();
 }
 
+/*! Returns the JS of the page
+* 	   \uses $pageData
+*      \return string
+*/
+function rx_getJS() {
+    global $pageData;
+    return $pageData->getJS();
+}
+
 /*! Returns data from the viewData with a key
  *
  * 		 \param  $key string

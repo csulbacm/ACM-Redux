@@ -1,6 +1,6 @@
 <?php include_once("./app/redux.php"); ?>
 
-<?php rx_setTitle("acm@thebeach - Project Pages"); ?>
+<?php rx_setTitle("acm@thebeach"); ?>
 
 <?php includePart("base", "documentTop"); ?>
 <?php includePart("base", "header"); ?>

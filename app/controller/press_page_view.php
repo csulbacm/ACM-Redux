@@ -2,7 +2,7 @@
 
 /*!
  * \class Press Page Viewer
- * \brief Contains the logic for viewing a press page
+ * \brief Contains the logic for viewing a press page. A press page is a static page.
  * \author David Nuon <david@davidnuon.com>
  */
 
@@ -26,9 +26,10 @@ class PressPageViewer {
                     $pageData->setFound(false);
                 } else {
                     $pressPage = new PressPage($directory->getFileContent($filename));
+
+                    $viewData->setData('page-css', $pressPage->getCSS());
+                    $viewData->setData('page-js', $pressPage->getJS());
                     $viewData->setData('content', $pressPage->getHTML());
-					
-					
                     $viewData->setData('title', $pressPage->getTitle());
 
                 }

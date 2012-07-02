@@ -13,5 +13,6 @@
 			    </div>			    
 			</div>
 		</div>
+		<?php echo rx_getJS(); ?>
 	</body>
 </html>

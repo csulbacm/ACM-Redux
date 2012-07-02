@@ -1,12 +1,8 @@
 // Title:Advent of Children
 // Date: 05.06.2012
-// Title:Advent of Children
-// Date: 05.06.2012
-// Title:Advent of Children
-// Date: 05.06.2012
+
 Download
 --------
-
 [Markdown 1.0.1][dl] (18 KB) -- 17 Dec 2004
 
 [dl]: http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip
@@ -14,7 +10,6 @@ Download
 
 Introduction
 ------------
-
 Markdown is a text-to-HTML conversion tool for web writers. Markdown
 allows you to write using an easy-to-read, easy-to-write plain text
 format, then convert it to structurally valid XHTML (or HTML).

@@ -57,15 +57,45 @@ class Page {
     }
 
     /*!
-     * Sets the CSS files for the page
-     *      \param $CSSArray array
+     * Pushes the CSS files for the page
+     *      \param mixed
      *      \public 
      */
     
-    public function setCSS($CSSArray) {
-        if(gettype($CSSArray) === "array") {
-            $this->css = $CSSArray;
+    public function pushCSS() {
+        $css = array();
+
+        foreach (func_get_args() as $arg) {
+            if (gettype($arg) === 'array') {
+              $css = array_merge($css, $arg);
+            }
+            else if (gettype($arg)== 'string') {
+              array_push($css, $arg);
+            }
         }
+
+
+        $this->css = array_merge($this->css, $css);
+    }
+
+    /*!
+     * Pushes the JS files for the page
+     *      \param mixed
+     *      \public 
+     */
+    
+    public function pushJS() {
+        $js = array();
+
+        foreach (func_get_args() as $arg) {
+            if (gettype($arg) === 'array') {
+              $js = array_merge($js, $arg);
+            }
+            else if (gettype($arg)== 'string') {
+              array_push($js, $arg);
+            }
+        }
+        $this->js = array_merge($this->js, $js);
     }
 
     /*!
@@ -129,20 +159,14 @@ class Page {
      *      \return string
      */
     public function getCSS() {
-        global $defaultCSS;
         $out = "";
-        $cssArray = array();
-
-        if(count($this->css) <= 0) {
-            $cssArray = $defaultCSS;
-        } else {
-            $cssArray = $this->css;
-        }
+        $cssArray = $this->css;
 
         foreach ($cssArray as $CSSFile) {
         	// rx_cssURL returns its input if it is already a url (starting with SITEROOT)
         	
-        	// If $CSSFIle does not start with SITEROOT 
+            // If rx_cssURL returns a different string, we assume
+            // its a file in the /css/ directory
         	if(rx_cssURL($CSSFile) != $CSSFile) { 
 	            $out .= '<link rel="stylesheet" type="text/css" ' .
 	                    ' href="' . rx_cssURL($CSSFile) . '" />';
@@ -181,7 +205,22 @@ class Page {
      *      \return string
      */
     public function getJS() {
+        $out = '';
+        foreach ($this->js as $JSFile) {
+            // rx_cssURL returns its input if it is already a url (starting with SITEROOT)
+            
+            // If rx_jsURL returns a different string, we assume
+            // its a file in the /js/ directory
+            if(rx_jsURL($JSFile) != $JSFile) { 
+                $out .= '<script ' .
+                        ' src="' . rx_jsURL($JSFile) . '"></script>';
+            } else {
+                $out .= '<script ' .
+                        ' src="' . $JSFile . '"></script>';
+            }
+        }
 
+        return $out;
     }
 
     /*!

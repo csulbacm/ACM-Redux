@@ -1,5 +1,9 @@
 <?php include_once("./app/redux.php"); ?>
 
+<?php rx_pushCSS(rx_getData('page-css')); ?>
+<?php rx_pushJS(rx_getData('page-js')); ?>
+
+
 <?php rx_setTitle("acm@thebeach - " . rx_getData('title')); ?>
 
 <?php includePart("base", "documentTop"); ?>

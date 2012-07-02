@@ -92,21 +92,29 @@ function rx_setTitle($title) {
 *      \param array variadic
 *      \param string variadic
 */
-function rx_setCSS() {
+function rx_pushCSS() {
     global $pageData;
-    $css = array();
 
     foreach (func_get_args() as $arg) {
-        if (gettype($arg) === 'array') {
-          $css = array_merge($css, $arg);
-        }
-        else if (gettype($arg)== 'string') {
-          $css = array_push($css, $arg);
-        }
-    }
+        $pageData->pushCSS($arg);
 
-    $pageData->setCSS($css);
+    }
 }
+
+//! Set the JS of the page class. Takes arguments as an array of strings or strings
+/*!
+*      \param array variadic
+*      \param string variadic
+*/
+function rx_pushJS() {
+    global $pageData;
+
+    foreach (func_get_args() as $arg) {
+        $pageData->pushJS($arg);
+
+    }
+}
+
 
 //! Includes all the php files in a given directory
 /*!
@@ -147,11 +155,28 @@ function rx_imageURL($image) {
 */
 function rx_cssURL($css) {
 	if( stringBeginsWith($css, 'http://')  ||
-	    stringBeginsWith($css, 'https://')) {
+	    stringBeginsWith($css, 'https://') ||
+        stringBeginsWith($css, '//') ) {
 		return $css;
 	} else {
 		return CSSDIR . $css;
 	}
+}
+
+//! Returns ths URL of a file in the JS directory.
+/*! Ihe URL is a web url and not a name of a file,
+*  it returns what is put in.
+*      \param  string
+*      \return string
+*/
+function rx_jsURL($js) {
+    if( stringBeginsWith($js, 'http://')  ||
+        stringBeginsWith($js, 'https://') ||
+        stringBeginsWith($js, '//')) {
+        return $css;
+    } else {
+        return JSDIR . $js;
+    }
 }
 
 //! Returns a URL in the site
