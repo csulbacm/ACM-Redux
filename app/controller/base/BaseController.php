@@ -2,7 +2,8 @@
 namespace Controller;
 
 class BaseController {
-	protected function redirect() {
-		// TODO: Add code to redirect here
+	protected function redirect($base ,$path) {
+		header("Location: " . SITEROOT . $base . "/" . $path);
+		die();
 	}
 }

@@ -11,30 +11,30 @@ use Models\Documents\StaticPage as StaticPage;
 use Utility\FileList as FileList;
 
 class PageViewer {
-    protected $path = '/static/data/pages/';
+    protected static $path = '/static/data/pages/';
 
-    function __construct($pageData, $viewData) {
-        if ($viewData -> getType() === 'static-page-view') {
-            $slug = $pageData -> getPath();
-            $pageName = $slug[1];
-            $pagesPath = FILEROOT . $this->path;
+    public static function main($pageData, $viewData) {
+        $viewData->setType('static-page-view');
 
-            if (!file_exists($pagesPath)) {
+        $slug = $pageData -> getPath();
+        $pageName = $slug[1];
+        $pagesPath = FILEROOT . self::$path;
+
+        if (!file_exists($pagesPath)) {
+            $pageData->setFound(false);
+        } else {
+            $directory = new FileList($pagesPath);
+            $filename  = $pageName . '.md';
+            if(!$directory->hasFile($filename)) {
                 $pageData->setFound(false);
             } else {
-                $directory = new FileList($pagesPath);
-                $filename  = $pageName . '.md';
-                if(!$directory->hasFile($filename)) {
-                    $pageData->setFound(false);
-                } else {
-                    $pressPage = new StaticPage($directory->getFileContent($filename));
+                $pressPage = new StaticPage($directory->getFileContent($filename));
 
-                    $viewData->setData('page-css', $pressPage->getCSS());
-                    $viewData->setData('page-js', $pressPage->getJS());
-                    $viewData->setData('content', $pressPage->getHTML());
-                    $viewData->setData('title', $pressPage->getTitle());
+                $viewData->setData('page-css', $pressPage->getCSS());
+                $viewData->setData('page-js', $pressPage->getJS());
+                $viewData->setData('content', $pressPage->getHTML());
+                $viewData->setData('title', $pressPage->getTitle());
 
-                }
             }
         }
     }

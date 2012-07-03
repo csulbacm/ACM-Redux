@@ -1,7 +1,7 @@
 <?php
 /*!
  * \class Markdown Minutes Test Page
- * \brief Contains the logic for viewing a project page
+ * \brief 
  * \author David Nuon <david@davidnuon.com>
  */
 
@@ -11,17 +11,16 @@ use Utility\FileList as FileList;
 
 class MinutesTestPage {
     function __construct($pageData, $viewData) {        
-        if($viewData->getType() === 'new-minutes-test') {
-            $minutes     = new FileList(FILEROOT . '/static/data/minutes/2012-06-01/');
-        	$testMinutes = new MarkdownMinutes($minutes->getFileContent("minutes.md"));
-            
-			$outputContnet = "";
-			
-			foreach ($testMinutes->getSidebar() as $line) {
-				$outputContnet .= print_r($line, true) . "<br />";
-			}
-			
-			$viewData->setData('text', $outputContnet);
+		$viewData->setType('new-minutes-test');
+        $minutes     = new FileList(FILEROOT . '/static/data/minutes/2012-06-01/');
+    	$testMinutes = new MarkdownMinutes($minutes->getFileContent("minutes.md"));
+        
+		$outputContnet = "";
+		
+		foreach ($testMinutes->getSidebar() as $line) {
+			$outputContnet .= print_r($line, true) . "<br />";
 		}
-    }
+		
+		$viewData->setData('text', $outputContnet);
+	}
 }
