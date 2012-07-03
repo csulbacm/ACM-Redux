@@ -1,28 +1,61 @@
 {
-	"pages" : 
-	[
-		{ 
-			"slug" : "project",
-			"view" : "project",
-			"controller" : "project"
-		},
+    "pages" : {   
+        "project" : {
+            "view" : "project",
+            "controller" : "ProjectMain"
+        },
 
-		{ 
-			"slug" : "documents",
-			"view" : "documents",
-			"controller" : "documents"
-		},
+        "documents" : {
+            "view" : "documents",
+            "controller" : "DocumentMain"
+        },
 
-		{ 
-			"slug" : "about",
-			"view" : "about",
-			"controller" : "about"
-		},
+         "about" : {
+            "view" : "about",
+            "controller" : "About"
+        },
 
-		{ 
-			"slug" : "alumni",
-			"view" : "alumni",
-			"controller" : "alumni"
-		}
-	]
+        "alumni" : {
+            "view" : "alumni",
+            "controller" : "AlumniMain"
+        },
+
+        "constitution" : {
+            "view" : "constitution",
+        },
+
+        "mission" : {
+            "view" : "mission",
+        },
+
+        "project-view" : {
+            "view" : "project_view",
+            "controller" : "ProjectView"
+        },
+
+        "minutes-view" : {
+            "view" : "minutes_view",
+            "controller" : "MinutesView"
+        },
+
+        "index" : {
+            "view" : "index",
+            "controller" : "index"
+        },
+
+        "alumni-view" : {
+            "view" : "alumni_view",
+            "controller" : "AlumniView"
+        },
+        
+         "page" : {
+            "view" : "page",
+            "controller" : "PageViewer"
+        },
+
+         "press" : {
+            "view" : "page",
+            "controller" : "PressPageViewer"
+        }
+    }
 }

@@ -10,13 +10,14 @@ use Utility\FileList as FileList;
 use Models\Documents\Minutes as Minutes;
 
 class DocumentMain {
-    function __construct($pageData, $viewData) {
+    public static function main($pageData, $viewData) {
+
         $viewData->setType('documents');
 
         $minutes            = new FileList(FILEROOT . '/static/data/minutes/');
         $minutesList        = $minutes->getDirList();
-        $charters           = new FileList(FILEROOT . '/static/data/charters/project/');
-        
+        $charters           = new FileList(FILEROOT . '/static/data/charters/project/');        
+
         // Map all charters with a web url
         $projectCharters    = array_map(function($e) {
             return array( 'name' => $e, 
