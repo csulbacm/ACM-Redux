@@ -1,61 +1,50 @@
 {
-    "pages" : {   
-        "project" : {
-            "view" : "project",
-            "controller" : "ProjectMain"
+    "pages": {
+        "project": {
+            "view": "project",
+            "controller": "ProjectMain"
         },
-
-        "documents" : {
-            "view" : "documents",
-            "controller" : "DocumentMain"
+        "documents": {
+            "view": "documents",
+            "controller": "DocumentMain"
         },
-
-         "about" : {
-            "view" : "about",
-            "controller" : "About"
+        "about": {
+            "view": "about",
+            "controller": "About"
         },
-
-        "alumni" : {
-            "view" : "alumni",
-            "controller" : "AlumniMain"
+        "alumni": {
+            "view": "alumni",
+            "controller": "AlumniMain"
         },
-
-        "constitution" : {
-            "view" : "constitution",
+        "constitution": {
+            "view": "constitution"
         },
-
-        "mission" : {
-            "view" : "mission",
+        "mission": {
+            "view": "mission"
         },
-
-        "project-view" : {
-            "view" : "project_view",
-            "controller" : "ProjectView"
+        "project-view": {
+            "view": "project_view",
+            "controller": "ProjectView"
         },
-
-        "minutes-view" : {
-            "view" : "minutes_view",
-            "controller" : "MinutesView"
+        "minutes-view": {
+            "view": "minutes_view",
+            "controller": "MinutesView"
         },
-
-        "index" : {
-            "view" : "index",
-            "controller" : "index"
+        "index": {
+            "view": "index",
+            "controller": "index"
         },
-
-        "alumni-view" : {
-            "view" : "alumni_view",
-            "controller" : "AlumniView"
+        "alumni-view": {
+            "view": "alumni_view",
+            "controller": "AlumniView"
         },
-        
-         "page" : {
-            "view" : "page",
-            "controller" : "PageViewer"
+        "page": {
+            "view": "page",
+            "controller": "PageViewer"
         },
-
-         "press" : {
-            "view" : "page",
-            "controller" : "PressPageViewer"
+        "press": {
+            "view": "page",
+            "controller": "PressPageViewer"
         }
     }
 }

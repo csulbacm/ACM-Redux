@@ -21,12 +21,47 @@ $pageData->setPath($name);
 $slug = $pageData->getSlug();
 
 if (isset($classMap[$slug])) {
-    $classMap[$slug][1]($pageData, $viewData);
-    if($pageData->found()) {
-        $pageData->renderPage();   
-    } else {
-        throw404();    
-    }
+	$controller = null;
+	$view       = null; 
+
+	if(isset($classMap[$slug]['controller'])) {
+		$controller = $classMap[$slug]['controller'];
+	} 
+
+	if(isset($classMap[$slug]['view'])) {
+		$view = $classMap[$slug]['view'];
+	} 
+
+	print_r($controller);
+
+	if ($view != null) {
+		$pageData->setView($view);
+
+		if($controller != null) {
+			
+			// If there is a controller, run its main
+			
+			$contollerClass = "\Controller\Pages\\" . $controller;
+			$contollerClass::main($pageData, $viewData);			
+		} else {
+
+			// Otherwise, we will assume that the type of the page
+			// is the same name as the view. (Used for css includes)
+
+			$viewData->setType($view);	
+		}
+
+		if($pageData->found()) {
+			$pageData->renderPage();   
+		} else {
+			// If the controller set the 404 error
+			throw404(); 
+		}
+	} else {
+		// If the page has no view
+		throw404();
+	}
 } else {
-    throw404();
+	 	// If the slug is not found 
+		throw404();
 }

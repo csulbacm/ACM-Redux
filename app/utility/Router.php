@@ -9,7 +9,7 @@ namespace Utility;
 
 class Router {
 	protected $json     = "";
-	protected $parsedJSON = array();
+	protected $jsonArray = array();
 	protected $routeMap = "";
 
 	function __construct($json) {
@@ -17,12 +17,12 @@ class Router {
 		$this->parseJSON();
 	}
 
-	private function parseJSON() {
-		$this->parsedJSON = json_decode($this->json, true);
+	private function parseJSON() {	
+		$this->jsonArray = json_decode($this->json, true)["pages"];
 	}
 
 	public function getArray () {
-		return $this->parsedJSON;
+		return $this->jsonArray;
 	}
 
 	public function getRoute($slug) {
