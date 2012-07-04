@@ -12,10 +12,10 @@
         <div class="grid_6">
             <div class="content-module">
                 <h2>Meeting Minutes</h2>
-                <ul class="document-listing">
+                <ul class="link-list">
                 	<?php foreach($minutes as $item): ?>
                         <li><a href="<?php echo $item['URL']; ?>">
-                           General Meeting for <?php echo $item['date']; ?>
+                           Minutes for <?php echo $item['date']; ?>
                        </a></li>
                 	<?php endforeach ?>
                 </ul> 
@@ -26,7 +26,7 @@
 
             <div class="content-module">
                 <h2>Project Charters</h2>
-                <ul class="document-listing">
+                <ul class="link-list">
                     <?php foreach($charters as $item): ?>
                         <li><a href="<?php echo $item['url']; ?>" target="_blank">
                         <?php echo $item['name']; ?>
@@ -37,7 +37,7 @@
             
             <div class="content-module">
                 <h2>Closed Project Charters</h2>
-                <ul class="document-listing">
+                <ul class="link-list">
                     <?php foreach($closedCharters as $item): ?>
                         <li><a href="<?php echo $item['url']; ?>" target="_blank">
                         <?php echo $item['name']; ?>

@@ -11,7 +11,6 @@ use Models\Documents\Minutes as Minutes;
 
 class DocumentMain {
     public static function main($pageData, $viewData) {
-
         $viewData->setType('documents');
                        
         $viewData->setData('minutes-listing', self::getMinutesList());
@@ -19,7 +18,8 @@ class DocumentMain {
         $viewData->setData('closed-charters', self::getCharterList()["closed"]);
     }
 
-    public static function getMinutesList() {
+    public static function getMinutesList($limit = -1) {
+
         $minutes            = new FileList(FILEROOT . '/static/data/minutes/');
         $minutesList        = $minutes->getDirList();
 
@@ -33,7 +33,13 @@ class DocumentMain {
             $minutesPageListing[] = $minutesPage->getData();
         }
 
-        return array_reverse($minutesPageListing);
+        if($limit > 0) {
+            $minutesPageListing = array_reverse($minutesPageListing);
+            array_splice($minutesPageListing, $limit);
+            return $minutesPageListing;
+        } else {
+            return array_reverse($minutesPageListing);
+        }
     }
 
     public static function getCharterList() {

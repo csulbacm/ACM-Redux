@@ -8,34 +8,58 @@
 
 namespace Controller\Pages;
 use Models\Documents\StaticPage as StaticPage;
+use Controller\BaseController as BaseController;
 use Utility\FileList as FileList;
 
-class PageViewer {
-    protected static $path = '/static/data/pages/';
+class PageViewer extends BaseController {
+    protected static $basePath = '/static/data/staticpages/';
+    protected static $path     = '/static/data/staticpages/static/';
 
     public static function main($pageData, $viewData) {
         $viewData->setType('static-page-view');
-
         $slug = $pageData -> getPath();
         $pageName = $slug[1];
+
+
+        $pressPage = self::getPage($pageName);
+
+        if($pressPage !== false) {
+            $viewData->setData('page-css', $pressPage->getCSS());
+            $viewData->setData('page-js', $pressPage->getJS());
+            $viewData->setData('content', $pressPage->getHTML());
+            $viewData->setData('title', $pressPage->getTitle());
+        } else {
+            $pageData->setFound(false);
+        }
+    }
+
+    protected static function setPath($path = '') {
+        if ($path !== '') {
+            self::$path = self::$basePath . '/' . $path;
+        } else {
+            self::$path = self::$basePath;
+        }
+    }
+
+    protected static function getPage($pageName) {
         $pagesPath = FILEROOT . self::$path;
 
         if (!file_exists($pagesPath)) {
-            $pageData->setFound(false);
+                return false;
         } else {
             $directory = new FileList($pagesPath);
             $filename  = $pageName . '.md';
+
             if(!$directory->hasFile($filename)) {
-                $pageData->setFound(false);
+                return false;
             } else {
                 $pressPage = new StaticPage($directory->getFileContent($filename));
-
-                $viewData->setData('page-css', $pressPage->getCSS());
-                $viewData->setData('page-js', $pressPage->getJS());
-                $viewData->setData('content', $pressPage->getHTML());
-                $viewData->setData('title', $pressPage->getTitle());
-
+                return $pressPage;
             }
         }
+    }
+
+    protected static function listPages() {
+
     }
 }
