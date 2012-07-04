@@ -18,7 +18,8 @@ class Router {
 	}
 
 	private function parseJSON() {	
-		$this->jsonArray = json_decode($this->json, true)["pages"];
+		$json = json_decode($this->json, true);
+		$this->jsonArray = $json["pages"];
 	}
 
 	public function getArray () {

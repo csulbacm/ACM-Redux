@@ -13,9 +13,12 @@ class DocumentMain {
     public static function main($pageData, $viewData) {
         $viewData->setType('documents');
                        
-        $viewData->setData('minutes-listing', self::getMinutesList());
-        $viewData->setData('charters', self::getCharterList()["open"]);
-        $viewData->setData('closed-charters', self::getCharterList()["closed"]);
+        $minutesList = self::getMinutesList();
+        $charterList = self::getCharterList();
+
+        $viewData->setData('minutes-listing', $minutesList);
+        $viewData->setData('charters', $charterList["open"]);
+        $viewData->setData('closed-charters', $charterList["closed"]);
     }
 
     public static function getMinutesList($limit = -1) {
