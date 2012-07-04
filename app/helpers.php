@@ -125,16 +125,10 @@ function rx_pushJS() {
  */
 
 function rx_includeAll($dir) {
-    $handle = opendir($dir);
-    if ($handle) {
-        while (false !== ($entry = readdir($handle))) {
-            $filePath = $dir . '/' .$entry;
-            if(!is_dir($filePath)) {
-                include_once($filePath);
-            }
-        }
+    foreach (glob($dir . "/*.php") as $filename)
+    {
+        include_once $filename;
     }
-    closedir($handle);
 }
 
 //!@{ URL Helpers

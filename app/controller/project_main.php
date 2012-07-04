@@ -7,9 +7,9 @@
 
 namespace Controller\Pages;
 use Models\Project\ProjectStatus as ProjectStatus;
-use \Controller\BaseController as BaseController;
+use Controller\BaseController as BaseController;
 
-class ProjectMain extends BaseController{
+class ProjectMain extends BaseController {
 	public static function main($pageData, $viewData) {
 	    error_reporting(0);
         @ini_set(‘display_errors’, 0);
