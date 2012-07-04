@@ -4,7 +4,7 @@ namespace Controller\Pages;
 use Controller\Pages\PageViewer as PageViewer;
 
 class PressPageViewer extends PageViewer {
-	private static function init() {
+	public static function init() {
         self::setPath('press');
 	}
 
@@ -15,7 +15,7 @@ class PressPageViewer extends PageViewer {
         $slug = $pageData -> getPath();
         $pageName = $slug[1];
 
-        $pressPage = self::getPage($pageName);
+        $pressPage = self::getPage($pageName, $slug[1]);
 
         if($pressPage !== false) {
             $viewData->setData('page-css', $pressPage->getCSS());
@@ -26,5 +26,4 @@ class PressPageViewer extends PageViewer {
             $pageData->setFound(false);
         }
 	}
-
 }

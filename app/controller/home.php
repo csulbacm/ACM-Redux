@@ -9,6 +9,7 @@ namespace Controller\Pages;
 
 use Controller\BaseController as BaseController;
 use Controller\Pages\DocumentMain as DocumentMain;
+use Controller\Pages\PressPageViewer as PressPageViewer;
 
 class Index extends BaseController {
     public static function main($pageData, $viewData) {
@@ -17,6 +18,8 @@ class Index extends BaseController {
 	    // Latest Minutes on the page
 	    $minutesList = DocumentMain::getMinutesList(5);
         $viewData->setData('minutes-listing', $minutesList);
-
+        
+        $pressList = PressPageViewer::getPageList();
+        $viewData->setData('press-listing', $pressList);
     }
 }

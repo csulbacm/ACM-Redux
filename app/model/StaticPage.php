@@ -19,15 +19,22 @@ class StaticPage {
 
     protected $js        = array();
     protected $css       = array();
+    protected $slug      = '';
     
-    function __construct($markdown = NULL) {
-        if($markdown != NULL) {
+    function __construct($markdown = NULL, $slug = NULL) {
+        if($markdown != NULL && $slug != NULL) {
             $this->markdown = $markdown;
+            $this->slug = $slug;
         }
 
         $this->rendershortTags();
         $this->readAttributes();        
         $this->makeHTML();        
+    }
+
+    public static function fromFile($path, $slug) {
+        $fileContents = file_get_contents($path);
+        return new StaticPage($fileContents, $slug);
     }
     
     private function rendershortTags() {
@@ -103,6 +110,10 @@ class StaticPage {
         $this->html = Markdown($this->markdown);
     }
     
+    public function getSlug() {
+        return $this->slug;
+    }
+
     public function getThumbnail () {
         return $this->thumbnail;
     }
