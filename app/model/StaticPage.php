@@ -10,22 +10,31 @@ namespace Models\Documents;
 
 include_once(dirname(dirname(__FILE__)) . '/utility/markdown.php');
 
-class PressPage {
-    protected $markdown = '';    
-    protected $title    = '';
-    protected $date     = '';
-    protected $html     = '';
-    protected $js       = array();
-    protected $css      = array();
+class StaticPage {
+    protected $markdown  = '';    
+    protected $title     = '';
+    protected $date      = '';
+    protected $html      = '';
+    protected $thumbnail = '';
+
+    protected $js        = array();
+    protected $css       = array();
+    protected $slug      = '';
     
-    function __construct($markdown = NULL) {
-        if($markdown != NULL) {
+    function __construct($markdown = NULL, $slug = NULL) {
+        if($markdown != NULL && $slug != NULL) {
             $this->markdown = $markdown;
+            $this->slug = $slug;
         }
 
         $this->rendershortTags();
         $this->readAttributes();        
         $this->makeHTML();        
+    }
+
+    public static function fromFile($path, $slug) {
+        $fileContents = file_get_contents($path);
+        return new StaticPage($fileContents, $slug);
     }
     
     private function rendershortTags() {
@@ -54,47 +63,61 @@ class PressPage {
         // They all look like C-style comments
 
         // Get title attribute
-        $titleRegex = '/\/\/(\s|!?)Title:(\s|!?)(.*+)/';        
-        preg_match_all($titleRegex, $this->markdown, $titleMatches);
+        $titlePattern = '/\/\/(\s|!?)Title:(\s|!?)(.*+)/';        
+        preg_match_all($titlePattern, $this->markdown, $titleMatches);
         if(isset($titleMatches[3][0])) {
             $this->title = $titleMatches[3][0];
         }
-        $this->markdown = preg_replace($titleRegex, '', $this->markdown);
+        $this->markdown = preg_replace($titlePattern, '', $this->markdown);
 
         // Get date attribute
-        $dateRegex  = '/\/\/(\s|!?)Date:(\s|!?)(.*+)/';
-        preg_match_all($dateRegex, $this->markdown, $dateMatches);
+        $datePattern  = '/\/\/(\s|!?)Date:(\s|!?)(.*+)/';
+        preg_match_all($datePattern, $this->markdown, $dateMatches);
         if(isset($dateMatches[3][0])) {
             $this->date = $dateMatches[3][0];
         }
-        $this->markdown = preg_replace($dateRegex, '', $this->markdown);
+        $this->markdown = preg_replace($datePattern, '', $this->markdown);
 
         // Get CSS attribute
-        $cssRegex   = '/\/\/(\s|!?)(css|CSS):(\s|!?)(.*+)/';
-        preg_match_all($cssRegex, $this->markdown, $cssMatches);
+        $cssPattern   = '/\/\/(\s|!?)(css|CSS):(\s|!?)(.*+)/';
+        preg_match_all($cssPattern, $this->markdown, $cssMatches);
         if(isset($cssMatches[4][0])) {
             $cssArray = explode(',', $cssMatches[4][0]);
             $this->css = $cssArray;
         }
-        $this->markdown = preg_replace($cssRegex, '', $this->markdown);
+        $this->markdown = preg_replace($cssPattern, '', $this->markdown);
 
         // Get Javascirpt attribute
-        $jsRegex   = '/\/\/(\s|!?)(JS|js):(\s|!?)(.*+)/';
-        preg_match_all($jsRegex, $this->markdown, $jsMatches);
+        $jsPattern   = '/\/\/(\s|!?)(JS|js):(\s|!?)(.*+)/';
+        preg_match_all($jsPattern, $this->markdown, $jsMatches);
         if(isset($jsMatches[4][0])) {
             $jsArray = explode(',', $jsMatches[4][0]);
             $this->js = $jsArray;
         }
-        $this->markdown = preg_replace($jsRegex, '', $this->markdown);
-        
-   
+        $this->markdown = preg_replace($jsPattern, '', $this->markdown);       
+
+        // Get Thumbnail Attribute        
+        $thumbnailPattern = '/\/\/(\s|!?)Thumbnail:(\s|!?)(.*+)/';
+        preg_match_all($thumbnailPattern, $this->markdown, $thumbnailMatches);
+        if(isset($thumbnailMatches[3][0])) {
+            $this->thumbnail = $thumbnailMatches[3][0];
+        }
+        $this->markdown = preg_replace($thumbnailPattern, '', $this->markdown);
     }
-    
+
 
     private function makeHTML () {
         $this->html = Markdown($this->markdown);
     }
     
+    public function getSlug() {
+        return $this->slug;
+    }
+
+    public function getThumbnail () {
+        return $this->thumbnail;
+    }
+
     public function getHTML() {
         return $this->html;
     }

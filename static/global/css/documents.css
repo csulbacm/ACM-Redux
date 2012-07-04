@@ -16,32 +16,3 @@ h1 {
 .main-content {
     background:none;
 }
-
-.document-listing {
-    padding:0;
-    margin:0;
-}
-.document-listing li {
-    list-style:none;
-    margin:0;
-    padding:0;
-}
-.document-listing li a {
-    font-size:14px;
-    padding:5px 7px;
-    display: block;
-    border-bottom:1px solid #555;
-    text-decoration: none; 
-    color:#333;
-}
-
-.document-listing li:last-child a {
-    border-bottom:none;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-.document-listing li a:hover {
-    background: #333;
-    color: #fff;
-    background: url(../img/list-highlight.png) top center repeat-x;
-}

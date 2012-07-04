@@ -7,28 +7,33 @@
 
 namespace Controller\Pages;
 use Models\Blog as Blog;
+use \Controller\BaseController as BaseController;
 
-class AlumniMain {
-	function __construct($pageData, $viewData) {
+class AlumniMain extends BaseController{
+	public static function main($pageData, $viewData) {
 	       
 	    error_reporting(0);
         @ini_set(‘display_errors’, 0);
 
-		if ($viewData -> getType() === 'alumni') {
-			$getData = $pageData -> getPath();
-			$dbHolder = new \Utility\PHPDBUtility();
-			$alumniData = $dbHolder -> DBD -> query(Array("type" => "list", "DATABASE" => "Alumni"));
+        $path = $pageData->getPath();
+        if(isset($path[1])) {
+        	self::redirect('alumni-view', $path[1]);
+        }
 
-			$alumni = Array();
-			foreach ($alumniData->names as $shortName => $gData) {
-                $alumni[] = new \Models\Documents\AlumniProfile($gData['NAME'], 
-                $shortName,$gData['QUOTE'], $gData['DISCOVERY'],
-                $gData['MOTIVATION'], $gData['ADVICE'], $gData['ACTIVEYEARS'], $gData['ACTIVITY'],
-                $gData['DESC'], $gData['MEMORY'], $gData['EMAIL']);
-			}
+        $viewData->setType('alumni');
+		$getData = $pageData -> getPath();
+		$dbHolder = new \Utility\PHPDBUtility();
+		$alumniData = $dbHolder -> DBD -> query(Array("type" => "list", "DATABASE" => "Alumni"));
 
-			$viewData -> setData('alumni', $alumni);
+		$alumni = Array();
+		foreach ($alumniData->names as $shortName => $gData) {
+            $alumni[] = new \Models\Documents\AlumniProfile($gData['NAME'], 
+            $shortName,$gData['QUOTE'], $gData['DISCOVERY'],
+            $gData['MOTIVATION'], $gData['ADVICE'], $gData['ACTIVEYEARS'], $gData['ACTIVITY'],
+            $gData['DESC'], $gData['MEMORY'], $gData['EMAIL']);
 		}
+
+		$viewData -> setData('alumni', $alumni);
 	}
 
 }

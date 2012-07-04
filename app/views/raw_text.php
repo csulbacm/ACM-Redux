@@ -6,7 +6,7 @@
 <?php includePart("base", "header"); ?>
 
 <pre>
-	<?php echo rx_getData("text"); ?>
+	<?php echo rx_getData("content"); ?>
 </pre>
 
 <?php includePart("base", "documentBottom"); ?>

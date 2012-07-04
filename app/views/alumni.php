@@ -16,7 +16,11 @@
     	
     	$list = array("npickrell", "msguerri", "jliong", "rwang", "flima");
 	 ?>
-    <?php $alumnus = rx_getData('alumni'); ?>        
+    
+    <?php 
+        $alumnus = rx_getData('alumni'); 
+    ?>        
+
     <?php foreach($alumnus as $alumni): ?>
     	<?php $shortName = $alumni->getShortName(); ?>
     	

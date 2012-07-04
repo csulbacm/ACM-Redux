@@ -7,36 +7,39 @@
 
 namespace Controller\Pages;
 use Models\Project\ProjectStatus as ProjectStatus;
-use Models\Blog as Blog;
+use \Controller\BaseController as BaseController;
 
-class ProjectMain {
-	function __construct($pageData, $viewData) {
-	       
+class ProjectMain extends BaseController{
+	public static function main($pageData, $viewData) {
 	    error_reporting(0);
         @ini_set(‘display_errors’, 0);
 
-		if ($viewData -> getType() === 'project') {
-			$getData = $pageData -> getPath();
-			$dbHolder = new \Utility\PHPDBUtility();
-			$projectData = $dbHolder -> DBD -> query(Array("type" => "list", "DATABASE" => "Project"));
+        $path = $pageData->getPath();
+        if(isset($path[1])) {
+        	self::redirect('project-view', $path[1]);
+        }
 
-			$currentProjects = Array();
-			foreach ($projectData->names as $shortName => $gData) {
-				if ($gData['STATUS'] != "2") {
-					$currentProjects[] = new \Models\Project\Project($gData['PROJECTNAME'], $shortName, $gData['CATCH'], $gData['ABSTRACT'], $gData['ABOUT'], $gData['MEMBERS'], array(), false, ProjectStatus::Ongoing);
-				}
+        $viewData->setType('project');
+		$getData = $pageData -> getPath();
+		$dbHolder = new \Utility\PHPDBUtility();
+		$projectData = $dbHolder -> DBD -> query(Array("type" => "list", "DATABASE" => "Project"));
+
+		$currentProjects = Array();
+		foreach ($projectData->names as $shortName => $gData) {
+			if ($gData['STATUS'] != "2") {
+				$currentProjects[] = new \Models\Project\Project($gData['PROJECTNAME'], $shortName, $gData['CATCH'], $gData['ABSTRACT'], $gData['ABOUT'], $gData['MEMBERS'], array(), false, ProjectStatus::Ongoing);
 			}
-
-			$finishedProjects = Array();
-			foreach ($projectData->names as $shortName => $gData) {
-				if ($gData['STATUS'] == "2") {
-					$finishedProjects[] = new \Models\Project\Project($gData['PROJECTNAME'], $shortName, $gData['CATCH'], $gData['ABSTRACT'], $gData['ABOUT'], $gData['MEMBERS'], array(), false, ProjectStatus::Finished);
-				}
-			}
-
-			$viewData -> setData('current-projects', $currentProjects);
-			$viewData -> setData('past-projects', $finishedProjects);
 		}
+
+		$finishedProjects = Array();
+		foreach ($projectData->names as $shortName => $gData) {
+			if ($gData['STATUS'] == "2") {
+				$finishedProjects[] = new \Models\Project\Project($gData['PROJECTNAME'], $shortName, $gData['CATCH'], $gData['ABSTRACT'], $gData['ABOUT'], $gData['MEMBERS'], array(), false, ProjectStatus::Finished);
+			}
+		}
+
+		$viewData -> setData('current-projects', $currentProjects);
+		$viewData -> setData('past-projects', $finishedProjects);
 	}
 
 }
