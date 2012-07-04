@@ -13,10 +13,31 @@ class DocumentMain {
     public static function main($pageData, $viewData) {
 
         $viewData->setType('documents');
+                       
+        $viewData->setData('minutes-listing', self::getMinutesList());
+        $viewData->setData('charters', self::getCharterList()["open"]);
+        $viewData->setData('closed-charters', self::getCharterList()["closed"]);
+    }
 
+    public static function getMinutesList() {
         $minutes            = new FileList(FILEROOT . '/static/data/minutes/');
         $minutesList        = $minutes->getDirList();
-        $charters           = new FileList(FILEROOT . '/static/data/charters/project/');        
+
+        $minutesPageListing = array();
+        
+        foreach ($minutesList as $minutesItem) {
+            $stringArray = explode('/', $minutesItem);
+            $date        = $stringArray[count($stringArray) - 1];
+            
+            $minutesPage = new Minutes('2', array(1), $date, 'General Meeting', rx_siteURL('minutes-view/' . $date));
+            $minutesPageListing[] = $minutesPage->getData();
+        }
+
+        return array_reverse($minutesPageListing);
+    }
+
+    public static function getCharterList() {
+        $charters = new FileList(FILEROOT . '/static/data/charters/project/');        
 
         // Map all charters with a web url
         $projectCharters    = array_map(function($e) {
@@ -31,20 +52,10 @@ class DocumentMain {
                 'url'  => SITEROOT . 'static/data/charters/project/closed/' . $e );
                 
         }, $charters->returnDir('closed')->getFileList(true));
-                   
-        $minutesPageListing = array();
-        
-        foreach ($minutesList as $minutesItem) {
-            $stringArray = explode('/', $minutesItem);
-            $date        = $stringArray[count($stringArray) - 1];
-            
-            $minutesPage = new Minutes('2', array(1), $date, 'General Meeting', rx_siteURL('minutes-view/' . $date));
-            $minutesPageListing[] = $minutesPage->getData();
-        }
-        
-        $viewData->setData('minutes-listing', array_reverse($minutesPageListing));
-        $viewData->setData('charters', $projectCharters);
-        $viewData->setData('closed-charters', $closedCharters);
 
+        return array(
+            "closed" => $closedCharters,
+            "open"   => $projectCharters
+        );
     }
 }

@@ -3,7 +3,6 @@
  * \brief The index page for the site, handles url path.
  */
 
-  
 include_once("./app/redux.php");
 
 global $pageData;
@@ -11,12 +10,12 @@ global $viewData;
 global $classMap;
 
 if (isset ($_GET["page"])) {
-    $name = $_GET["page"];   
+    $pagePath = $_GET["page"];   
 } else {
-    $name = 'index';
+    $pagePath = 'index';
 }
 
-$pageData->setPath($name);
+$pageData->setPath($pagePath);
 
 $slug = $pageData->getSlug();
 
@@ -31,8 +30,6 @@ if (isset($classMap[$slug])) {
 	if(isset($classMap[$slug]['view'])) {
 		$view = $classMap[$slug]['view'];
 	} 
-
-	print_r($controller);
 
 	if ($view != null) {
 		$pageData->setView($view);

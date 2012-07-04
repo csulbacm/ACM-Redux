@@ -19,7 +19,7 @@ define('SITEROOT', $siteRoot);
 define('IMAGESDIR', SITEROOT . 'static/global/img/');
 define('CSSDIR',    SITEROOT . 'static/global/css/');
 define('JSDIR',    SITEROOT . 'static/global/js/');
-define('ASSETSDIR',    SITEROOT . 'static/data/assets/');
+define('ASSETSDIR',  SITEROOT . 'static/data/assets/');
 define('DATADIR',   SITEROOT . 'static/data/');
 
 define('IMAGESFILEDIR', FILEROOT . '/static/global/img/');
