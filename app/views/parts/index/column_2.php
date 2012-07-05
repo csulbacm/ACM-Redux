@@ -6,7 +6,7 @@
     <h2>Press</h2>
     <ul class="link-list">
       <?php foreach($pressPages as $item): ?>
-            <li><a href="<?php echo SITEROOT . '/press/' . $item->getSlug(); ?>">
+            <li><a href="<?php echo rx_siteURL('press/' . $item->getSlug()); ?>">
                <?php echo $item->getTitle(); ?>
            </a>
             </li>

@@ -22,7 +22,6 @@ class DocumentMain {
     }
 
     public static function getMinutesList($limit = -1) {
-
         $minutes            = new FileList(FILEROOT . '/static/data/minutes/');
         $minutesList        = $minutes->getDirList();
 
