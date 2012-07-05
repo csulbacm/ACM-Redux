@@ -22,6 +22,9 @@
         "mission": {
             "view": "mission"
         },
+        "gallery": {
+            "view": "gallery"
+        },
         "project-view": {
             "view": "project_view",
             "controller": "ProjectView"

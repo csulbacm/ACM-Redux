@@ -8,7 +8,7 @@ class PressPageViewer extends PageViewer {
 	}
 
 	public static function main ($pageData, $viewData) {
-		self::init();
+        self::setPath('press');
 
         $viewData->setType('static-page-view');
         $slug = $pageData -> getPath();
