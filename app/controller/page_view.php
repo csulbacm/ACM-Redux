@@ -22,7 +22,6 @@ class PageView {
         $pressPage = $pageList->getPage($pageName);
 
         if($pressPage !== false) {
-            $viewData->setData('page-listing', $pageList->getPageList());
             $viewData->setData('page-css', $pressPage->getCSS());
             $viewData->setData('page-js', $pressPage->getJS());
             $viewData->setData('content', $pressPage->getHTML());

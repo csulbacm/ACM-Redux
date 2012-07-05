@@ -166,6 +166,7 @@ h1 a{
     padding:0px 10px 5px 10px;
 }
 
+.content-module h1,
 .content-module h2,
 .content-module h3 {
     color:#fff;
@@ -176,6 +177,10 @@ h1 a{
     font-size:16px;
 }
 
+.content-module h1 {
+    background:#111;
+    width:auto;
+}
 .content-module .label  {
     font-family: "Droid Sans", sans-serif;
     font-style: normal;

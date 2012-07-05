@@ -44,8 +44,12 @@ class StaticPage {
         preg_match_all($imageRegex, $this->markdown, $imageMatches);
 
         for($i = 0; $i < count($imageMatches[0]); $i++) {  
+            $result = $imageMatches[1][$i];
+            if(stringBeginsWith($result, "local:")) {
+                $result = SITEROOT . '/static/data/assets/' . str_replace('local:', '', $result);
+            }
 
-            $imageString = "<img src=\"". $imageMatches[1][$i] . "\" alt=\"\" />"; 
+            $imageString = "<div style=\"display:block;\"><img style=\"display:block;\" src=\"". $result . "\" alt=\"\" /></div>"; 
 
             $this->markdown = str_replace($imageMatches[0][$i], $imageString, $this->markdown);
         }

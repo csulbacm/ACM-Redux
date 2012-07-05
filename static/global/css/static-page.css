@@ -1,3 +1,4 @@
+
 .static-page {
 	padding-top:0;
 }
@@ -12,4 +13,8 @@
 
 .press-page-container {
 	background:none;
+}
+
+.static-page p img {
+	margin:-20px 0 0 -20px;
 }
