@@ -10,6 +10,7 @@ if(dirname($_SERVER['SCRIPT_NAME']) !== '/') {
 
 define('REWRITE', true);
 
+define('PAGESPATH', '/static/data/staticpages/');
 define('INCPATH', dirname(__FILE__));
 define('FILEROOT', dirname(dirname(__FILE__)) ); 
 define('DATABASEPATH', FILEROOT . "/db/");

@@ -9,10 +9,8 @@
 <?php includePart("base", "documentTop"); ?>
 <?php includePart("base", "header"); ?>
 
-<div class="main-content container_12">
-	<div class="grid_12">
+<div class="static-page main-content content-module">
 		<?php echo rx_getData("content"); ?>		
-	</div>
 </div>
 
 <?php includePart("base", "documentBottom"); ?>

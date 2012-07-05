@@ -41,13 +41,13 @@
             "view": "alumni_view",
             "controller": "AlumniView"
         },
-        "page": {
+        "pages": {
             "view": "page",
-            "controller": "PageViewer"
+            "controller": "PageView"
         },
         "press": {
-            "view": "page",
-            "controller": "PressPageViewer"
+            "view": "press_page",
+            "controller": "PageView"
         }
     }
 }

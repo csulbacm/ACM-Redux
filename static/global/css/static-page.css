@@ -1,0 +1,15 @@
+.static-page {
+	padding-top:0;
+}
+
+.static-page a {
+	color:#333;
+}
+
+.static-page pre {
+	margin:20px;
+}
+
+.press-page-container {
+	background:none;
+}

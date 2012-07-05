@@ -41,7 +41,7 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
         <?php // Meeting Documents ?>
         <div class="content-module">
             <h3>Meeting Documents</h3>
-            <ul class="document-listing">
+            <ul class="link-list">
                 <?php foreach ($meetingDocument as $document): ?>
                 <li>
                     <a href="<?php echo $document['url']; ?>"> <?php echo $document['name']; ?></a>

@@ -27,9 +27,7 @@
       
 <div class="content-module">
     <h2>Photos</h2>
-    <div id="photos-content">
-      
-    </div>
+    <div id="photos-content"></div>
 </div>
 
 
