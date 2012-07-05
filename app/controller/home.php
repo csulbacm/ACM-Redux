@@ -14,6 +14,8 @@ use Controller\Pages\PressPageViewer as PressPageViewer;
 class Index extends BaseController {
     public static function main($pageData, $viewData) {
 	    $viewData->setType('index');
+
+	    $pageData->pushJS('home.js');
 	    
 	    // Latest Minutes on the page
 	    $minutesList = DocumentMain::getMinutesList(5);

@@ -13,6 +13,13 @@
 			    </div>			    
 			</div>
 		</div>
-		<?php echo rx_getJS(); ?>
+		        <script type="text/javascript" charset="utf-8">
+            (function () {
+                var array = location.pathname.split('/');
+                var last = location.pathname.split('/').length - 1;
+                var currentPage = location.pathname.split('/')[last];
+                $('#' + currentPage).addClass('select');
+             })();            
+        </script>
 	</body>
 </html>

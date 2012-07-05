@@ -10,14 +10,8 @@
         <?php endif ?>
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-        <script type="text/javascript" charset="utf-8">
-            $(function () {
-                var array = location.pathname.split('/');
-                var last = location.pathname.split('/').length - 1;
-                var currentPage = location.pathname.split('/')[last];
-                $('#' + currentPage).addClass('select');
-             });            
-        </script>
+        <?php echo rx_getJS(); ?>
+
     </head>
     <body>
         <div class="wrapper">

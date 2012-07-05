@@ -43,7 +43,11 @@
         var photo = album.cover_photo;
         var id = randomString(10);
 
-        var output = '<div id="' + id + '"class="content-module grid_3">'
+        if(typeof(photo) === typeof(undefined)) {
+            console.log("lost wall");
+        }
+
+        var output = '<div id="' + id + '"class="content-module grid_4">'
             output+= '<h2>' + name + '</h2>';
             output+= '</div>';
 
@@ -61,24 +65,28 @@
     }
 
     function jsonGet(url) {
-        $.ajax({
-          url: url,
-          async: true,
-          dataType: 'json',
-          success: function (data) {
+        $.getJSON(url, function (data) {
             var $gallery = $("#gallery");
-            var nextUrl  = data.paging.next;
-
+            var nextUrl  = null;
+            try {
+                nextUrl  = data.paging.next;
+            } catch(e) {
+                //
+            }
+            
             makeAlbumLink($gallery, data["data"])
             
             if(data["data"].length > 0) {
-                console.log(nextUrl);
+
+               $('#next').unbind('click');
                $('#next').click( function () {
                     jsonGet(nextUrl);           
-               })
+               });
+            } else {
+                $('#next').hide()
             }
-          }
         });
+
     }
 
     $(function () {

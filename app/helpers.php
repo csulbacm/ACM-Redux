@@ -167,7 +167,7 @@ function rx_jsURL($js) {
     if( stringBeginsWith($js, 'http://')  ||
         stringBeginsWith($js, 'https://') ||
         stringBeginsWith($js, '//')) {
-        return $css;
+        return $js;
     } else {
         return JSDIR . $js;
     }
