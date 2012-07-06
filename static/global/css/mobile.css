@@ -4,15 +4,21 @@ and (max-device-width : 400px) {
 
 	body {
 		font-size:25px;
+		width:100%;
 	}
 
 	.wrapper {
-		width:100%;
+		width:auto !important;
+		margin:0 !important;
 	}
 
 	/* Make base containers max width */
 
 	.main-content {
+		width:100%;
+	}
+
+	.main-content .content-module {
 		width:100%;
 	}
 
@@ -35,49 +41,108 @@ and (max-device-width : 400px) {
 	.container_12 .grid_11
 	.container_12 .grid_12 {
 		width:100%;
+		margin:0;
+		padding:0;
+		float:none;
 	}
 
-	.index-feed,
-	.index-photos {
-		display: none;
-	}
+
+	/* Header and footer */
 	#header {
-		background: red;
+		padding:0;
+		margin:0;
+
+		background:#4889D2;
 	}
 
+	#header .grid_6 {
+		background:blue;
+	}
+	#header h1  {
+		display: block;
+		width:100%;
+		height:auto;
+		background:none;
+	}
+	#header h1 a {
+		width:100%;
+		height:100%;
+		display: block;
+		text-align:center;
+	}
+
+	#header h1 a .text-header {
+		font-family: "Open Sans", sans-serif;
+		display: block;
+		font-size:2em;
+		letter-spacing:-.07em;
+		padding:20px 0;
+	}
 	#header .grid_6{
 		margin:0;
 		padding:0;
 		background: rgba(0,0,0,.4);
+	}
+
+	#footer {
+		margin:0;
+		width:100%;
+		float:none;
+	}
+
+	#footer #address_content {
+        display: block;
+    	float:none;
+    	margin:0;
+    	width:100%;
+	}
+
+	/* 
+		Google Search Box 
+		TODO: Fix this on mobile
+	*/
+
+	.gsc-search-box {
+		padding:0;
+		margin:0;
+		width:100%;
 		display: none;
 	}
 
-	/* width elements */
+	.gsc-input {
+		height:1.6em;
+		font-size:1.5em;
+	}
+	.gsc-search-box table{
+		margin:0;
+		padding:0;
+
+		background:red;
+	}
 
 	/* Navigation */
 
 	#nav {
 		height: auto;
-		background: #333;
+		background: #333; 
 		text-align: center;
 		font-size:1.2em;
 		float:none;
+		margin:0;
+		width:100%;
+		padding:0;
 	}
 
 	#nav ul {
-		margin:0;
-		padding:0;
+		display: none;
 	}
 
-	#nav ul li,
-	#nav ul li.right {
-		float:none;
-		display: block;
-	}
-
-	#nav ul li a {
-		padding:0;
-		margin:0;
+	#nav select {
+		padding:10px 0;
+		background:none;
+		color:#fff;
+		width:inherit;
+		font-size:1.3em;
 	}
 
 	.minutes-view-sidebar {
@@ -87,4 +152,27 @@ and (max-device-width : 400px) {
 	.meeting-documents-sidebar {
 		display: none;	
 	}
+
+	/* Index Page */
+
+	.index-feed,
+	.index-photos {
+		display: none;
+	}
+
+	#splash {
+		width:100%;
+	}
+
+	#main-page-splash img {
+		display: block;
+		width:100%;
+	}
+	#main-page-splash {
+		width:100%;
+		float:none;
+		position: static;
+		background: blue;
+	}
+
 }
