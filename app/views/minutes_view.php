@@ -16,7 +16,7 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
         
         <?php // Sidebar ?>
         <?php if(isset($sidebar)): ?>
-        <div class="content-module">
+        <div class="content-module minutes-view-sidebar">
             <h3>Officers</h3>
             <ul id="sidebar">
             <?php foreach ($sidebar as $officerType): ?>
@@ -39,7 +39,7 @@ rx_setTitle("acm@thebeach - Minutes for " . $dateName);
         <?php endif ?>
         
         <?php // Meeting Documents ?>
-        <div class="content-module">
+        <div class="content-module meeting-documents-sidebar">
             <h3>Meeting Documents</h3>
             <ul class="link-list">
                 <?php foreach ($meetingDocument as $document): ?>

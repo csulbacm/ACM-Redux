@@ -25,7 +25,7 @@
     </ul> 
 </div>
       
-<div class="content-module">
+<div class="content-module index-photos">
     <h2>Photos</h2>
     <div id="photos-content"></div>
 </div>

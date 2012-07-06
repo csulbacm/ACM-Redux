@@ -10,6 +10,7 @@ body, html {
 body {
 	font-family: "Droid Sans", "Arial", "Helvetica", sans-serif;
 	background:url(../img/bg.png) top center no-repeat #222;
+    font-size:15px;
 }
 
 img, a { outline:none; border:0 }
@@ -32,8 +33,7 @@ h1 a {
 
 h1 img { display:none; }
 p, ul li, ol li { 
-	font-size:13px;
-	line-height:21px; 
+	line-height:1.5em; 
 }
 h1 a{
 	color:#fff;
@@ -42,23 +42,23 @@ h1 a{
 
 #nav {
     background:url(../img/navi.png) top center repeat-x #222;
-	width:960px !important;
+	width:960px;
 	height:30px;
 	float:left;
+	font-size:.8em;
 
     border-top-right-radius:5px;
     border-top-left-radius:5px;
     margin:10px 0 0 0;
 }
 #nav ul {
-	margin:0 0 0 0;
-	padding:0;
+    margin:0 0 0 0;
+    padding:0;
 }
 
 #nav ul li {
-	float:left;
-	font-family: "Droid Sans", "Arial", "Helvetica", sans-serif;
-	font-size:14px;
+    float:left;
+    font-family: "Droid Sans", "Arial", "Helvetica", sans-serif;
 	margin:0;
 	padding:0;
 	list-style:none;
@@ -101,7 +101,7 @@ h1 a{
 	padding:5px 10px;
 	width:920px;
 	color:#fff;
-	font-size:14px;
+	font-size:.9em;
 }
 
 #breadcrumb a {
@@ -174,7 +174,7 @@ h1 a{
     margin:0;
     background:#4889D2;
     font-weight:normal;
-    font-size:16px;
+    font-size:1.3em;
 }
 
 .content-module h1 {
@@ -184,7 +184,7 @@ h1 a{
 .content-module .label  {
     font-family: "Droid Sans", sans-serif;
     font-style: normal;
-    font-size:14px;
+    font-size:.8em;
 
     display:block;
     padding:10px;
@@ -214,7 +214,7 @@ h1 a{
     padding:0;
 }
 .content-module .link-list li a {
-    font-size:14px;
+    font-size:.8em;
     padding:5px 7px;
     display: block;
     border-bottom:1px solid #555;
@@ -237,7 +237,7 @@ h1 a{
     border-radius:2px;
     text-decoration:none;
     display:inline-block;
-    font-size:14px;
+    font-size:.8em;
     box-shadow:rgba(0,0,0,.7) 0px 1px 0px;
 
     margin:2px;
@@ -265,11 +265,11 @@ h1 a{
     padding:5px 20px;
     text-shadow:none;
     color:#fff;
-    font-size:60px;
+    font-size:6em;
 }
 
 #main-page-splash h3 {
-    font-size:35px;
+    font-size:3em;
 }
 
 #address_content {

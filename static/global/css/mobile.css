@@ -1,0 +1,90 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 400px) {
+
+	body {
+		font-size:25px;
+	}
+
+	.wrapper {
+		width:100%;
+	}
+
+	/* Make base containers max width */
+
+	.main-content {
+		width:100%;
+	}
+
+	.container_12 {
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+
+	.container_12 .grid_1,
+	.container_12 .grid_2,
+	.container_12 .grid_3,
+	.container_12 .grid_4,
+	.container_12 .grid_5,
+	.container_12 .grid_6,
+	.container_12 .grid_7,
+	.container_12 .grid_8,
+	.container_12 .grid_9, 
+	.container_12 .grid_10 
+	.container_12 .grid_11
+	.container_12 .grid_12 {
+		width:100%;
+	}
+
+	.index-feed,
+	.index-photos {
+		display: none;
+	}
+	#header {
+		background: red;
+	}
+
+	#header .grid_6{
+		margin:0;
+		padding:0;
+		background: rgba(0,0,0,.4);
+		display: none;
+	}
+
+	/* width elements */
+
+	/* Navigation */
+
+	#nav {
+		height: auto;
+		background: #333;
+		text-align: center;
+		font-size:1.2em;
+		float:none;
+	}
+
+	#nav ul {
+		margin:0;
+		padding:0;
+	}
+
+	#nav ul li,
+	#nav ul li.right {
+		float:none;
+		display: block;
+	}
+
+	#nav ul li a {
+		padding:0;
+		margin:0;
+	}
+
+	.minutes-view-sidebar {
+		display: none;
+	}
+
+	.meeting-documents-sidebar {
+		display: none;	
+	}
+}

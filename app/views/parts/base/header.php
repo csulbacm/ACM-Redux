@@ -4,7 +4,7 @@
         </a></h1>
     </div>
     
-    <div class="grid_6" style="position:relative;margin:-15px 0 0 0;">
+    <div class="grid_6">
 <div id="cse-search-form" style="width: 100%;">Loading</div>
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script type="text/javascript"> 
