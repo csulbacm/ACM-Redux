@@ -15,7 +15,7 @@
 </div>
 
 <div class="content-module">
-    <h2>Latest Minutes</h2>
+    <h2>Minutes</h2>
     <ul class="link-list">
     	<?php foreach($minutes as $item): ?>
             <li><a href="<?php echo $item['URL']; ?>">
@@ -26,8 +26,8 @@
 </div>
       
 <div class="content-module index-photos">
-    <h2>Photos</h2>
-    <div id="photos-content"></div>
+    <h2>Random Album</h2>
+    <div id="photos-content">Loading</div>
 </div>
 
 

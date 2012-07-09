@@ -248,6 +248,7 @@ h1 a .text-header {
     display:inline-block;
     font-size:.8em;
     box-shadow:rgba(0,0,0,.7) 0px 1px 0px;
+    border:rgba(0,0,0,0) 1px solid;
 
     margin:2px;
     padding:3px 10px;
@@ -258,6 +259,10 @@ h1 a .text-header {
 .button:active {
     box-shadow:rgba(0,0,0,.4) 0px 3px 4px inset;
     border:rgba(0,0,0,.4) 1px solid;
+}
+.button.block-button {
+    display: block;
+    text-align: center;
 }
 
 /* Normal Spalsh */

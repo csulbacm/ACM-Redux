@@ -27,15 +27,8 @@ function getGalleryTileData(url) {
         var $gallery = $("#gallery");
 		var albumData = data["data"];        
 		var randomAlbumIndex = Math.floor(Math.random() * albumData.length);
-		var direction = 1;
 
-		if(randomAlbumIndex + 3 >= albumData.length) {
-			direction = -1;
-		}
-
-		out = [randomAlbumIndex,
-		       randomAlbumIndex + direction * 1, 
-		       randomAlbumIndex + direction * 2].map( 
+		out = [randomAlbumIndex].map( 
 		       		function (e) {
 					var currentAlbum = albumData[e];
 		        	var x =  {
@@ -66,5 +59,6 @@ function makeTile(galleryThumb) {
 $(function() {
 	var tiles = getGalleryTileData('https://graph.facebook.com/csulbacm/albums/');
 	var content = tiles.map(function(e) { return makeTile(e) }).join("");
+	$("#photos-content").html('');
 	$("#photos-content").append(content);
 });
