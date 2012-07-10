@@ -7,10 +7,12 @@ and (max-device-width : 400px) {
 		width:100%;
 	}
 
+
 	.wrapper {
 		width:auto !important;
 		margin:0 !important;
 	}
+
 
 	/* Make base containers max width */
 
@@ -45,7 +47,6 @@ and (max-device-width : 400px) {
 		padding:0;
 		float:none;
 	}
-
 
 	/* Header and footer */
 	#header {
@@ -168,11 +169,31 @@ and (max-device-width : 400px) {
 		display: block;
 		width:100%;
 	}
+
 	#main-page-splash {
 		width:100%;
 		float:none;
 		position: static;
 		background: blue;
+	}
+
+	.link-list li a, p {
+		font-size: 1.8em !important;
+		padding:1em !important;
+	}
+
+	/* Button */
+
+	.button {
+		font-size: 2.5em !important;
+		padding:1em;
+	}
+	
+	/* Content Module */
+
+	.content-module h2,
+	.content-module h3{
+		font-size:3em;
 	}
 
 }

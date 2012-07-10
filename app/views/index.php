@@ -2,7 +2,6 @@
 <?php includePart("base", "documentTop"); ?>
     <?php includePart("base", "header"); ?>
     <?php includePart("index", "splash"); ?>
-
     <div class="main-content container_12">
     	<div class="grid_6 index-feed">
     		<?php echo includePart("index", "feed");  ?>

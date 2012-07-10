@@ -3,11 +3,11 @@
 	<p>
 		The ACM Office is in ENG-3 110
 	</p>
-	<p class="label">
+	<span class="label">
 		<a class="button block-button"
 			href="http://goo.gl/maps/Pk7F"
 			target="_blank">Get Directions</a>
-	</p>
+	</span>
 </div>
 
 <div class="content-module">
@@ -20,7 +20,7 @@
 
 <div class="content-module">
 
- <h2>Join ACM</h2>
+<h2>Join ACM</h2>
 <p>
 The Association for Computing Machinery is an active branch of the 
 globe&rsquo;s largest computer science society. Here at the Long Beach chapter,
