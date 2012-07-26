@@ -8,11 +8,11 @@
     	</div>
     	
     	<div class="grid_3">
-    		<?php echo includePart("index", "column_2");  ?>
+            <?php echo includePart("index", "column_3");  ?>
     	</div>
     	
     	<div class="grid_3">
-    		<?php echo includePart("index", "column_3");  ?>
+            <?php echo includePart("index", "column_2");  ?>
     	</div>
     </div>
 <?php includePart("base", "documentBottom"); ?>

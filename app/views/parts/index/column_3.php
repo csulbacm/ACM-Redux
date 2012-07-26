@@ -10,19 +10,29 @@
 	</span>
 </div>
 
+
 <div class="content-module">
 
-<h2>ACM &hearts; GitHub</h2>
-	<a href="http://www.github.com/davidnuon/ACM-Redux" target="_blank">
-	        <img src="static/global/img/github.png" alt="" />
-	</a>
+<h2>Members</h2>
+<p>
+ACM has produced some successful alumni that all have a story to tell.
+</p>
+	<span class="label">
+		<a class="button block-button"
+			href="alumni">Find out more</a>
+	</span>
 </div>
 
 <div class="content-module">
 
-<h2>Join ACM</h2>
+<h2>acm this year</h2>
 <p>
-The Association for Computing Machinery is an active branch of the 
-globe&rsquo;s largest computer science society. Here at the Long Beach chapter,
- we believe in the principles of Gladwell&rsquo;s book, Outliers: The Story of Success. </p>
+acm@thebeach is going to be doing some interesting things this year. 
+Code and work with fellow students in our codejams and compete in
+our hackweeks and programming contests.
+</p>
+	<span class="label">
+		<a class="button block-button"
+			href="press/acmevents">Find out more</a>
+	</span>
 </div>

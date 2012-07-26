@@ -295,3 +295,7 @@ h1 a .text-header {
     display: block;
     float:none;
 }
+
+.masthead div img{
+    width:100%;
+}

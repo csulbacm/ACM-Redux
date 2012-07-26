@@ -36,7 +36,7 @@
 			1. Vice-President:
 				1. Ian: Ian is here over the summer as well.
 				1. Ian: If you want access to the twitter, contact Ian.
-				1. Ian: If you are interested in getting started on a project over the summer. If you are interested contact Ian, or post something on the ACM facebook page.
+				1. Ian: If you are interested in getting started on a project over the summer, contact Ian, or post something on the ACM facebook page.
 			2. Treasurer:
 				1. Chris: We need to do some fundraisers, especially if we are going to have to pay for the faculty advisor. We should also restock. We need the funds for a costco run. 
 				1. Sal: when is the costco run scheduled?
@@ -46,7 +46,7 @@
 				1. Working on a new system for the minutes.
 			1. AESB Representative:
 				1. Year-in review
-					1. Sal: Did talk with the incoming AESB president. There is a good chance that rooms will be lost. Every year there is a year in review to show that orgs deserve their rooms. Historian, take pictures. Make things that you can show off on your resume.
+					1. Sal: I talked with the incoming AESB president. There is a good chance that rooms will be lost. Every year there is a year in review to show that orgs deserve their rooms. Historian, take pictures. Make things that you can show off on your resume.
 					1. Orion: How are we going to take pictures of programming projects?
 						1. Sal: You can take pictures of the Programming team, and events like the robot battles. You want to make things that will make the college look good. You can just take some screen shots for the programming projects.
 			1. Publicity and Recruitment Chair:
@@ -76,9 +76,9 @@
 					1. Sal: We need to make sure the surveillance system is safe. We need to mount one more camera. If you can't secure it, obscure it.
 			1. Historian:
 				1. Franks videos of robot competition.
-					1. David: Frank still needs us to get us these videos. He should be back soon and living locally. Once he's finished moving, ask him for the videos.
+					1. David: Frank still needs to get us these videos. He should be back soon and living locally. Once he's finished moving, ask him for the videos.
 			1. Librarian:
-				1. David: I haven't heard from him in a while. From what we last talked about, he wants to have a library check-in system.
+				1. David: I haven't heard from him in a while. From what we last talked about, he wants to have a library check-out system.
 					1. Sal: If we are going to have a check-out system, it should be only for members.
 				1. Tony still needs to see Steve Gold about his book collection.
 			1. Event Coordinator
@@ -86,7 +86,7 @@
 				1. Sal: How much did the ACM BBQ make?
 					1. Diana: I am not sure.
 					1. David: I don't think that there was enough money made.
-				1. Motion to give all of the money made by ACM for the ACM-W BBQ to ACM-W: **[PASS]** 
+				1. Motion to give all of the money made by ACM from the ACM-W BBQ to ACM-W: **[PASS]** 
 					1. First: Ian: Oky doky, more money for them.
 					2. Second: Orion **[PASS]** 
 					3. Discussion: None 
@@ -100,12 +100,12 @@
 						1. Sal: If anything would be mailed to us, it would be put into this mailbox.
 					1. Librarian will be in charge of keeping the office open as much as possible.
 					1. Bump up transitions. Start them earlier.
-					1. There are two days out of the year that we have no board members.
+					1. There are two days out of the year that we have no board members. We are going to close that loophole.
 					1. For ACM-W we will open up presidency to EE, Math, and applied math.
 	1. Old Business
 		1. Sal: We have a tendency to put off things we need to do. When we say that we need to do something, the secretary should put it in old business. This will make it a system of accountability. It will be an action list. Also, proofread the notes.
 	1. New Business
-		0. ACM
+		1. ACM
 			1. National Student Accounts
 				1. David: Who has a national student account?
 					1. Sal: Every officer needs to have a national student account.
@@ -118,11 +118,9 @@
 			1. When? 
 				1. Sal: We don't know when. In early to mid August, registration opens. Who do we have to monitor that?
 					1. David: I will.
-				1. Sal: Event, fiscal, and campus policy certifications are the three that we need. We should have multiples of these. Sign up for redundancy everyone. If something goes wrong, make sure someone else can do it. Have back ups. Management strategy should be placed on the wiki.
-				1. Sal: You have to pay in person. You show up, it's on a Saturday, early in the morning. You go through a guest speaker, then go to some lessons. Then lunch, and repeat. Treasurer should do fundraising, and just look into things that are interesting.
-			1. When to register?
-			1. Who is going?
-			1. Recommended workshops
+			1. Sal: Event, fiscal, and campus policy certifications are the three that we need. We should have multiples of these. Sign up for redundancy, everyone. If something goes wrong, make sure someone else can do it. Have back ups. Management strategy should be placed on the wiki.
+			1. Sal: You have to pay in person. You show up, it's on a Saturday, early in the morning. You go through a guest speaker, then go to some lessons. Then lunch, and repeat. Treasurer should do fundraising, and just look into things that are interesting.
+			
 		2. SOAR 
 			1. When? July 11th 2012
 			1. When to register?

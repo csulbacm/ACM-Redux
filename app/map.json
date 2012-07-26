@@ -16,7 +16,7 @@
             "view": "alumni",
             "controller": "AlumniMain"
         },
-        "constitution": {
+        "knowledgebase": {
             "view": "constitution"
         },
         "mission": {

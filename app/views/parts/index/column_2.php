@@ -1,7 +1,6 @@
 <?php $minutes = rx_getData('minutes-listing'); ?>
 <?php $pressPages = rx_getData('press-listing'); ?>
 
-
 <div class="content-module">
     <h2>Press</h2>
     <ul class="link-list">
@@ -15,11 +14,11 @@
 </div>
 
 <div class="content-module">
-    <h2>Minutes</h2>
+    <h2>Meeting Protocols</h2>
     <ul class="link-list">
     	<?php foreach($minutes as $item): ?>
             <li><a href="<?php echo $item['URL']; ?>">
-               Minutes for <?php echo $item['date']; ?>
+               <?php echo $item['date']; ?>
            </a></li>
     	<?php endforeach ?>
     </ul> 
@@ -31,3 +30,9 @@
 </div>
 
 
+<div class="content-module github">
+<h2>ACM &hearts; GitHub</h2>
+  <a href="http://www.github.com/davidnuon/ACM-Redux" target="_blank">
+          <img src="static/global/img/github.png" alt="Github" />
+  </a>
+</div>

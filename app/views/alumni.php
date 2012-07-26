@@ -23,11 +23,29 @@
 
     <?php foreach($alumnus as $alumni): ?>
     	<?php $shortName = $alumni->getShortName(); ?>
-    	
+
+            <?php if (in_array($shortName, $list)): ?>
+        <div class="grid_4 content-module alumni" style="margin:0px 10px 20px 10px">
+            
+            <?php // TODO: when we have all the data, take this out. ?>
+            <h3><?php echo $alumni->getName(); ?></h3>
+
+               <a href="<?php echo rx_siteURL('alumni-view/' . $alumni->getShortName()); ?>">
+               <span class="click">Click to view bio</span>
+            
+            <img src="<?php echo $alumni->getPhoto() ?>" 
+                 alt="<?php echo $alumni->getName(); ?>" 
+                 style="width:100%;"/>
+            </a>
+        </div>  
+            <?php endif; ?>       
+        
+        <!--    	
         <div class="grid_4 content-module alumni" style="margin:0px 10px 20px 10px">
         	
         	<?php // TODO: when we have all the data, take this out. ?>
             <h3><?php echo $alumni->getName(); ?></h3>
+
         	<?php if (in_array($shortName, $list)): ?>
          	   <a href="<?php echo rx_siteURL('alumni-view/' . $alumni->getShortName()); ?>">
 			   <span class="click">Click to view bio</span>
@@ -40,6 +58,8 @@
                  style="width:100%;"/>
             </a>
         </div>         
+
+        -->
     <?php endforeach ?>
 
 

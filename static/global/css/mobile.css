@@ -13,6 +13,19 @@ and (max-device-width : 400px) {
 		margin:0 !important;
 	}
 
+	.github {
+		text-align: center;
+	}
+
+	.github img {
+		width:80%;
+		margin:10%;
+	}
+
+	ul li, ol li {
+		padding: .3em;
+		margin: .3em;
+	}
 
 	/* Make base containers max width */
 
@@ -22,6 +35,10 @@ and (max-device-width : 400px) {
 
 	.main-content .content-module {
 		width:100%;
+	}
+
+	.label{
+		font-size:20px !important;
 	}
 
 	.container_12 {
@@ -181,6 +198,7 @@ and (max-device-width : 400px) {
 		font-size: 1.8em !important;
 		padding:1em !important;
 	}
+
 
 	/* Button */
 
