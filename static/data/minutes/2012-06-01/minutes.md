@@ -105,7 +105,7 @@
 	1. Old Business
 		1. Sal: We have a tendency to put off things we need to do. When we say that we need to do something, the secretary should put it in old business. This will make it a system of accountability. It will be an action list. Also, proofread the notes.
 	1. New Business
-		1. ACM
+		0. ACM
 			1. National Student Accounts
 				1. David: Who has a national student account?
 					1. Sal: Every officer needs to have a national student account.
@@ -135,8 +135,8 @@
 		3. Summer Shenanigans
 			1. Code Jams
 				1. David: Code jams are hilarious. I want this to be a bunch of people in the lab coding. I don't want people playing video games in there. I don't want the freshman who don't know anything to be intimidated.
-				1. Sal: We have an issue with recruitment. People that enter don't often stay. Our goal with this is to make the freshman not suck. Anyone who goes into the code jam has to be working on something; no messing around. If they don't know what to do, give them something to do.
-					1. Nathan: If all else fails advise them.
+				1. Sal: We have an issue with recruitment. People that enter, don't often stay. Our goal with this is to make the freshman not suck. Anyone who goes into the code jam has to be working on something; no messing around. If they don't know what to do, give them something to do.
+					1. Nathan: If all else fails, advise them.
 			1. Archiving
 				1. David: We have lots of documents that I don't want to lose. I want many things to be documented on the wiki for transitions of future boards.
 		4. Keys

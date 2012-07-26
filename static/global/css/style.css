@@ -47,7 +47,7 @@ h1 a .text-header {
 }
 
 #nav {
-    background:url(../img/navi.png) top center repeat-x #222;
+    background: #222;
 	width:960px;
 	height:30px;
 	float:left;
@@ -80,7 +80,7 @@ h1 a .text-header {
 }
 #nav ul li a {
 	color:#fff;
-	padding:4px 15px;
+	padding:6px 15px;
 	display:block;
 	text-decoration:none;
 

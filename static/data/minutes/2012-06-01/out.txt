@@ -1,0 +1,106 @@
+<ol>
+<li>Call to Order<ol>
+<li>Roll Call<ol>
+<li>Administrative Cabinet<ol>
+<li>President - David Nuon:</li>
+<li>Vice-President - Ian Goegobuer:</li>
+<li>Treasurer - Christopher Gomez:</li>
+<li>Secretary - Shane Satterfield:</li>
+</ol>
+</li>
+<li>Appointed Positions<ol>
+<li>AESB Representative - Victoria Hatfield:</li>
+<li>Publicity and Recruitment Chair - Leo Tronolone:</li>
+<li>Market Manager - James Coolidge:</li>
+<li>Event Coordinator - Diana Ignacio</li>
+<li>Webmaster - John-Jimi Kathleen Som:</li>
+<li>Office Technician - Johnny Patterson:</li>
+<li>Historian - Orion Sakorn:</li>
+<li>Librarian - Anthony Gialcalone:</li>
+</ol>a
+</li>
+<li>Project Managers:</li>
+<li>Approval of Agenda:</li>
+<li>Approval of Minutes:</li>
+</ol>
+</li>
+<li>Announcements<ol>
+<li>Guest Introductions</li>
+</ol>
+</li>
+<li>Business<ol>
+<li>Officer Reports<ol>
+<li>Faculty Advisor:</li>
+<li>President:<ol>
+<li>Availability over summer:</li>
+</ol>
+</li>
+<li>Vice-President:</li>
+<li>Treasurer:</li>
+<li>Secretary:<ol>
+<li>Working on a new system for the minutes.</li>
+</ol>
+</li>
+<li>AESB Representative:</li>
+<li>Publicity and Recruitment Chair:<ol>
+<li>Design assets and documents.</li>
+</ol>
+</li>
+<li>Market Manager:<ol>
+<li>We need to restock soon.</li>
+</ol>
+</li>
+<li>Webmaster:<ol>
+<li>Accounts</li>
+</ol>
+</li>
+<li>Office Technician:<ol>
+<li>Surveillance Boost</li>
+</ol>
+</li>
+<li>Historian:<ol>
+<li>Franks videos of robot competition.</li>
+</ol>
+</li>
+<li>Librarian:</li>
+</ol>
+</li>
+<li>Project Committee Reports</li>
+</ol>
+</li>
+<li>Old Business</li>
+<li>New Business<ol>
+<li>ACM<ol>
+<li>National Student Accounts</li>
+<li>Report to ACM<ol>
+<li>Due by the end Q3, July 30. </li>
+</ol>
+</li>
+</ol>
+</li>
+<li>T3<ol>
+<li>When?</li>
+<li>When to register?</li>
+<li>Who is going?</li>
+<li>Recommended workshops</li>
+</ol>
+</li>
+<li>SOAR<ol>
+<li>When?</li>
+<li>When to register?</li>
+<li>Who is going?</li>
+<li>Recruitment strategy</li>
+</ol>
+</li>
+<li>Summer Shenanigans<ol>
+<li>Code Jams</li>
+<li>Archiving</li>
+</ol>
+</li>
+<li>Keys</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Adjournment</li>
+</ol>

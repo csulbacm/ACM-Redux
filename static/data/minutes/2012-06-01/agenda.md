@@ -2,7 +2,7 @@
 	1. Roll Call
 		1. Administrative Cabinet
 			1. President - David Nuon:
-			1. Vice-President - Ian Goegobeur:
+			1. Vice-President - Ian Goegobuer:
 			1. Treasurer - Christopher Gomez:
 			1. Secretary - Shane Satterfield:
 		1. Appointed Positions
@@ -14,6 +14,7 @@
 			1. Office Technician - Johnny Patterson:
 			1. Historian - Orion Sakorn:
 			1. Librarian - Anthony Gialcalone:
+
 		1. Project Managers:
 		1. Approval of Agenda:
 		1. Approval of Minutes:

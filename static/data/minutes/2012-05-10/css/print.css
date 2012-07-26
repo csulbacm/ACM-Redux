@@ -1,134 +1,134 @@
-@charset "utf-8";
-/* CSS Document */
-
-
-body {
-	font-family:Tahoma, Geneva, sans-serif;
-	background:#fff;
-	font-size:8pt;
-
-}
-
-
-li, p {
-	line-height:1.2em;
-}
-
-a {
-	color:#000;
-}
-
-li {
-	margin:none;
-}
-
-.wrapper {
-	position:relative;
-}
-
-header {
-	border-bottom:#333 1px solid;
-}
-
-header h1, header h2 {
-	font-size:16px;
-	padding:0;
-	margin:5px 0;
-}
-
-header h1 span {
-	font-weight:normal;
-	font-size:70%;
-}
-
-header h2 {
-	font-weight:normal;
-	font-size:12px;
-}
-
-h1, h2, h3, h4 {
-	font-family:Arial, Helvetica, sans-serif;
-}
-
-.officers {
-	width:100%;
-	border-bottom:#333 1px solid;
-	padding:0;
-	margin:0;
-}
-
-.execs {
-	border-bottom:#333 1px solid;
-}
-
-.officers .member-list {
-	padding:0;
-	margin:0;
-	clear:both;
-}
-
-.officers h2, .officers h3 {
-	display:none;
-}
-
-.officers .member-list li {
-	width:45%;
-	float:left;
-	padding:0;
-	margin:0 0 4px 0;
-}
-
-.officers .member-list li span {
-	display:inline-block;
-}
-
-.officers .member-list li .m-members {
-	display:none;
-}
-.officers .member-list li a {
-	font-weight:bold;
-	text-decoration:none;
-}
-.officers .member-list li a:before {
-	content:" - ";
-}
-.member > p {
-	margin:2px;
-	padding:0;
-}
-.content {
-	width:100%;
-}
-
-
-footer {
-	float:left;
-	clear:both;
-	padding:5px 0;
-	text-align:center;
-	width:100%;
-	border-top:#333 1px solid;
-}
-
-footer p {
-	padding:5px 0;
-	margin:0;
-	font-size:12px;
-}
-
-.content ol {
-	margin-left:0px;
-}
-.content ol li {
-	margin-left:0px;
-}
-
-.content ol li { list-style-type: upper-roman; font-weight: bold; text-transform:uppercase; }
-
-.content ol li ol li { list-style-type: lower-alpha; font-weight:normal; text-transform:none;}
-
-.content ol li ol li ol li { list-style-type:lower-roman; text-transform:none;}
-
-.content ol li ol li ol li ol li { list-style-type: square; text-transform:none;}
-
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	font-family:Tahoma, Geneva, sans-serif;
+	background:#fff;
+	font-size:8pt;
+
+}
+
+
+li, p {
+	line-height:1.2em;
+}
+
+a {
+	color:#000;
+}
+
+li {
+	margin:none;
+}
+
+.wrapper {
+	position:relative;
+}
+
+header {
+	border-bottom:#333 1px solid;
+}
+
+header h1, header h2 {
+	font-size:16px;
+	padding:0;
+	margin:5px 0;
+}
+
+header h1 span {
+	font-weight:normal;
+	font-size:70%;
+}
+
+header h2 {
+	font-weight:normal;
+	font-size:12px;
+}
+
+h1, h2, h3, h4 {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.officers {
+	width:100%;
+	border-bottom:#333 1px solid;
+	padding:0;
+	margin:0;
+}
+
+.execs {
+	border-bottom:#333 1px solid;
+}
+
+.officers .member-list {
+	padding:0;
+	margin:0;
+	clear:both;
+}
+
+.officers h2, .officers h3 {
+	display:none;
+}
+
+.officers .member-list li {
+	width:45%;
+	float:left;
+	padding:0;
+	margin:0 0 4px 0;
+}
+
+.officers .member-list li span {
+	display:inline-block;
+}
+
+.officers .member-list li .m-members {
+	display:none;
+}
+.officers .member-list li a {
+	font-weight:bold;
+	text-decoration:none;
+}
+.officers .member-list li a:before {
+	content:" - ";
+}
+.member > p {
+	margin:2px;
+	padding:0;
+}
+.content {
+	width:100%;
+}
+
+
+footer {
+	float:left;
+	clear:both;
+	padding:5px 0;
+	text-align:center;
+	width:100%;
+	border-top:#333 1px solid;
+}
+
+footer p {
+	padding:5px 0;
+	margin:0;
+	font-size:12px;
+}
+
+.content ol {
+	margin-left:0px;
+}
+.content ol li {
+	margin-left:0px;
+}
+
+.content ol li { list-style-type: upper-roman; font-weight: bold; text-transform:uppercase; }
+
+.content ol li ol li { list-style-type: lower-alpha; font-weight:normal; text-transform:none;}
+
+.content ol li ol li ol li { list-style-type:lower-roman; text-transform:none;}
+
+.content ol li ol li ol li ol li { list-style-type: square; text-transform:none;}
+
 .content ol li ol li ol li ol li ol li { list-style-type:lower-alpha; text-transform:none;}

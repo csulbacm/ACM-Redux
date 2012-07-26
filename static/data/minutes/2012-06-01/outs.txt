@@ -1,0 +1,308 @@
+<ol>
+<li>Call to Order 06-01-2012 13:11 <ol>
+<li>Roll Call<ol>
+<li>Administrative Cabinet<ol>
+<li>President - David Nuon: <strong>Present</strong> </li>
+<li>Vice-President - Ian Goegobuer: <strong>Present</strong> </li>
+<li>Treasurer - Christopher Gomez: <strong>Present</strong>, came in 06-01-2012 13:13<br />
+</li>
+<li>Secretary - Shane Satterfield: <strong>Present</strong> </li>
+</ol>
+</li>
+<li>Appointed Positions<ol>
+<li>AESB Representative - Victoria Hatfield:<strong>Not Present</strong> </li>
+<li>Publicity and Recruitment Chair - Leo Tronolone:<strong>Present</strong> </li>
+<li>Market Manager - James Coolidge: <strong>Not Present</strong> </li>
+<li>Event Coordinator - Diana Ignacio <strong>Present</strong> </li>
+<li>Webmaster - John-Jimi Kathleen Som: <strong>Present</strong> </li>
+<li>Office Technician - Johnny Patterson: <strong>Present</strong>, came in 06-01-2012 13:37<br />
+</li>
+<li>Historian - Orion Sakorn: <strong>Present</strong> </li>
+<li>Librarian - Anthony Gialcalone: <strong>Not Present</strong> </li>
+</ol>
+</li>
+<li>Project Managers:<ol>
+<li>Socie-D: Ben Chang <strong>Not Present</strong> </li>
+</ol>
+</li>
+<li>Approval of Agenda: <strong>[PASS]</strong> <ol>
+<li>First: Ian <strong>[PASS]</strong> </li>
+<li>Second: Diana <strong>[PASS]</strong> </li>
+<li>Discussion: None </li>
+</ol>
+</li>
+<li>Approval of Minutes: <strong>[PASS]</strong> <ol>
+<li>First: Diana <strong>[PASS]</strong> </li>
+<li>Second: Ian <strong>[PASS]</strong> </li>
+<li>Discussion: None </li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Announcements<ol>
+<li>Guest Introductions</li>
+</ol>
+</li>
+<li>Business<ol>
+<li>Officer Reports<ol>
+<li>Faculty Advisor: <strong>Not Present</strong><ol>
+<li>Have to talk to Murgolo because he is not an ACM National member. </li>
+</ol>
+</li>
+<li>President:<ol>
+<li>Availability over summer:<ol>
+<li>David is available over the summer nearly everyday.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Vice-President:<ol>
+<li>Ian: Ian is here over the summer as well.</li>
+<li>Ian: If you want access to the twitter, contact Ian.</li>
+<li>Ian: If you are interested in getting started on a project over the summer. If you are interested contact Ian, or post something on the ACM facebook page.</li>
+</ol>
+</li>
+<li>Treasurer:<ol>
+<li>Chris: We need to do some fundraisers, especially if we are going to have to pay for the faculty advisor. We should also restock. We need the funds for a costco run. </li>
+<li>Sal: when is the costco run scheduled?<ol>
+<li>Nathan: Whenever I can get James to do so.</li>
+</ol>
+</li>
+<li>Sal &amp; Orion: Water, Water, Water!</li>
+</ol>
+</li>
+<li>Secretary:<ol>
+<li>Working on a new system for the minutes.</li>
+</ol>
+</li>
+<li>AESB Representative:<ol>
+<li>Year-in review<ol>
+<li>Sal: Did talk with the incoming AESB president. There is a good chance that rooms will be lost. Every year there is a year in review to show that orgs deserve their rooms. Historian, take pictures. Make things that you can show off on your resume.</li>
+<li>Orion: How are we going to take pictures of programming projects?<ol>
+<li>Sal: You can take pictures of the Programming team, and events like the robot battles. You want to make things that will make the college look good. You can just take some screen shots for the programming projects.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Publicity and Recruitment Chair:<ol>
+<li>Sal: I will be coaching Leo from now on.</li>
+<li>Design assets and documents.<ol>
+<li>Sal: Talked with Nathan about this. Has a lot of these. I just have random files, and we need to organize them. The best publicity is just talking to people. I can meet with Leo next Friday.</li>
+</ol>
+</li>
+<li>Event Fliers/Board<ol>
+<li>Sal: I just want to print out some 4x6 and get them all over the place because they're cheap.<ol>
+<li>Orion: Where would we post them?<ol>
+<li>Sal: In the office, and maybe in the labs.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Sal: We have a big board. I just want to create a generic board that we can just post on new 4x6's and update them frequently.</li>
+</ol>
+</li>
+<li>Beginning of the year recruitment.<ol>
+<li>A lot of students are coming in and we want to scout them. We want people that already know how to program and are bored out of their mind. The best publicity is going into classes and talking to people. The publicity chair should arrange and schedule it so that you can go into classes and talk to people. The main classes to hit are CECS 100 and 174. In the 200 lvl get the students that now know how to code and get them to start projects. That is our strategy on sophomores. For Juniors and Seniors, scare them.</li>
+<li>David: Everyone, try to get people involved. People that aren't involved tend not to do so well. Emphasize that connections are important.</li>
+<li>Sal: Don't email people. Email doesn't work. Talk to people. Start coordinating people and see who can talk to people.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Market Manager:<ol>
+<li>We need to restock soon.<ol>
+<li>David: We need water.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Webmaster:<ol>
+<li>Accounts<ol>
+<li>David: I am training the webmaster and helping him get familiar with the website. Mainly, he must help the secretary proofread the minutes.</li>
+<li>Sal: Don't treat your accounts like your facebook; keep them generic.</li>
+<li>David: Make sure you check the forwarding when you get your accounts. Also, the double login.</li>
+<li>Sal: Do you know what AESB is Jimmi? We have a page on there and you should make sure it's up to date. And wiki wiki wiki.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Office Technician:<ol>
+<li>Surveillance Boost<ol>
+<li>Sal: We need to make sure the surveillance system is safe. We need to mount one more camera. If you can't secure it, obscure it.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Historian:<ol>
+<li>Franks videos of robot competition.<ol>
+<li>David: Frank still needs us to get us these videos. He should be back soon and living locally. Once he's finished moving, ask him for the videos.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Librarian:<ol>
+<li>David: I haven't heard from him in a while. From what we last talked about, he wants to have a library check-in system.<ol>
+<li>Sal: If we are going to have a check-out system, it should be only for members.</li>
+</ol>
+</li>
+<li>Tony still needs to see Steve Gold about his book collection.</li>
+</ol>
+</li>
+<li>Event Coordinator<ol>
+<li>Diana: I still need access to the email. I am planning lots of social events. Also, I am working on recruiting.</li>
+<li>Sal: How much did the ACM BBQ make?<ol>
+<li>Diana: I am not sure.</li>
+<li>David: I don't think that there was enough money made.</li>
+</ol>
+</li>
+<li>Motion to give all of the money made by ACM for the ACM-W BBQ to ACM-W: <strong>[PASS]</strong> <ol>
+<li>First: Ian: Oky doky, more money for them.</li>
+<li>Second: Orion <strong>[PASS]</strong> </li>
+<li>Discussion: None </li>
+</ol>
+</li>
+<li>ACM meetings are Tuesdays at 1pm, ACM-W meetings are Thursdays at 1pm</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Project Committee Reports<ol>
+<li>By-laws Comittee: July 11th 2012<ol>
+<li>Sal: Our next meeting is going to be the bylaws meeting. It is going to be a very long meeting. Pay close attention. Let there be praise for the bylaws. Money is a very sensitive issue. Not only will you learn a lot about the bylaws, but you will learn a lot about ACM history. We are going to do the same thing as SOAR. We are going to go out to lunch, them talk about the bylaws, and then go do something afterwards. </li>
+<li>Proposed Ammendments:<ol>
+<li>Sal: I want AESB Representative and Event coordinator to become executive board members. Weird connections are important.</li>
+<li>Sal: Secretary should look into the USU mailbox.<ol>
+<li>Sal: If anything would be mailed to us, it would be put into this mailbox.</li>
+</ol>
+</li>
+<li>Librarian will be in charge of keeping the office open as much as possible.</li>
+<li>Bump up transitions. Start them earlier.</li>
+<li>There are two days out of the year that we have no board members.</li>
+<li>For ACM-W we will open up presidency to EE, Math, and applied math.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Old Business<ol>
+<li>Sal: We have a tendency to put off things we need to do. When we say that we need to do something, the secretary should put it in old business. This will make it a system of accountability. It will be an action list. Also, proofread the notes.</li>
+</ol>
+</li>
+<li>New Business<ol>
+<li>ACM<ol>
+<li>National Student Accounts<ol>
+<li>David: Who has a national student account?<ol>
+<li>Sal: Every officer needs to have a national student account.</li>
+</ol>
+</li>
+<li>David: I need to get the credentials for the ACM national chapter on the website.</li>
+</ol>
+</li>
+<li>Report to ACM<ol>
+<li>Due by the end Q3, July 30.</li>
+<li>David: I want to get this done as soon as possible. We need an ID number from our faculty advisor. We need to figure out how we are going to do this. Shane, can you meet with me on Sunday about this?<ol>
+<li>Shane: Yes. </li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>T3<ol>
+<li>When? <ol>
+<li>Sal: We don't know when. In early to mid August, registration opens. Who do we have to monitor that?<ol>
+<li>David: I will.</li>
+</ol>
+</li>
+<li>Sal: Event, fiscal, and campus policy certifications are the three that we need. We should have multiples of these. Sign up for redundancy everyone. If something goes wrong, make sure someone else can do it. Have back ups. Management strategy should be placed on the wiki.</li>
+<li>Sal: You have to pay in person. You show up, it's on a Saturday, early in the morning. You go through a guest speaker, then go to some lessons. Then lunch, and repeat. Treasurer should do fundraising, and just look into things that are interesting.</li>
+</ol>
+</li>
+<li>When to register?</li>
+<li>Who is going?</li>
+<li>Recommended workshops</li>
+</ol>
+</li>
+<li>SOAR <ol>
+<li>When? July 11th 2012</li>
+<li>When to register?<ol>
+<li>Sal: You don't register, you just show up. First come first serve.</li>
+</ol>
+</li>
+<li>Who is going?<ol>
+<li>We will be meeting at 11 ish. We will have a bylaws meeting that day. People who show up for that can show up for SOAR.</li>
+</ol>
+</li>
+<li>Recruitment strategy<ol>
+<li>Sal: ACM and ACM-W booths will be right next to each other. Snag the people walking by. Make it so that they have to walk through us to get by. Ask them what their major is. Try and get CECS majors, and for other majors, persuade them into a CS minor.<ol>
+<li>David: Express how computation heavy the other engineering majors are.</li>
+<li>Ian: I don't remember the ACM table at SOAR when I entered.</li>
+</ol>
+</li>
+<li>Sal: Instead of talking about ourselves, we should interogate the students and make it all about them. The biggest mistake ACM made when I entered was that we measured our success on how many people showed up to our meetings. But they didn't do anything. We want active and valuable members.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Summer Shenanigans<ol>
+<li>Code Jams<ol>
+<li>David: Code jams are hilarious. I want this to be a bunch of people in the lab coding. I don't want people playing video games in there. I don't want the freshman who don't know anything to be intimidated.</li>
+<li>Sal: We have an issue with recruitment. People that enter don't often stay. Our goal with this is to make the freshman not suck. Anyone who goes into the code jam has to be working on something; no messing around. If they don't know what to do, give them something to do.<ol>
+<li>Nathan: If all else fails advise them.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Archiving<ol>
+<li>David: We have lots of documents that I don't want to lose. I want many things to be documented on the wiki for transitions of future boards.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Keys<ol>
+<li>David: Thank you all for sending your signatures for the form. We're pretty much done. We just need the advisor's signture.</li>
+</ol>
+</li>
+<li>ACM Git Hub<ol>
+<li>Sal: Apparently, non-profit organizations get free git hub.</li>
+<li>David: Git hub has made very awesome clients for Mac and Windows.</li>
+</ol>
+</li>
+<li>Programming team<ol>
+<li>Sal: I should run the programming team. I will see if I can get the charter ready by August. If you want to get started, work on the warm-up problems. I will get the junior varsity teams to do this. People should get started as early as their freshman year.<ol>
+<li>Nathan: There is an IBM representative at the programming team competition every time and he recruits.</li>
+</ol>
+</li>
+<li>Sal: Alumni are very important for networking. Keep in contact with your alumni.</li>
+</ol>
+</li>
+<li>Hack-a-thons<ol>
+<li>Sal: You just plot people in a room and they just start coding. We need to talk to an industry to cook up one, maybe some prizes. Maybe we could have the EA contact sponser the hack-a-thon over spring break.</li>
+</ol>
+</li>
+<li>Meeting with Dr. James<ol>
+<li>Sal: We are going down to ECS 316. We want to talk about code jams. This will be our big thing next year.<ol>
+<li>Code Jams</li>
+<li>Programming team and junior varsity.</li>
+<li>Dr. James said he wanted a local competition. He wants more of that.</li>
+<li>ACM-W outreach.</li>
+<li>Helping motivate faculty and showing student projects</li>
+<li>Getting funding from the industry.</li>
+<li>More industry contacts.</li>
+<li>The techs would like some feedback on problems with the lab computers.</li>
+<li>Manage MSDNAA for the department.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Adjournment 06-01-2012 14:59</li>
+</ol>
