@@ -18,6 +18,7 @@ class Index extends BaseController {
 	    $pageData->pushJS('home.js');
 	    
 	    // Latest Minutes on the page
+	    // Setting a limit of 5
 	    $minutesList = DocumentMain::getMinutesList(5);
         $viewData->setData('minutes-listing', $minutesList);
         

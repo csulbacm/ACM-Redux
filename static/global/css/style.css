@@ -299,3 +299,9 @@ h1 a .text-header {
 .masthead div img{
     width:100%;
 }
+
+/* Search box */
+
+.search-container {
+    margin:-10px 0 0 0;
+}

@@ -8,17 +8,18 @@
 namespace Controller\Pages;
 use Utility\FileList as FileList;
 use Models\Documents\Minutes as Minutes;
+use Model\StaticPageList as StaticPageList; 
 
 class DocumentMain {
     public static function main($pageData, $viewData) {
         $viewData->setType('documents');
                        
         $minutesList = self::getMinutesList();
-        $charterList = self::getCharterList();
 
         $viewData->setData('minutes-listing', $minutesList);
-        $viewData->setData('charters', $charterList["open"]);
-        $viewData->setData('closed-charters', $charterList["closed"]);
+
+        $charterList = new StaticPageList('charters');
+        $viewData->setData('charters', $charterList->getPageList());
     }
 
     public static function getMinutesList($limit = -1) {

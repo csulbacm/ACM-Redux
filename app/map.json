@@ -48,6 +48,10 @@
         "press": {
             "view": "press_page",
             "controller": "PageView"
+        },
+        "charters": {
+            "view": "press_page",
+            "controller": "PageView"
         }
     }
 }

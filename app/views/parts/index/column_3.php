@@ -1,7 +1,8 @@
 <div class="content-module">
 <h2>Finding Us</h2>
 	<p>
-		The ACM Office is in ENG-3 110
+		The ACM Office is in ENG-3 110. If you see a red easel, we are
+		probably open.
 	</p>
 	<span class="label">
 		<a class="button block-button"
@@ -10,6 +11,19 @@
 	</span>
 </div>
 
+<div class="content-module">
+	<span class="label">
+		<a class="button block-button"
+			href="mailto:chair@csulb.acm.org"
+			target="_blank">Email Us</a>
+	</span>
+	
+		<span class="label">
+		<a class="button block-button"
+			href="//www.facebook.com/csulbacm"
+			target="_blank">Like on Facebook</a>
+	</span>	
+</div>
 
 <div class="content-module">
 
