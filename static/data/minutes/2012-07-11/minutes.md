@@ -1,35 +1,34 @@
 1. Call to Order 12:25pm
 	1. Roll Call
-		1. Administrative Cabinet
-			0. President - David Nuon: Present
-			0. Vice President - Ian Goegebuer: Present
-			0. Treasurer - Christopher Gomez: Present 12:28 pm
-			0. Secretary - Shane Satterfield: Present
-		1. Appointed Positions
-			0. AESB Representative - Victoria Hatfield: Present
-			0. Librarian - Anthony Gialcalone: Present
-			0. Publicity and Recruitment Chair - Leo Tronolone: Present
-			0. Market Manager - James Coolidge: Not Present
-			0. Historian - Orion Sakorn: Present 12:36 pm
-			0. Event Coordinator - Diana Ignacio: Present
-			0. Webmaster - John-Jimi Kathleen Som: Present
-			0. Office Technician - Johnny Patterson: Present 12:40 pm
-		1. Project Managers
-		1. Approval of Agenda: **[PASS]** 
-			1. Motion of the floor:  Approval of the Agenda: *[PASS]*
+		0. Administrative Cabinet
+	        0. President - David Nuon: Present
+	        0. Vice President - Ian Goegebuer: Present
+	        0. Treasurer - Christopher Gomez: Present 12:28 pm
+	        0. Secretary - Shane Satterfield: Present
+		0. Appointed Officers
+	        0. AESB Representative - Victoria Hatfield: Present
+	        0. Librarian - Anthony Gialcalone: Present
+	        0. Publicity and Recruitment Chair - Leo Tronolone: Present
+	        0. Market Manager - James Coolidge: Not Present
+	        0. Historian - Orion Sakorn: Present 12:36 pm
+	        0. Event Coordinator - Diana Ignacio: Present
+	        0. Webmaster - John-Jimi Kathleen Som: Present
+	        0. Office Technician - Johnny Patterson: Present 12:40 pm
+	1.	Approval of the minutes of the agenda ad minutes.
+		1. Motion of the floor:  Approval of the Agenda: *[PASS]*
 				- First - Ian: pass
 				- Second - Diana: pass
 				- Discussion: None
-		1. Approval of Minutes: **[PASS]** 
 			1. Motion of the floor: Approve the minutes: *[PASS]*
 				- First - Ian: Pass
 				- Second - Diana: Pass
 				- Discussion: None
-	2. Announcements
+	1. Announcements
 		1. Diana: We are planning another ice cream social event.
-	3. Business
+	1. Guest Introductions
+	1. Reports
+		1. Faculty Advisor:
 		1. Officer Reports
-			1. Faculty Advisor: **Not Present**
 			1. President:
 				1. David: I have been here on campus every single day. I have been working on things for SOAR. I am not going to be available this next week.
 			1. Vice-President:
@@ -134,6 +133,7 @@
 		1. Sal: When is our next meeting?
 			1. David: The 15th of August.
 		1. Ian: I suggest that we get non-diet coke.
+
 		1. Motion of the floor: suspend the meeting: *[PASS]*
 			- First - Sal: pass
 			- Second - Ian: See you all at 5
@@ -153,4 +153,5 @@
 			- First - Christopher: pass
 			- Second - Victoria: pass
 			- Discussion: Please clean this up.
+
 1. Adjournment
