@@ -6,6 +6,6 @@
         <li id="alumni"><a href="<?php echo rx_siteURL("alumni");  ?>">Members</a></li>
 
         <li id="mission" class="right"><a href="<?php echo rx_siteURL("mission");  ?>">About ACM</a></li>
-        <li id="knowledgebase" class="right"><a href="<?php echo rx_siteURL("knowledgebase");  ?>">Knowledgebase</a></li>
+        <li id="knowledgebase" class="right"><a href="/kb">Knowledgebase</a></li>
     </ul>
 </div>

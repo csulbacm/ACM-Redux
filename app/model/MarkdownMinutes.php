@@ -82,7 +82,7 @@ class MarkdownMinutes {
                    if($addingOfficers) {
                         if(!$hasHeader) {
                             // Get the name of the officers and positions
-                            preg_match_all('/\S..(.*)\s-\s(.*):\W/', $currentLine, $matches);                       
+                            preg_match_all('/\S..(.*)\s-\s(.*):\W/', $currentLine, $matches);                       
                             // If there are matches, add an array with officer's info to the
                             // list
                             

@@ -9,7 +9,7 @@
     <?php includePart("base", "header"); ?>
    
     <div class="grid_12" id="breadcrumb">
-        <strong>Select a year:</strong> &nbsp;&nbsp;&nbsp;
+        <strong>Select a year:</strong> &nbsp;&nbsp;&nbsp;
         <?php
          foreach ($allYears as $year) {
              if($viewingYear === $year["name"]) {

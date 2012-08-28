@@ -8,7 +8,6 @@
                     </div>
 			    </div>
 			    <div class="grid_6">
-<img src="<?php echo rx_imageURL("beta.png"); ?>" alt="" />
 			        
 			    </div>			    
 			</div>
