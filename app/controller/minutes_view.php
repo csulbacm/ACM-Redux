@@ -24,7 +24,7 @@ class MinutesView {
             $viewData -> setData('dateName', $dateName);
             $minutesType = "xhtml";
 
-            if ($directory -> hasFile('minutes.md')) {
+            if ($directory -> hasFile('minutes.md') || $directory -> hasFile('agenda.md')) {
                 $minutesType = "markdown";
             } else if ($directory -> hasFile('minutes.xhtml')) {
                 $minutesType = "xhtml";
@@ -50,7 +50,12 @@ class MinutesView {
             }
 
             if ($minutesType === "markdown") {
-                $data = $directory -> getFileContent('minutes.md');
+                if ($directory -> hasFile('agenda.md') && !$directory -> hasFile('minutes.md')) {
+                    $data = $directory -> getFileContent('agenda.md');    
+                } else {
+                    $data = $directory -> getFileContent('minutes.md');
+                }
+                
                 $markdownMinutes = new MarkdownMinutes($data);
 
                 $viewData -> setData('minutes-content', $markdownMinutes -> getMinutesHTML());
