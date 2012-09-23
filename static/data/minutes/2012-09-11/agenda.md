@@ -5,22 +5,33 @@
 	        0. Vice President - Ian Goegebuer: 
 	        0. Treasurer - Christopher Gomez: 
 	        0. Secretary - Shane Satterfield: 
-	        0. AESB Representative - Victoria Hatfield:
-	        0. Event Coordinator - Diana Ignacio:
+	        0. AESB Representative - Victoria Hatfield: 
+	        0. Event Coordinator - Diana Ignacio: 
 		0. Appointed Officers
-	        0. Librarian - Anthony Gialcalone:
+	        0. Librarian - Anthony Gialcalone: 
 	        0. Publicity and Recruitment Chair - Leo Tronolone: 
-	        0. Market Manager - James Coolidge:
-	        0. Historian - Orion Sakorn:
-	        0. Office Technician - Johnny Patterson:
+	        0. Market Manager - James Coolidge: 
+	        0. Historian - Orion Sakorn: 
+	        0. Office Technician - Johnny Patterson: 
 		0. Projects Managers
 			0. Programming Team - Sal Llamas 
 		0. Approval of the Agenda
+			1. Motion of the floor: Approval of the agenda: *[PASS]* 
+				- First - James: first 
+				- Second - Victoria: pass 
+				- Discussion: None
+			
 		0. Approval of the Minutes
+		1. Motion of the floor: Approval of the minutes: *[PASS]*
+			- First - James: NULL
+			- Second - Nathan: root
+			- Discussion: None
+		
 	1. Announcements
 		1. ACM-W
 			1. Beginning of the Year Bonfire
 				1. September 14th, Bolsa Chica State Beach.
+		1. IDGA Potluck
 	1. Guest Introductions
 	1. Reports
 		1. Officer Reports
@@ -29,6 +40,7 @@
 	        0. Treasurer:
 	        	0. Acknowledge Pizza Purchase 
 	        0. Secretary:
+	        	1. MSDNAA accounts
 	        0. AESB Representative:
 	        0. Event Coordinator:
 	        0. Librarian:

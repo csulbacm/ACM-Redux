@@ -7,28 +7,19 @@
 
 namespace Utility;
 
-class Router {
-	protected $json     = "";
-	protected $jsonArray = array();
-	protected $routeMap = "";
+class Router extends JsonMap {
+	protected $pages;
 
 	function __construct($json) {
-		$this->json = $json;
+		parent::__construct($json);
 		$this->parseJSON();
 	}
 
-	private function parseJSON() {	
-		$json = json_decode($this->json, true);
-		$this->jsonArray = $json["pages"];
+	private function parseJSON() {
+		$this->pages = $this->jsonArray["pages"];
 	}
 
 	public function getArray () {
-		return $this->jsonArray;
-	}
-
-	public function getRoute($slug) {
-		// Check to see with the slug is in the map
-		// If yes: return the information of the page
-		// If no: return false
+		return $this->pages;
 	}
 }
