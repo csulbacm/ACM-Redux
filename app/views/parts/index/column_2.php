@@ -32,7 +32,7 @@
 
 <div class="content-module github">
 <h2>ACM &hearts; GitHub</h2>
-  <a href="http://www.github.com/davidnuon/ACM-Redux" target="_blank">
+  <a href="http://www.github.com/csulbacm" target="_blank">
           <img src="static/global/img/github.png" alt="Github" />
   </a>
 </div>

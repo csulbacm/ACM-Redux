@@ -1,4 +1,12 @@
 <div class="content-module">
+<h2>Meeting Time</h2>
+	<p>
+		1pm @ ECS-304
+	</p>
+</div>
+
+<div class="content-module">
+
 <h2>Finding Us</h2>
 	<p>
 		The ACM Office is in ENG-3 110. If you see a red easel, we are

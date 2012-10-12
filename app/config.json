@@ -1,8 +1,15 @@
 {
+
 	"site" : {
+
 		"splash" : {
-			"image" : "soar.png",
-			"url" : "/press/soar/"
+
+			"image" : "092212.png",
+
+			"url" : "/press/newprojects_092212/"
+
 		}
+
 	}
+
 }
