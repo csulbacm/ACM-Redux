@@ -44,65 +44,64 @@ class MarkdownMinutes {
       $sidebarArray = array();
 
       // Some flags
-      $seekOfficers  = true;
       $foundRollCall = false;
+      $seekOfficers  = true;
+      $addingOfficers = false;
       $officerLevel  = 0;
 
       // The headers we are looking for
       $rollCallHeader = "Roll Call";
+      $stopHeader     = "Announcements";
       $officerHeaders = array("Administrative Cabinet",
-                              "Appointed Positions",
+                              "Appointed Officers",
                               "Project Managers");
-
-      $addingOfficers = false;
 
       for($i = 0; $i < count($stringArray) && $seekOfficers; $i++) {
          $currentLine = $stringArray[$i];
 
+         // If we find the stop header, we stop seeking officers
+         if (strpos($currentLine, $stopHeader)) {
+            $seekOfficers = false;
+
          // When we find the roll call header, we start
-         if (strpos($currentLine, $rollCallHeader)) {
+         } elseif (strpos($currentLine, $rollCallHeader)) {
             $foundRollCall = true;
-         } else {
-            if($foundRollCall) {
-               $currentHeader = $officerHeaders[$officerLevel];
-               $hasHeader     = strpos($currentLine, $currentHeader);
 
-               if($hasHeader) {
-                  $officerLevel++;
-                  $addingOfficers = true;
+         // Roll call header found, start
+         } elseif ($foundRollCall) {
+            $currentHeader = $officerHeaders[$officerLevel];
+            $hasHeader     = strpos($currentLine, $currentHeader);
 
-                  // Officers will be in a list that is in an array
-                  // along with the officer type
-                  array_push($sidebarArray, array(
-                           "type" => $currentHeader,
-                           "officers" => array()
-                  ));
-               }
+            if($hasHeader) {
+               $officerLevel++;
+               $addingOfficers = true;
 
-               if($addingOfficers) {
-                  if(!$hasHeader) {
-                     // Get the name of the officers and positions
-                     preg_match_all('/\S..(.*)\s-\s(.*):\W/', $currentLine, $matches);
-                     // If there are matches, add an array with officer's info to the
-                     // list
+               // Officers will be in a list that is in an array
+               // along with the officer type
+               array_push($sidebarArray, array(
+                  "type" => $currentHeader,
+                  "officers" => array()
+               ));
 
-                     if(isset($matches[2][0]) && $matches[1][0]) {
-                        $name = $matches[2][0];
-                        $position = $matches[1][0];
+            } elseif($addingOfficers) {
+               // Get the name of the officers and positions
+               preg_match_all('/\S+\s(.*)\s-\s(.*):\W/', $currentLine, $matches);
 
-                        array_push($sidebarArray[count($sidebarArray) - 1]["officers"], array(
-                              "name" => $name,
-                              "position" => $position
-                        ));
-                     }
+               // If there are matches,
+               // add an array with officer's info to the list
+               if(isset($matches[2][0]) && $matches[1][0]) {
+                  $name = $matches[2][0];
+                  $position = $matches[1][0];
+
+                  // Make sure it's not a motion of the floor
+                  if (($position != "First")&&($position != "Second")){
+                     array_push($sidebarArray[count($sidebarArray) - 1]["officers"], array(
+                        "name" => $name,
+                        "position" => $position
+                     ));
                   }
                }
             }
-         }
-
-         // After going through the officer types, we stop looping
-         if ($officerLevel >= count($officerHeaders)) {
-            $seekOfficers = false;
          }
       }
 
